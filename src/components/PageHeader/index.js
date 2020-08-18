@@ -28,8 +28,7 @@ const PageHeader = (props) => {
                 </nav>
             </div>
             <div className="header-content">
-                <strong>{props.title}</strong>
-                {props.children}
+                <strong>{props.title}</strong>{props.children}
             </div>
         </header>
     );

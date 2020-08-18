@@ -64,9 +64,9 @@
 }
 
 .page-header .header-content {
+    height: auto;
     margin: 0 auto;
     position: relative;
-    margin: 3.2rem auto;
 }
 
 .page-header .header-content strong {

@@ -18,7 +18,7 @@ function AboutUs() {
     }
     return (
         <div id="page-teacher-list" className="container">
-            <PageHeader title="conheça um pouco sobre nós"/>
+            <PageHeader title="sobre a mode móveis"/>
             <main>
                 <span id="mouse"></span>
             </main>

@@ -1,80 +1,144 @@
-#page-teacher-list {
+#page-contact {
     width: 100vw;
     height: 100vh;
 }
 
-#search-teachers {
+#page-contact main {
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#page-contact-data {
+    padding: 2rem 0;
+}
+
+#page-contact-data p{
+    font: 400 2.4rem Bebas Neue;
+    color: var(--color-text-complement);
+    display: flex;
+    align-items: center;
+    line-height: 2.4rem;
+}
+
+#page-contact-data p a{
+    text-decoration: none;
+    color: var(--color-text-complement);
+}
+
+#page-contact-form fieldset {
+    border: 0;
+}
+
+#page-contact-form fieldset + fieldset {
+    margin-top: 6.4rem;
+}
+
+#page-contact-form fieldset legend {
+    font: 400 2.4rem Bebas Neue;
+    color: var(--color-text-complement);
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1.4rem;
+    border-bottom: 1px solid var(--color-line-in-white);
+}
+
+#page-contact-form fieldset .input-block + .textarea-block {
+    margin-top: 2.4rem;
+}
+
+#page-contact-form label {
+    color: var(--color-text-complement);
+}
+
+#page-contact-form footer {
+    padding: 4rem 2.4rem;
+    background: var(--color-box-footer);
+    border-top: 1px solid var(--color-line-in-white);
+    margin-top: 6.4rem;
+}
+
+#page-contact-form footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--color-text-complement);
+}
+
+#page-contact-form footer p img {
+    margin-right: 2rem;
+}
+
+#page-contact-form footer button {
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-primary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1..6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
     margin-top: 3.2rem;
 }
 
-#search-teachers label {
-    color: var(--color-text-in-primary);
+#page-contact-form footer button:hover {
+    background: var(--color-primary-dark);
 }
-
-#page-teacher-list main {
-    margin: 3.2rem auto;
-    width: 90%;
-    margin-top: 11rem;
-}
-
-
 
 @media (min-width: 700px) {
-    #page-teacher-list {
+    #page-contact {
         max-width: 100%;
     }
 
-    #search-teachers {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 16px;
-        position: absolute;
-        bottom: -30px;
-
+    #page-contact main {
+        margin-top: 15rem;
     }
-    #search-teachers .input-block + .input-block,
-    #search-teachers .select-block + .select-block {
+
+    #page-contact-content {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "contact"
+            "form"
+        ;
+    }
+
+    .contact-data {
+        grid-area: contact;
+        align-self: auto;
+    }
+
+    .contact-data img{
+        height: 50rem;
+    }
+
+    #page-contact-form footer {
+        padding: 4.0rem 6.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #page-contact-form footer p {
+        justify-content: space-between;
+    }
+
+    #page-contact-form footer button {
+        width: 20rem;
         margin-top: 0;
     }
 
-    #page-teacher-list main {
-        padding: 3.2rem 0;
-        max-width: 740px;
-        margin: 0 auto;
-    }
-
-    #mouse {
-	display: block;
-	width: 22px;
-	height: 40px;
-	border-radius: 20px;
-	border: 4px solid #8844EE;
-	text-align: center;
-	position: fixed;
-	left: 0px;
-	right: 0px;
-	bottom: 20px;
-	margin: 0 auto;
-    }
-
-    #mouse::before {
-	content: '';
-	display: inline-block;
-	width: 4px;
-	height: 8px;
-	position: relative;
-	border-radius: 4px;
-	background: #8844EE;
-	animation-name: mouse;
-    animation-duration: .7s;
-	animation-iteration-count: infinite;
-    }
-
-    @keyframes mouse {
-	from {
-		top: 0px;
-	} to {
-		top: 6px;
-	}
-    }
 }
