@@ -1,0 +1,117 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    opacity: .9;
+    float: left;
+    width: 100%;
+    z-index: 9999999;
+    max-height: 100%;
+    height: auto;
+    box-shadow: 0 1px 6px 0 rgba(68,68,68,.9);
+}
+
+.page-header-flex {
+    transition: linear .3s;
+    background: rgba(255,255,255,.9)!important;
+    border-top: 1px solid #444;
+    height: 71px;
+}
+
+.page-header .logo-and-menu {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: space-between;
+    
+    align-items: center;
+    color: var(--color-text-in-primary);
+    padding: 1.6rem 0;
+}
+
+.page-header .logo-and-menu a {
+    height: 3.2rem;
+    transition: opacity 0.2s;
+    color: var(--color-text-in-primary);
+}
+
+.page-header .logo-and-menu a:hover {
+    opacity: .9; 
+}
+
+.page-header .logo-and-menu a:link {
+    text-decoration: none; 
+}
+
+.page-header .logo-and-menu > img {
+    height: 8rem;
+    box-shadow: 0 1px 6px 0 rgba(255,255,255,.4);
+}
+
+.page-header .logo-and-menu > nav > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header .logo-and-menu > nav > ul > li {
+    padding: 0 1rem;
+    margin: 0.2rem;
+    list-style-type: none;
+    border-bottom: 1px solid var(--color-text-in-primary);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.page-header .header-content {
+    margin: 0 auto;
+    position: relative;
+    margin: 3.2rem auto;
+}
+
+.page-header .header-content strong {
+    font: 400 2rem Bebas Neue;
+    line-height: 3.2rem;
+    color: var(--color-title-in-primary);
+}
+
+@media (min-width: 700px) {
+    .page-header {
+        height: auto;
+        position: fixed;
+    }
+
+    .page-header .logo-and-menu {
+        max-width: 1200px;
+    }
+
+    .page-header .logo-and-menu a:hover {
+        font-size: 100%;
+        font-weight: bold;
+    }
+    
+    .page-header .logo-and-menu > nav > ul{
+        flex-direction: row;
+    }
+
+    .page-header .logo-and-menu > nav > ul > li {
+        padding: 0 1rem;
+        margin: 0 2rem;
+    }
+
+    .page-header .header-content {
+        flex: 1;
+        height: auto;
+        max-width: 740px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .page-header .header-content strong {
+        max-width: 450px;
+    }
+    
+}

@@ -1,0 +1,80 @@
+#page-teacher-list {
+    width: 100vw;
+    height: 100vh;
+}
+
+#search-teachers {
+    margin-top: 3.2rem;
+}
+
+#search-teachers label {
+    color: var(--color-text-in-primary);
+}
+
+#page-teacher-list main {
+    margin: 3.2rem auto;
+    width: 90%;
+    margin-top: 11rem;
+}
+
+
+
+@media (min-width: 700px) {
+    #page-teacher-list {
+        max-width: 100%;
+    }
+
+    #search-teachers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 16px;
+        position: absolute;
+        bottom: -30px;
+
+    }
+    #search-teachers .input-block + .input-block,
+    #search-teachers .select-block + .select-block {
+        margin-top: 0;
+    }
+
+    #page-teacher-list main {
+        padding: 3.2rem 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+
+    #mouse {
+	display: block;
+	width: 22px;
+	height: 40px;
+	border-radius: 20px;
+	border: 4px solid #8844EE;
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 20px;
+	margin: 0 auto;
+    }
+
+    #mouse::before {
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 8px;
+	position: relative;
+	border-radius: 4px;
+	background: #8844EE;
+	animation-name: mouse;
+    animation-duration: .7s;
+	animation-iteration-count: infinite;
+    }
+
+    @keyframes mouse {
+	from {
+		top: 0px;
+	} to {
+		top: 6px;
+	}
+    }
+}
