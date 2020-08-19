@@ -16,13 +16,19 @@
 }
 
 #page-contact-data p{
-    font: 400 2.4rem Bebas Neue;
+    font: 400 2rem Poppins;
     color: var(--color-text-complement);
+    line-height: 2rem;
+    text-align-last: center;
 }
 
 #page-contact-data p a{
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--color-text-complement);
+}
+
+#page-contact-data iframe{
+    padding: 0 0 0 0;
 }
 
 #page-contact-data p a:hover {
@@ -61,7 +67,7 @@
     padding: 4rem 2.4rem;
     background: var(--color-box-footer);
     border-top: 1px solid var(--color-line-in-white);
-    margin-top: 6.4rem;
+    margin-top: 1.4rem;
 }
 
 #page-contact-form footer button {
@@ -72,7 +78,7 @@
     border: 0;
     border-radius: 0.8rem;
     cursor: pointer;
-    font: 700 1..6rem Archivo;
+    font: 400 2rem Bebas Neue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,14 +115,19 @@
         align-self: center;
     }
 
+    #page-contact-data p{
+        padding: 0 1.6rem 0 0;
+        text-align-last: right;
+    }
+ 
+    #page-contact-data iframe{
+        padding: 0 1.6rem 0 0;
+    }
+
     #page-contact-form footer {
         padding: 4.0rem 6.4rem;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-    }
-
-    #page-contact-form footer p {
         justify-content: space-between;
     }
 
