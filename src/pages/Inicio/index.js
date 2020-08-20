@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PageHeader from '../../components/PageHeader';
+import PageFooter from '../../components/PageFooter';
 
 import './styles.css';
 
@@ -22,6 +23,7 @@ function Inicio() {
             <main>
                 <span id="mouse"></span>
             </main>
+            <PageFooter/>
         </div>
     )
 }

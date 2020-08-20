@@ -18,7 +18,7 @@
     --color-box-base: #FFFFFF;
     --color-box-footer: #F8F8FC;
   
-    font-size: 55%;
+    font-size: 56.2%;
   }
 
   * {
@@ -53,6 +53,6 @@
 
   @media (min-width: 700px){
       :root {
-          font-size: 60%;
+          font-size: 58.2%;
       }
   }

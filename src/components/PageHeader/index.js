@@ -2,17 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/images/Mode-Móveis-4.png';
-//import logoImg from '../../assets/images/logo.jpg';
-import instagram from '../../assets/images/icons/insta.svg';
-import facebook from '../../assets/images/icons/facebook.svg';
 
 import './styles.css';
-/** <a href="https://www.instagram.com/moveismode/" target="_blank" className="study">
-                    <img src={instagram} className="study" alt="study" />
-                </a>
-                <a href="https://www.instagram.com/moveismode/" target="_blank" className="study">
-                    <img src={facebook} className="study" alt="study" />
-                </a> */
+
 const PageHeader = (props) => {
     return (
         <header className="page-header">
