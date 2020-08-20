@@ -1,46 +1,78 @@
-#page-teacher-list {
+#page-start {
     width: 100vw;
     height: 100vh;
 }
 
-#search-teachers {
-    margin-top: 3.2rem;
+#page-start main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-#search-teachers label {
-    color: var(--color-text-in-primary);
+.section {
+    padding: 2rem 0;
 }
 
-#page-teacher-list main {
-    margin: 3.2rem auto;
-    width: 90%;
-    margin-top: 11rem;
+.section .section-title {
+    padding: 0 0 2rem;
 }
 
+.section .section-title legend{ 
+    font: 400 2.4rem Poppins;
+    color: var(--color-text-complement);
+    text-align-last: center;
+}
 
+.section .section-product {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.section .section-product img {
+    width: 100%;
+}
+
+.section .section-ver-mais {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0 1rem 0;
+}
+
+.section .section-ver-mais a {
+    text-decoration: none;
+    color: var(--color-text-complement);
+}
+
+.section .section-ver-mais a:hover {
+    text-decoration: underline;
+    color: var(--color-text-dark);
+}
+
+@media (min-width: 420px) {
+    .section .section-product {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
 
 @media (min-width: 700px) {
-    #page-teacher-list {
+    #page-start {
         max-width: 100%;
     }
 
-    #search-teachers {
-        display: grid;
+    #page-start main {
+        margin-top: 15rem;
+    }
+    
+    .section {
+        padding: 0;
+    }
+
+    .section .section-product {
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 16px;
-        position: absolute;
-        bottom: -30px;
-
-    }
-    #search-teachers .input-block + .input-block,
-    #search-teachers .select-block + .select-block {
-        margin-top: 0;
-    }
-
-    #page-teacher-list main {
-        padding: 3.2rem 0;
-        max-width: 740px;
-        margin: 0 auto;
+        
     }
 
     #mouse {
