@@ -9,6 +9,8 @@
 }
 
 .page-footer .page-footer-all {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
     align-items: center;
@@ -53,5 +55,11 @@
 
     .page-footer .page-footer-all {
         max-width: 1200px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .page-footer .page-footer-all .page-footer-social { 
+        margin-top: 0;
     }
 }
