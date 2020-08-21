@@ -51,6 +51,33 @@
     color: var(--color-text-dark);
 }
 
+
+.section .section-product .section-project .section-project-title{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5.6rem;
+}
+
+.section .section-product .section-project .section-project-title img{
+    width: 6rem;
+    margin: 1.6rem 0;
+    overflow: visible;
+}
+
+.section .section-product .section-project .section-project-title h3{
+    width: 20rem;
+    font: 400 2.8rem Poppins;
+    margin-left: 10%;
+    color: var(--color-text-complement);
+    line-height: 3rem;
+}
+
+.section .section-product .section-project p{
+    font: 400 1.8rem Poppins;
+    color: var(--color-text-complement);
+    text-align-last: left;
+}
+
 @media (min-width: 420px) {
     .section .section-product {
         grid-template-columns: repeat(2, 1fr);
@@ -68,6 +95,7 @@
     
     .section {
         padding: 0;
+        padding-bottom: 3.6rem;
     }
 
     .section .section-product {
