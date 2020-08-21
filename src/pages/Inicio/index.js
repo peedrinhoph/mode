@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image from '../../assets/images/aparador.jpg';
+import Image from '../../assets/images/table-phone.jpg';
 
 import './styles.css';
 
@@ -32,21 +32,12 @@ function Inicio() {
                                 <figure>
                                     <img src={Image} alt="product" className="zoom" />
                                 </figure>
-                           
                                 <figure>
                                     <img src={Image} alt="product" className="zoom" />
                                 </figure>
-                           
-                           
                                 <figure>
                                     <img src={Image} alt="product" className="zoom" />
                                 </figure>
-                           
-                           
-                                <figure>
-                                    <img src={Image} alt="product" className="zoom" />
-                                </figure>
-                           
                         </div>
                         <div className="section-ver-mais">
                             <a href="">Ver mais</a>
