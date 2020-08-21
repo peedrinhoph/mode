@@ -24,26 +24,7 @@ function Inicio() {
             <PageHeader />
             <main>
                 <div id="page-start-content" className="container">
-                    <div className="section">
-                        <div className="section-title">
-                            <legend>Projetos e produtos</legend>
-                        </div>
-                        <div className="section-product">
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                        </div>
-                        <div className="section-ver-mais">
-                            <a href="">Ver mais</a>
-                        </div>
-                    </div>
-                    <div className="section">
+                <div className="section">
                         <div className="section-product">
                             <div className="section-project">
                                 <div className="section-project-title">
@@ -68,6 +49,25 @@ function Inicio() {
                                 </div>
                                 <p>Clique aqui e comece a escrever. Illo inventore veritatis et quasi architecto beatae vitae.</p>
                             </div>
+                        </div>
+                    </div>
+                    <div className="section">
+                        <div className="section-title">
+                            <legend>Projetos e produtos</legend>
+                        </div>
+                        <div className="section-product">
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                        </div>
+                        <div className="section-ver-mais">
+                            <a href="">Ver mais</a>
                         </div>
                     </div>
                 </div>
