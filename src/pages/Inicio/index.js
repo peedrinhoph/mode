@@ -29,9 +29,24 @@ function Inicio() {
                             <legend>Projetos e produtos</legend>
                         </div>
                         <div className="section-product">
-                            <img src={Image} alt="product" />
-                            <img src={Image} alt="product" />
-                            <img src={Image} alt="product" />
+                                <figure>
+                                    <img src={Image} alt="product" className="zoom" />
+                                </figure>
+                           
+                                <figure>
+                                    <img src={Image} alt="product" className="zoom" />
+                                </figure>
+                           
+                           
+                                <figure>
+                                    <img src={Image} alt="product" className="zoom" />
+                                </figure>
+                           
+                           
+                                <figure>
+                                    <img src={Image} alt="product" className="zoom" />
+                                </figure>
+                           
                         </div>
                         <div className="section-ver-mais">
                             <a href="">Ver mais</a>
