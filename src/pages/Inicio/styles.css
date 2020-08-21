@@ -55,13 +55,13 @@
 .section .section-product .section-project .section-project-title{
     display: flex;
     flex-direction: row;
-    padding-top: 5.6rem;
+    align-items: center;
+    height: auto;
 }
 
 .section .section-product .section-project .section-project-title img{
     width: 6rem;
     margin: 1.6rem 0;
-    overflow: visible;
 }
 
 .section .section-product .section-project .section-project-title h3{
@@ -75,7 +75,8 @@
 .section .section-product .section-project p{
     font: 400 1.8rem Poppins;
     color: var(--color-text-complement);
-    text-align-last: left;
+    padding: 0 1rem;
+
 }
 
 @media (min-width: 420px) {
