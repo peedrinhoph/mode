@@ -101,7 +101,7 @@
 
 .section .section-product .section-project .section-project-title h3{
     width: 20rem;
-    font: 400 2.8rem Poppins;
+    font: 400 2.4rem Poppins;
     margin-left: 10%;
     color: var(--color-text-complement);
     line-height: 3rem;
@@ -131,7 +131,7 @@
     
     .section {
         padding: 0;
-        padding-bottom: 3.6rem;
+        padding-bottom: 6rem;
     }
 
     .section .section-product {

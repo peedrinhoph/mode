@@ -12,10 +12,10 @@ const PageHeader = (props) => {
                 <img id="logo" className="logo" src={logoImg} alt="Mode" />
                 <nav id="menu" className="menu">
                     <ul id="navmenu" className="navmenu">
-                        <li class="line-hover"><Link to="/">Início</Link></li>
-                        <li class="line-hover"><Link to="portfolio">Portfólio</Link></li>
-                        <li class="line-hover"><Link to="about-us">Quem somos</Link></li>
-                        <li class="line-hover"><Link to="contact">Contato</Link></li>
+                        <li className="line-hover"><Link to="/">Início</Link></li>
+                        <li className="line-hover"><Link to="portfolio">Portfólio</Link></li>
+                        <li className="line-hover"><Link to="about-us">Quem somos</Link></li>
+                        <li className="line-hover"><Link to="contact">Contato</Link></li>
                     </ul>
                 </nav>
             </div>

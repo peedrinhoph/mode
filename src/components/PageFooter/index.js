@@ -11,17 +11,17 @@ const PageHeader = (props) => {
         <footer className="page-footer">
             <div className="page-footer-all">
                 <div className="page-footer-copyright">
-                    <p>&copy; Copyright 2020 - {(new Date().getFullYear())} todos os direitos reservados. Desenvolvido por <a href="https://www.linkedin.com/in/pedro-pereira-62056883/" target="_blank" >Pedro Henrique Pereira - Linkedin</a></p>
+                    <p>&copy; Copyright 2020 - {(new Date().getFullYear())} todos os direitos reservados. Desenvolvido por <a href="https://www.linkedin.com/in/pedro-pereira-62056883/" target="_blank" rel="noopener noreferrer">Pedro Henrique Pereira - Linkedin</a></p>
                 </div>
 
                 <div className="page-footer-social">
-                    <a href="https://www.instagram.com/moveismode/" target="_blank">
+                    <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">
                         <img src={instagram} className="instagram" alt="instagram" />
                     </a>
-                    <a href="https://www.instagram.com/moveismode/" target="_blank" >
+                    <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">
                         <img src={facebook} className="facebook" alt="facebook" />
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site," target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site," target="_blank" rel="noopener noreferrer">
                         <img src={whatsApp} className="whatsapp" alt="whatsapp" />
                     </a>
                 </div>

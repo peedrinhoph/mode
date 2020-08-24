@@ -70,7 +70,7 @@ function Inicio() {
                             </figure>
                         </div>
                         <div className="section-ver-mais">
-                            <a href="">Ver mais</a>
+                            <Link to="portfolio">Ver mais</Link>
                         </div>
                     </div>
                 </div>
