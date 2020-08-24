@@ -50,9 +50,43 @@
       width: 90vw;
       max-width: 1200px;
   }
+/*INICIO TOOLTIP INFO*/
+ .tooltip {
+     bottom: 10px;
+     right: 10px;
+     position: fixed;
+     background-color: var(--color-text-base);
+     color: white;
+     padding: 1rem;
+     border-radius: 10px;
+     width: 250px;
+     clip-path: circle(10% at 90% 85%);
+     transition: all .3s ease-in-out;
+     opacity: .5;
+     cursor: pointer;
+ }
 
- 
+ .tooltip-link {
+    color: white;
+    text-decoration: none;
+ }
+ .tooltip:hover { 
+     clip-path: circle(100%);
+     opacity: 1;
+ }
 
+ .tooltip-span{
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 3%;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+ }
+
+ .tooltip:hover span{
+    opacity: 0;
+ }
+/*FIM TOOLTIP INFO*/
   @media (min-width: 700px){
       :root {
           font-size: 58.2%;

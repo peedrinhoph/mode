@@ -9,16 +9,17 @@ const PageHeader = (props) => {
     return (
         <header className="page-header">
             <div id="logo-and-menu" className="logo-and-menu">
-                    <img id="logo" className="logo" src={logoImg} alt="Mode" />
+                <img id="logo" className="logo" src={logoImg} alt="Mode" />
                 <nav id="menu" className="menu">
                     <ul id="navmenu" className="navmenu">
-                        <li><Link to="/">Início</Link></li>
-                        <li><Link to="portfolio">Portfólio</Link></li>
-                        <li><Link to="about-us">Quem somos</Link></li>
-                        <li><Link to="contact">Contato</Link></li>
+                        <li class="line-hover"><Link to="/">Início</Link></li>
+                        <li class="line-hover"><Link to="portfolio">Portfólio</Link></li>
+                        <li class="line-hover"><Link to="about-us">Quem somos</Link></li>
+                        <li class="line-hover"><Link to="contact">Contato</Link></li>
                     </ul>
                 </nav>
             </div>
+            
             <div className="header-content">
                 <strong>{props.title}</strong>{props.children}
             </div>

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
@@ -23,8 +25,9 @@ function Inicio() {
         <div id="page-start" className="container">
             <PageHeader />
             <main>
+
                 <div id="page-start-content" className="container">
-                <div className="section">
+                    <div className="section">
                         <div className="section-product">
                             <div className="section-project">
                                 <div className="section-project-title">
@@ -73,7 +76,13 @@ function Inicio() {
                 </div>
                 <span id="mouse"></span>
             </main>
+
             <PageFooter />
+            <div className="tooltip">
+                <h2>Olá!</h2><br/>
+                <p><Link to="contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>
+                <span className="tooltip-span">i</span>
+            </div>
         </div>
     )
 }
