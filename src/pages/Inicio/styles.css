@@ -100,7 +100,7 @@
 }
 
 .section .section-product .section-project .section-project-title h3{
-    width: 20rem;
+    width: 17rem;
     font: 400 2.4rem Poppins;
     margin-left: 10%;
     color: var(--color-text-complement);
@@ -113,10 +113,47 @@
     padding: 0 1rem;
 
 }
+/*INICIO SECTION COMENTÁRIO DOS CLIENTES*/
+.section-background-image {
+    display: flex;
+    background-image: url("https://d1di2lzuh97fh2.cloudfront.net/files/45/450/4500iq.jpg?ph=f273c76eb3&t=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 6rem;
+}
 
+.section-comment {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.section-comment-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-comment-block h3 {
+    color: #bd926d;
+    
+}
+
+.section-comment-text {
+    padding: .8125rem .3125rem;
+    color: #fff;
+}
+
+#icon-img {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: 1rem;
+}
+/*FIM SECTION COMENTÁRIO DOS CLIENTES*/
 @media (min-width: 420px) {
-    .section .section-product {
-        grid-template-columns: repeat(2, 1fr);
+    .section .section-product .section-project .section-project-title h3{
+        width: 100%;
     }
 }
 
@@ -133,9 +170,14 @@
         padding: 0;
         padding-bottom: 6rem;
     }
-
+    
     .section .section-product {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section-comment {
+        grid-template-columns: repeat(3, 1fr);
+        
     }
         
 }

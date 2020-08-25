@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import instagram from '../../assets/images/icons/insta.svg';
 import facebook from '../../assets/images/icons/facebook.svg';
 import whatsApp from '../../assets/images/icons/whatsappp.svg';
@@ -27,7 +27,11 @@ const PageHeader = (props) => {
                 </div>
             </div>
 
-
+            <div className="tooltip">
+                <h2>Olá!</h2><br/>
+                <p><Link to="contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>
+                <span className="tooltip-span">i</span>
+            </div>
         </footer>
     );
 }

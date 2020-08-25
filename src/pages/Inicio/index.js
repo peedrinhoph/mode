@@ -25,8 +25,7 @@ function Inicio() {
         <div id="page-start" className="container">
             <PageHeader />
             <main>
-
-                <div id="page-start-content" className="container">
+                <div className="container">
                     <div className="section">
                         <div className="section-product">
                             <div className="section-project">
@@ -34,7 +33,7 @@ function Inicio() {
                                     <img src="https://d1di2lzuh97fh2.cloudfront.net/files/19/195/195g9m.svg?ph=f273c76eb3" alt="asdas" />
                                     <h3>Do projeto à execução</h3>
                                 </div>
-                                <p>Clique aqui e comece a escrever. Illo inventore veritatis et quasi architecto beatae vitae.</p>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                             </div>
 
                             <div className="section-project">
@@ -42,7 +41,7 @@ function Inicio() {
                                     <img src="https://d1di2lzuh97fh2.cloudfront.net/files/0j/0jc/0jc3z2.svg?ph=f273c76eb3" alt="asdas" />
                                     <h3>Materiais de primeira</h3>
                                 </div>
-                                <p>Clique aqui e comece a escrever. Illo inventore veritatis et quasi architecto beatae vitae.</p>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                             </div>
 
                             <div className="section-project">
@@ -50,10 +49,11 @@ function Inicio() {
                                     <img src="https://d1di2lzuh97fh2.cloudfront.net/files/3w/3wu/3wunxe.svg?ph=f273c76eb3" alt="asdas" />
                                     <h3>Atenção aos detalhes</h3>
                                 </div>
-                                <p>Clique aqui e comece a escrever. Illo inventore veritatis et quasi architecto beatae vitae.</p>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                             </div>
                         </div>
                     </div>
+
                     <div className="section">
                         <div className="section-title">
                             <legend>Projetos e produtos</legend>
@@ -73,16 +73,62 @@ function Inicio() {
                             <Link to="portfolio">Ver mais</Link>
                         </div>
                     </div>
+
+                    <div className="section-background-image">
+                        <div className="section-comment">
+                            <div className="section-comment-block">
+                                <img id="icon-img" src="https://d1di2lzuh97fh2.cloudfront.net/files/2i/2ie/2iek3c.svg?ph=f273c76eb3" alt="asdas" />
+                                <div className="section-comment-text">
+                                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                    <h3>Pedro Pereira</h3>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <img id="icon-img" src="https://d1di2lzuh97fh2.cloudfront.net/files/2i/2ie/2iek3c.svg?ph=f273c76eb3" alt="asdas" />
+                                <div className="section-comment-text">
+                                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                    <h3>Pedro Pereira</h3>
+                                </div>
+
+                            </div>
+                            <div className="section-comment-block">
+                                <img id="icon-img" src="https://d1di2lzuh97fh2.cloudfront.net/files/2i/2ie/2iek3c.svg?ph=f273c76eb3" alt="asdas" />
+                                <div className="section-comment-text">
+                                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                    <h3>Pedro Pereira</h3>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <img id="icon-img" src="https://d1di2lzuh97fh2.cloudfront.net/files/2i/2ie/2iek3c.svg?ph=f273c76eb3" alt="asdas" />
+                                <div className="section-comment-text">
+                                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                    <h3>Pedro Pereira</h3>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <img id="icon-img" src="https://d1di2lzuh97fh2.cloudfront.net/files/2i/2ie/2iek3c.svg?ph=f273c76eb3" alt="asdas" />
+                                <div className="section-comment-text">
+                                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                    <h3>Pedro Pereira</h3>
+                                </div>
+
+                            </div>
+                            <div className="section-comment-block">
+                                <img id="icon-img" src="https://d1di2lzuh97fh2.cloudfront.net/files/2i/2ie/2iek3c.svg?ph=f273c76eb3" alt="asdas" />
+                                <div className="section-comment-text">
+                                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                    <h3>Pedro Pereira</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <span id="mouse"></span>
             </main>
 
             <PageFooter />
-            <div className="tooltip">
-                <h2>Olá!</h2><br/>
-                <p><Link to="contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>
-                <span className="tooltip-span">i</span>
-            </div>
+
         </div>
     )
 }
