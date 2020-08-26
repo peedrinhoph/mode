@@ -18,8 +18,7 @@
     padding: 0 0 2rem;
 }
 
-.section .section-title legend{ 
-    font: 400 2.4rem Poppins;
+.section-product-title { 
     color: var(--color-text-complement);
     text-align-last: center;
 }
@@ -116,13 +115,20 @@
 /*INICIO SECTION COMENTÁRIO DOS CLIENTES*/
 .section-background-image {
     display: flex;
-    background-image: url("https://d1di2lzuh97fh2.cloudfront.net/files/45/450/4500iq.jpg?ph=f273c76eb3&t=1");
+    flex-direction: column;
+    align-items: center;
+    background-image: url("http://localhost:3000/static/media/image1.5fb43219.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    padding: 6rem;
+    padding:  0 6rem 6rem 6rem;
 }
 
+.section-background-image .section-background-image-title{
+    font: 400 Poppins;
+    color: var(--color-title-in-primary);
+    padding: 6rem;
+}
 .section-comment {
     display: grid;
     grid-template-columns: 1fr;
@@ -142,7 +148,7 @@
 
 .section-comment-text {
     padding: .8125rem .3125rem;
-    color: #fff;
+    color: var(--color-title-in-primary);
 }
 
 #icon-img {

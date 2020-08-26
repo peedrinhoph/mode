@@ -25,7 +25,7 @@ function Inicio() {
         <div id="page-start" className="container">
             <PageHeader />
             <main>
-                <div className="container">
+                <div id="page-start-content" className="container">
                     <div className="section">
                         <div className="section-product">
                             <div className="section-project">
@@ -51,12 +51,32 @@ function Inicio() {
                                 </div>
                                 <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                             </div>
+                            <div className="section-project">
+                                <div className="section-project-title">
+                                    <img src="https://d1di2lzuh97fh2.cloudfront.net/files/0a/0a8/0a871v.svg?ph=6e2389ce46" alt="asdas" />
+                                    <h3>Atenção aos detalhes</h3>
+                                </div>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                            </div>
+                            <div className="section-project">
+                                <div className="section-project-title">
+                                    <img src="https://d1di2lzuh97fh2.cloudfront.net/files/32/328/328sfr.svg?ph=6e2389ce46" alt="asdas" />
+                                    <h3>Atenção aos detalhes</h3>
+                                </div>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                            </div>
+                            <div className="section-project">
+                                <div className="section-project-title">
+                                    <img src="https://d1di2lzuh97fh2.cloudfront.net/files/07/07p/07p3l4.svg?ph=6e2389ce46" alt="asdas" />
+                                    <h3>Atenção aos detalhes</h3>
+                                </div>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                            </div>
                         </div>
                     </div>
-
                     <div className="section">
                         <div className="section-title">
-                            <legend>Projetos e produtos</legend>
+                            <h2 className="section-product-title">Projetos e produtos</h2>
                         </div>
                         <div className="section-product">
                             <figure>
@@ -75,6 +95,7 @@ function Inicio() {
                     </div>
 
                     <div className="section-background-image">
+                        <h1 className="section-background-image-title">Depoimentos</h1>
                         <div className="section-comment">
                             <div className="section-comment-block">
                                 <img id="icon-img" src="https://d1di2lzuh97fh2.cloudfront.net/files/2i/2ie/2iek3c.svg?ph=f273c76eb3" alt="asdas" />
