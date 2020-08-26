@@ -74,6 +74,7 @@ function Inicio() {
                             </div>
                         </div>
                     </div>
+                   
                     <div className="section">
                         <div className="section-title">
                             <h2 className="section-product-title">Projetos e produtos</h2>
@@ -143,7 +144,6 @@ function Inicio() {
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <span id="mouse"></span>
             </main>
