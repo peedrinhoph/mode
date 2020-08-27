@@ -25,8 +25,11 @@ function Inicio() {
         <div id="page-start" className="container">
             <PageHeader />
             <main>
-                <div id="page-start-content" className="container">
+                <div id="page-start-content">
                     <div className="section-90-vw">
+                        <div className="section-title">
+                            <h2 className="section-title-text">Porque nos escolher</h2>
+                        </div>
                         <div className="section-product">
                             <div className="section-project">
                                 <div className="section-project-title">
@@ -74,12 +77,21 @@ function Inicio() {
                             </div>
                         </div>
                     </div>
-                   
+
                     <div className="section-90-vw">
                         <div className="section-title">
-                            <h2 className="section-product-title">Projetos e produtos</h2>
+                            <h2 className="section-title-text">Projetos e produtos</h2>
                         </div>
                         <div className="section-product">
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
                             <figure>
                                 <img src={Image} alt="product" className="zoom" />
                             </figure>

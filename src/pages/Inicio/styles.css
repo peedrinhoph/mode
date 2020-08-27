@@ -16,13 +16,16 @@
     padding-left: 5vw;
 }
 
-.section-90-vw .section-title {
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0 0 2rem;
+    align-items: center;
 }
 
-.section-product-title { 
+.section-title-text { 
     color: var(--color-text-complement);
-    text-align-last: center;
 }
 
 .section-90-vw .section-product {
@@ -174,6 +177,17 @@
         margin-top: 15rem;
     }
     
+    .section-90-vw .section-product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-comment {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+
+@media (min-width: 900px) {
     .section-90-vw {
         padding: 0;
         padding-bottom: 6rem;
