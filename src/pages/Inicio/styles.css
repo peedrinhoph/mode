@@ -10,13 +10,13 @@
     align-items: center;
 }
 
-.section {
+.section-90-vw {
     padding: 2rem 0;
     padding-right: 5vw;
     padding-left: 5vw;
 }
 
-.section .section-title {
+.section-90-vw .section-title {
     padding: 0 0 2rem;
 }
 
@@ -25,40 +25,40 @@
     text-align-last: center;
 }
 
-.section .section-product {
+.section-90-vw .section-product {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 
-.section .section-product img {
+.section-90-vw .section-product img {
     width: 100%;
     margin-bottom: -0.7rem;
 }
 
-.section .section-ver-mais {
+.section-90-vw .section-ver-mais {
     display: flex;
     justify-content: flex-end;
     padding: 1rem 0 1rem 0;
 }
 
-.section .section-ver-mais a {
+.section-90-vw .section-ver-mais a {
     text-decoration: none;
     color: var(--color-text-complement);
 }
 
-.section .section-ver-mais a:hover {
+.section-90-vw .section-ver-mais a:hover {
     text-decoration: underline;
     color: var(--color-text-dark);
 }
 
 /*INICIO EFEITO DA BORDA COM HOVER*/
-.section .section-product .section-project {
+.section-90-vw .section-product .section-project {
     position: relative;
 }
 
-.section .section-product .section-project:after,
-.section .section-product .section-project:before {
+.section-90-vw .section-product .section-project:after,
+.section-90-vw .section-product .section-project:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -68,39 +68,39 @@
     transition: transform .5s ease-in-out;
 }
 
-.section .section-product .section-project:before {
+.section-90-vw .section-product .section-project:before {
     border-left: 1px solid var(--color-line-in-white);
     border-right: 1px solid var(--color-line-in-white);
     transform: scaleY(0);
 }
 
-.section .section-product .section-project:after {
+.section-90-vw .section-product .section-project:after {
     border-top: 1px solid var(--color-line-in-white);
     border-bottom: 1px solid var(--color-line-in-white);
     transform: scaleX(0);
 }
 
-.section .section-product .section-project:hover:before {
+.section-90-vw .section-product .section-project:hover:before {
     transform: scaleY(1);
 }
 
-.section .section-product .section-project:hover:after {
+.section-90-vw .section-product .section-project:hover:after {
     transform: scaleX(1);
 }
 /*FIM EFEITO DA BORDA COM HOVER*/
-.section .section-product .section-project .section-project-title{
+.section-90-vw .section-product .section-project .section-project-title{
     display: flex;
     flex-direction: row;
     align-items: center;
     height: auto;
 }
 
-.section .section-product .section-project .section-project-title img{
+.section-90-vw .section-product .section-project .section-project-title img{
     width: 6rem;
     margin: 1.6rem 0;
 }
 
-.section .section-product .section-project .section-project-title h3{
+.section-90-vw .section-product .section-project .section-project-title h3{
     width: 17rem;
     font: 400 2.4rem Poppins;
     margin-left: 10%;
@@ -108,11 +108,11 @@
     line-height: 3rem;
 }
 
-.section .section-product .section-project p{
-    font: 400 1.8rem Poppins;
+.section-90-vw .section-product .section-project p{
+    font: 400 1.6rem Poppins;
     color: var(--color-text-complement);
     padding: 0 1rem;
-
+    text-align: justify;
 }
 /*INICIO SECTION COMENTÁRIO DOS CLIENTES*/
 .section-background-image {
@@ -160,7 +160,7 @@
 }
 /*FIM SECTION COMENTÁRIO DOS CLIENTES*/
 @media (min-width: 420px) {
-    .section .section-product .section-project .section-project-title h3{
+    .section-90-vw .section-product .section-project .section-project-title h3{
         width: 100%;
     }
 }
@@ -174,14 +174,14 @@
         margin-top: 15rem;
     }
     
-    .section {
+    .section-90-vw {
         padding: 0;
         padding-bottom: 6rem;
         padding-right: 13vw;
         padding-left: 13vw;
     }
     
-    .section .section-product {
+    .section-90-vw .section-product {
         grid-template-columns: repeat(3, 1fr);
     }
 

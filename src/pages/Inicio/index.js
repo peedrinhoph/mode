@@ -26,7 +26,7 @@ function Inicio() {
             <PageHeader />
             <main>
                 <div id="page-start-content" className="container">
-                    <div className="section">
+                    <div className="section-90-vw">
                         <div className="section-product">
                             <div className="section-project">
                                 <div className="section-project-title">
@@ -75,7 +75,7 @@ function Inicio() {
                         </div>
                     </div>
                    
-                    <div className="section">
+                    <div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-product-title">Projetos e produtos</h2>
                         </div>

@@ -28,8 +28,7 @@ function Contact() {
         <div id="page-contact" className="container">
             <PageHeader title="" />
             <main>
-                <div id="page-contact-content" className="container">
-
+                <div id="page-contact-content" className="page-contact-content">
                     <div id="page-contact-data" className="contact-data">
                         <p id="contact-title">Olá, se ainda tiver qualquer dúvida sobre nossos produtos<br /> não hesite em entrar em contato!</p>
                         <br />
@@ -48,7 +47,6 @@ function Contact() {
                             frameborder="0"
                             title="map"
                             aria-hidden="false" />
-
                     </div>
                     <div id="page-contact-form" className="page-contact-form">
                         <form onSubmit={handleSendMessage}>
