@@ -1,7 +1,7 @@
 .page-header {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
     opacity: 1;
     float: left;
     width: 100%;
@@ -9,6 +9,11 @@
     max-height: 100%;
     height: auto;
     box-shadow: 0 1px 6px 0 rgba(68,68,68,.8);
+    transition: background-color .2s ease-out;
+}
+
+.page-header:hover { 
+    background-color: var(--color-primary);
 }
 
 .page-header .logo-and-menu {
@@ -66,7 +71,9 @@
 @media (min-width: 700px) {
     .page-header {
         height: auto;
-        position: fixed;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
     }
 
     .page-header .logo-and-menu {
