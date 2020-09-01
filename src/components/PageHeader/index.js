@@ -7,7 +7,7 @@ import './styles.css';
 
 const PageHeader = (props) => {
     return (
-        <header className="page-header">
+        <header className={props.colorTransparent ? "page-header" : "page-header page-header-black" }>
             <div id="logo-and-menu" className="logo-and-menu">
                 <img id="logo" className="logo" src={logoImg} alt="Mode" />
                 <nav id="menu" className="menu">

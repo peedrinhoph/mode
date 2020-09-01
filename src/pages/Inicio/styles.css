@@ -118,6 +118,7 @@
     text-align: justify;
 }
 /*INICIO SECTION COMENTÁRIO DOS CLIENTES*/
+.section-transition-image,
 .section-background-image {
     display: flex;
     flex-direction: column;
@@ -128,7 +129,21 @@
     background-position: 50%;
     padding:  0 2rem 6rem 2rem;
 }
+/*INICIO SECTION TRANSITION IMAGE*/
+.section-transition-image {
+    height: 70vh;
+    padding: 0 0 0 0;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.section-transition-description {
+    font: 400 Poppins;
+    color: var(--color-title-in-primary);
+    padding: 2.6rem;
+    
+}
+/*FIM SECTION TRANSITION IMAGE*/
 .section-background-image .section-background-image-title{
     font: 400 Poppins;
     color: var(--color-title-in-primary);
@@ -162,9 +177,14 @@
     margin: 1rem;
 }
 /*FIM SECTION COMENTÁRIO DOS CLIENTES*/
+
 @media (min-width: 420px) {
     .section-90-vw .section-product .section-project .section-project-title h3{
         width: 100%;
+    }
+
+    .section-transition-image {
+        background-attachment: scroll;
     }
 }
 
@@ -174,7 +194,7 @@
     }
 
     #page-start main {
-        margin-top: 15rem;
+        margin-top: 0rem;
     }
     
     .section-90-vw .section-product {
@@ -189,7 +209,6 @@
 
 @media (min-width: 900px) {
     .section-90-vw {
-        padding: 0;
         padding-bottom: 6rem;
         padding-right: 13vw;
         padding-left: 13vw;

@@ -1,18 +1,11 @@
 .page-header {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-primary-dark);
-    opacity: 1;
     float: left;
     width: 100%;
-    z-index: 9999999;
+    z-index: 999;
     max-height: 100%;
     height: auto;
-    box-shadow: 0 1px 6px 0 rgba(68,68,68,.8);
-    transition: background-color .2s ease-out;
-}
-
-.page-header:hover { 
     background-color: var(--color-primary);
 }
 
@@ -26,6 +19,7 @@
     align-items: center;
     color: var(--color-text-in-primary);
     padding: 1.6rem 0;
+    font-weight: bold;
 }
 
 .page-header .logo-and-menu a {
@@ -72,19 +66,25 @@
     .page-header {
         height: auto;
         position: -webkit-sticky;
-        position: sticky;
+        position: fixed;
         top: 0;
+        background-color: transparent;
+    }
+
+    .page-header-black {
+        box-shadow: 0 1px 6px 0 rgba(68,68,68,.8);
+        background-color: var(--color-primary);
+        transition: all .35s ease-in-out;
+    }
+    
+    .page-header-black:hover { 
+        background-color: var(--color-primary-dark);
     }
 
     .page-header .logo-and-menu {
         max-width: 1200px;
     }
 
-    .page-header .logo-and-menu a:hover {
-        font-size: 100%;
-        font-weight: bold;
-    }
-    
     .page-header .logo-and-menu > nav > ul{
         flex-direction: row;
     }

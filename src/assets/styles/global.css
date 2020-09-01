@@ -99,7 +99,7 @@
         width: 22px;
         height: 40px;
         border-radius: 20px;
-        border: 4px solid #8844EE;
+        border: 4px solid #bd926d;
         text-align: center;
         position: fixed;
         left: 0px;
@@ -115,7 +115,7 @@
         height: 8px;
         position: relative;
         border-radius: 4px;
-        background: #8844EE;
+        background: #bd926d;
         animation-name: mouse;
         animation-duration: .7s;
         animation-iteration-count: infinite;
@@ -136,8 +136,8 @@
       .zoom {
         -webkit-transform: scale(1);
         transform: scale(1);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
+        -webkit-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
       }
     
       .zoom:hover {

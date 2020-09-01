@@ -12,20 +12,58 @@ function Inicio() {
     const [scroll, setScroll] = useState('hidden');
 
     useEffect(() => {
-        window.onscroll = () => handleScroll()
+        const scrollListener = () => {
+            if (window.scrollY < 280) {
+                setScroll(true);
+            } else {
+                setScroll(false);
+            }
+        };
+        window.addEventListener("scroll", scrollListener);
+
+        return () => {
+            window.removeEventListener("scroll", scrollListener);
+        };
     }, []);
-
-    function handleScroll() {
-        if (document.documentElement.scrollTop > 130) {
-            setScroll({ className: 'show' })
-        }
-
-    }
     return (
-        <div id="page-start" className="container">
-            <PageHeader />
+        <div id="page-start" className="container ">
+            <PageHeader colorTransparent={scroll}></PageHeader>
             <main>
                 <div id="page-start-content">
+                    <div className="section-transition-image">
+                        <div className="section-transition-description">
+                            <h1>Vamos recriar sua casa</h1>
+                        </div>
+                    </div>
+                    <div className="section-90-vw">
+                        <div className="section-title">
+                            <h2 className="section-title-text">Projetos e produtos</h2>
+                        </div>
+                        <div className="section-product">
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                            <figure>
+                                <img src={Image} alt="product" className="zoom" />
+                            </figure>
+                        </div>
+                        <div className="section-ver-mais">
+                            <Link to="portfolio">Ver mais</Link>
+                        </div>
+                    </div>
+
                     <div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-title-text">Porque nos escolher</h2>
@@ -76,35 +114,7 @@ function Inicio() {
                                 <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="section-90-vw">
-                        <div className="section-title">
-                            <h2 className="section-title-text">Projetos e produtos</h2>
-                        </div>
-                        <div className="section-product">
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                            <figure>
-                                <img src={Image} alt="product" className="zoom" />
-                            </figure>
-                        </div>
-                        <div className="section-ver-mais">
-                            <Link to="portfolio">Ver mais</Link>
-                        </div>
                     </div>
 
                     <div className="section-background-image">
@@ -157,11 +167,9 @@ function Inicio() {
                         </div>
                     </div>
                 </div>
-                <span id="mouse"></span>
             </main>
-
+            {scroll && <span id="mouse"></span>}
             <PageFooter />
-
         </div>
     )
 }
