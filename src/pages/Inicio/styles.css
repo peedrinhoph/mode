@@ -147,9 +147,11 @@
     background-color: transparent;
     border: 1px solid;
     border-color: hsla(0,0%,100%,.5);
-    padding: 1.6rem;
+    padding: 1.6rem 2.6rem;
     font: 400 2rem Poppins;
+    display: inline-block;
     text-decoration: none;
+    text-align: center;
 }
 
 .section-transition-link a:hover {
@@ -205,6 +207,7 @@
 
     .section-transition-image {
         background-attachment: scroll;
+        padding: 15rem 0 0 0;
     }
 }
 
@@ -225,6 +228,7 @@
         grid-template-columns: repeat(2, 1fr);
         
     }
+    
 }
 
 @media (min-width: 900px) {
