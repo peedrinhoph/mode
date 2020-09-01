@@ -13,7 +13,7 @@ function Inicio() {
 
     useEffect(() => {
         const scrollListener = () => {
-            if (window.scrollY < 280) {
+            if (window.scrollY < 60) {
                 setScroll(true);
             } else {
                 setScroll(false);
@@ -32,7 +32,10 @@ function Inicio() {
                 <div id="page-start-content">
                     <div className="section-transition-image">
                         <div className="section-transition-description">
-                            <h1>Vamos recriar sua casa</h1>
+                            <h1>Toda a sofisticação e inovação idealizados <br />em diferentes projetos</h1>
+                            <div className="section-transition-link">
+                                <Link to="contact">Contate-nos</Link>
+                            </div>
                         </div>
                     </div>
                     <div className="section-90-vw">

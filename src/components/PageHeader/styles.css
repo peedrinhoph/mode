@@ -68,13 +68,13 @@
         position: -webkit-sticky;
         position: fixed;
         top: 0;
-        background-color: transparent;
+        background-color: rgba(35,31,32,0);
     }
 
     .page-header-black {
         box-shadow: 0 1px 6px 0 rgba(68,68,68,.8);
-        background-color: var(--color-primary);
-        transition: all .35s ease-in-out;
+        background-color: rgba(35,31,32,1);
+        transition: all .6s ease-in-out;
     }
     
     .page-header-black:hover { 

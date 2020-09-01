@@ -72,14 +72,14 @@
 }
 
 .section-90-vw .section-product .section-project:before {
-    border-left: 1px solid var(--color-line-in-white);
-    border-right: 1px solid var(--color-line-in-white);
+    border-left: 1px solid var(--color-gold);
+    border-right: 1px solid var(--color-gold);
     transform: scaleY(0);
 }
 
 .section-90-vw .section-product .section-project:after {
-    border-top: 1px solid var(--color-line-in-white);
-    border-bottom: 1px solid var(--color-line-in-white);
+    border-top: 1px solid var(--color-gold);
+    border-bottom: 1px solid var(--color-gold);
     transform: scaleX(0);
 }
 
@@ -137,11 +137,31 @@
     justify-content: space-around;
 }
 
+.section-transition-link {
+    padding: 2.5rem;
+    height: 100%;
+}
+
+.section-transition-link a {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: hsla(0,0%,100%,.5);
+    padding: 1.6rem;
+    font: 400 2rem Poppins;
+    text-decoration: none;
+}
+
+.section-transition-link a:hover {
+    border-color: hsla(0,0%,100%,1);
+}
+
 .section-transition-description {
-    font: 400 Poppins;
+    font: 1.5rem Poppins;
+    line-height: 4rem;
     color: var(--color-title-in-primary);
     padding: 2.6rem;
-    
+    text-align: center;
 }
 /*FIM SECTION TRANSITION IMAGE*/
 .section-background-image .section-background-image-title{
@@ -162,7 +182,7 @@
 }
 
 .section-comment-block h3 {
-    color: #bd926d;
+    color: var(--color-gold);
     
 }
 
@@ -209,7 +229,7 @@
 
 @media (min-width: 900px) {
     .section-90-vw {
-        padding-bottom: 6rem;
+        padding-bottom: 3rem;
         padding-right: 13vw;
         padding-left: 13vw;
     }
