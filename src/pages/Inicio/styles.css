@@ -31,7 +31,7 @@
 .section-90-vw .section-product {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 10px;
 }
 
 .section-90-vw .section-product img {
@@ -72,14 +72,14 @@
 }
 
 .section-90-vw .section-product .section-project:before {
-    border-left: 1px solid var(--color-gold);
-    border-right: 1px solid var(--color-gold);
+    border-left: 1px solid var(--color-line-in-white);
+    border-right: 1px solid var(--color-line-in-white);
     transform: scaleY(0);
 }
 
 .section-90-vw .section-product .section-project:after {
-    border-top: 1px solid var(--color-gold);
-    border-bottom: 1px solid var(--color-gold);
+    border-top: 1px solid var(--color-line-in-white);
+    border-bottom: 1px solid var(--color-line-in-white);
     transform: scaleX(0);
 }
 
@@ -137,25 +137,31 @@
     justify-content: space-around;
 }
 
-.section-transition-link {
+.section-contact-link {
+    display: flex;
+    justify-content: center;
     padding: 2.5rem;
     height: 100%;
 }
 
-.section-transition-link a {
+.section-contact-link a {
     color: #fff;
     background-color: transparent;
     border: 1px solid;
     border-color: hsla(0,0%,100%,.5);
     padding: 1.6rem 2.6rem;
     font: 400 2rem Poppins;
-    display: inline-block;
     text-decoration: none;
     text-align: center;
 }
 
-.section-transition-link a:hover {
+.section-contact-link a:hover {
     border-color: hsla(0,0%,100%,1);
+}
+
+.section-contact-black-link a { 
+    color: var(--color-text-complement);
+    border-color: var(--primary-light);
 }
 
 .section-transition-description {
@@ -200,7 +206,7 @@
 }
 /*FIM SECTION COMENTÁRIO DOS CLIENTES*/
 
-@media (min-width: 420px) {
+@media (min-width: 450px) {
     .section-90-vw .section-product .section-project .section-project-title h3{
         width: 100%;
     }

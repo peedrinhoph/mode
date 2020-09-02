@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image from '../../assets/images/table-phone.jpg';
+import Image1 from '../../assets/images/photo1.jpg';
+import Image2 from '../../assets/images/photo2.jpg';
+import Image3 from '../../assets/images/photo3.jpg';
+import Image4 from '../../assets/images/photo4.jpg';
+import Image5 from '../../assets/images/photo5.jpg';
+import Image6 from '../../assets/images/photo6.jpg';
 
 import './styles.css';
 
@@ -33,33 +38,34 @@ function Inicio() {
                     <div className="section-transition-image">
                         <div className="section-transition-description">
                             <h1>Toda a sofisticação e inovação idealizados <br />em diferentes projetos</h1>
-                            <div className="section-transition-link">
+                            <div className="section-contact-link">
                                 <Link to="contact">Contate-nos</Link>
                             </div>
                         </div>
                     </div>
+                    
                     <div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-title-text">Projetos e produtos</h2>
                         </div>
                         <div className="section-product">
                             <figure>
-                                <img src={Image} alt="product" className="zoom" />
+                                <img src={Image1} alt="product" className="zoom" />
                             </figure>
                             <figure>
-                                <img src={Image} alt="product" className="zoom" />
+                                <img src={Image2} alt="product" className="zoom" />
                             </figure>
                             <figure>
-                                <img src={Image} alt="product" className="zoom" />
+                                <img src={Image3} alt="product" className="zoom" />
                             </figure>
                             <figure>
-                                <img src={Image} alt="product" className="zoom" />
+                                <img src={Image4} alt="product" className="zoom" />
                             </figure>
                             <figure>
-                                <img src={Image} alt="product" className="zoom" />
+                                <img src={Image5} alt="product" className="zoom" />
                             </figure>
                             <figure>
-                                <img src={Image} alt="product" className="zoom" />
+                                <img src={Image6} alt="product" className="zoom" />
                             </figure>
                         </div>
                         <div className="section-ver-mais">
@@ -95,29 +101,11 @@ function Inicio() {
                                 </div>
                                 <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                             </div>
-                            <div className="section-project">
-                                <div className="section-project-title">
-                                    <img src="https://d1di2lzuh97fh2.cloudfront.net/files/0a/0a8/0a871v.svg?ph=6e2389ce46" alt="asdas" />
-                                    <h3>Atenção aos detalhes</h3>
-                                </div>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
-                            </div>
-                            <div className="section-project">
-                                <div className="section-project-title">
-                                    <img src="https://d1di2lzuh97fh2.cloudfront.net/files/32/328/328sfr.svg?ph=6e2389ce46" alt="asdas" />
-                                    <h3>Atenção aos detalhes</h3>
-                                </div>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
-                            </div>
-                            <div className="section-project">
-                                <div className="section-project-title">
-                                    <img src="https://d1di2lzuh97fh2.cloudfront.net/files/07/07p/07p3l4.svg?ph=6e2389ce46" alt="asdas" />
-                                    <h3>Atenção aos detalhes</h3>
-                                </div>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
-                            </div>
+                            
                         </div>
-
+                        <div className="section-contact-link section-contact-black-link">
+                            <Link to="about-us">Quem somos</Link>
+                        </div>
                     </div>
 
                     <div className="section-background-image">
