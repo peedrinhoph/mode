@@ -43,7 +43,7 @@ function Inicio() {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-title-text">Projetos e produtos</h2>
@@ -73,6 +73,29 @@ function Inicio() {
                         </div>
                     </div>
 
+                    <div className="section-why">
+                        <h1 className="section-why-title">Móveis de Aço</h1>
+                        <div className="section-why-grid">
+                            <div className="section-why-text">
+                                <p>
+                                    Dentre os móveis de aço carbono é possível encontrar uma
+                                    grande variedade de peças que podem compor perfeitamente
+                                    ambientes residenciais e comerciais, como mesas de centro,
+                                    de jantar, aparadores e estantes, entre outros.<br/><br/>
+                                    A fabricação de móveis de aço carbono é capaz de conferir maior 
+                                    resistência, durabilidade e valor estético aos produtos, mas o uso 
+                                    deste material pode proporcionar ainda outros benefícios além desses, 
+                                    pois o aço carbono proporciona um visual moderno e arrojado para os ambientes 
+                                    em que é utilizado.<br/><br/>
+                                    Os móveis de aço carbono também apresentam a vantagem de terem uma vida útil 
+                                    mais longa, pois sua matéria-prima é consideravelmente mais resistente que a madeira, 
+                                    ou plástico, por exemplo, o que faz desses móveis uma alternativa de ótimo custo-benefício 
+                                    para o consumidor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-title-text">Porque nos escolher</h2>
@@ -83,7 +106,10 @@ function Inicio() {
                                     <img src="https://d1di2lzuh97fh2.cloudfront.net/files/19/195/195g9m.svg?ph=f273c76eb3" alt="asdas" />
                                     <h3>Do projeto à execução</h3>
                                 </div>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                <p>
+                                    A fase principal consiste em entender as necessidades do nosso cliente, sendo esse o primeiro passo na elaboração de um produto.
+                                    À partir daí, acrescentamos nossa competência técnica para executar tudo e deixar do jeitinho que imaginamos.
+                                </p>
                             </div>
 
                             <div className="section-project">
@@ -91,7 +117,10 @@ function Inicio() {
                                     <img src="https://d1di2lzuh97fh2.cloudfront.net/files/0j/0jc/0jc3z2.svg?ph=f273c76eb3" alt="asdas" />
                                     <h3>Materiais de primeira</h3>
                                 </div>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                <p>
+                                    A fabricação de móveis de aço carbono oferece maior resistência, durabilidade e valor estético aos produtos,
+                                    mas pode proporcionar ainda outros benefícios, pois o aço carbono proporciona um visual moderno e arrojado para os ambientes em que é utilizado.
+                                </p>
                             </div>
 
                             <div className="section-project">
@@ -99,9 +128,10 @@ function Inicio() {
                                     <img src="https://d1di2lzuh97fh2.cloudfront.net/files/3w/3wu/3wunxe.svg?ph=f273c76eb3" alt="asdas" />
                                     <h3>Atenção aos detalhes</h3>
                                 </div>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                                <p>
+                                    Todas as peças prontas passam por uma avaliação na qualidade das dobras e soldas feitas para unir os materiais antes de passar para o revestimento eletrostático.
+                                </p>
                             </div>
-                            
                         </div>
                         <div className="section-contact-link section-contact-black-link">
                             <Link to="about-us">Quem somos</Link>

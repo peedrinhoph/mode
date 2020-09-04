@@ -115,9 +115,10 @@
     font: 400 1.6rem Poppins;
     color: var(--color-text-complement);
     padding: 0 1rem;
-    text-align: justify;
+    text-align: left;
 }
 /*INICIO SECTION COMENTÁRIO DOS CLIENTES*/
+.section-why,
 .section-transition-image,
 .section-background-image {
     display: flex;
@@ -172,11 +173,13 @@
     text-align: center;
 }
 /*FIM SECTION TRANSITION IMAGE*/
-.section-background-image .section-background-image-title{
-    font: 400 Poppins;
+.section-why-title,
+.section-background-image-title{
+    font: 400 32px Poppins;
     color: var(--color-title-in-primary);
     padding: 6rem;
 }
+.section-why-grid,
 .section-comment {
     display: grid;
     grid-template-columns: 1fr;
@@ -191,9 +194,9 @@
 
 .section-comment-block h3 {
     color: var(--color-gold);
-    
 }
 
+.section-why-text,
 .section-comment-text {
     padding: .8125rem .3125rem;
     color: var(--color-title-in-primary);
@@ -232,7 +235,10 @@
 
     .section-comment {
         grid-template-columns: repeat(2, 1fr);
-        
+    }
+
+    .section-why-grid {
+        grid-template-columns: repeat(1, 1fr);
     }
     
 }
@@ -253,8 +259,10 @@
         
     }
 
+    .section-why,
     .section-background-image {
         padding:  0 13vw 6rem 13vw;
+        background-attachment: fixed;
     }
-        
+
 }
