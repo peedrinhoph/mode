@@ -35,8 +35,8 @@ function Contact() {
                         <p id="contact-phone">WhatsApp: <a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou entrando em contato através do site, " target="_blank" rel="noopener noreferrer"> (054) 9 9644-8912</a></p>
                         <p id="contact-mail">E-mail: <a href="mailto:contact@moveismode.com.br" >contact@moveismode.com.br</a></p>
                         <br />
-                        <p id="contact-instagram">Instagram: <a href="https://www.instagram.com/moveismode" target="_blank" rel="noopener noreferrer">@moveismode</a></p>
-                        <p id="contact-facebook">Facebook: <a href="https://www.facebook.com/moveismode" target="_blank" rel="noopener noreferrer">@moveismode</a></p>
+                        <p id="contact-instagram"><a href="https://www.instagram.com/moveismode" target="_blank" rel="noopener noreferrer">facebook.com/moveismode</a></p>
+                        <p id="contact-facebook"><a href="https://www.facebook.com/moveismode" target="_blank" rel="noopener noreferrer">instagram.com/moveismode</a></p>
                         <br />
                         <p>Seg - Sex: 08:00h - 17:00h <br /> Sáb - Dom: 08:00h - 12:30h</p>
                         <br />

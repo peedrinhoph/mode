@@ -30,6 +30,7 @@ function Inicio() {
             window.removeEventListener("scroll", scrollListener);
         };
     }, []);
+    
     return (
         <div id="page-start" className="container ">
             <PageHeader colorTransparent={scroll}></PageHeader>
