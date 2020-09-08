@@ -15,6 +15,13 @@
   padding-left: 5vw;
 }
 
+.product-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 .section .section-portfolio .section-portfolio-product img {
   width: 100%;
   margin-bottom: -0.7rem;
@@ -45,15 +52,17 @@
   justify-content: space-evenly;
 }
 
-.product-text-left { 
+.product-text {
   font: 400 1.6rem Poppins;
   color: var(--color-text-complement);
+  padding: 10px;
+}
+
+.product-text-left { 
   text-align: left;
 }
 
 .product-text-right { 
-  font: 400 1.6rem Poppins;
-  color: var(--color-text-complement);
   text-align: left;
 }
 
@@ -97,7 +106,7 @@
   }
 
   .product-text-left { 
-    text-align: right;
+    text-align: left;
   }
 
 }
