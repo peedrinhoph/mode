@@ -27,6 +27,11 @@
   padding: 5px;
 }
 
+.reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .product-title{
   font: 400 Poppins;
   color: var(--color-text-complement);
@@ -43,7 +48,7 @@
 .product-text-left { 
   font: 400 1.6rem Poppins;
   color: var(--color-text-complement);
-  text-align: right;
+  text-align: left;
 }
 
 .product-text-right { 
@@ -87,10 +92,19 @@
     grid-auto-rows: 70vh;
   }
 
+  .reverse {
+    display: grid;
+  }
+
+  .product-text-left { 
+    text-align: right;
+  }
+
 }
 
 @media (min-width: 900px) {
   .section {
+      padding-bottom: 3rem;
       padding-right: 13vw;
       padding-left: 13vw;
   }

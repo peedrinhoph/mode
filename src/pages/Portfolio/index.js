@@ -37,28 +37,9 @@ function Portfolio() {
                 <div id="page-start-content">
                     <div className="section">
                         <div className="section-portfolio">
-                            <div className="section-portfolio-product">
-                                <figure>
-                                    <img src={Image1} alt="product" className="zoom" />
-                                </figure>
+                        <div className="section-portfolio-product">
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Mesas de centro</h2>
-                                    <p className="product-text-right">
-                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-                                        Proin eget tortor risus. Sed porttitor lectus nibh. Nulla quis lorem ut
-                                        libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
-                                        porttitor at sem. Donec rutrum congue leo eget malesuada.
-                                    </p>
-                                    <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="section-portfolio-product">
-                                <div className="section-product-description">
-                                    <h2 className="product-title">Mesas de centro</h2>
+                                    <h2 className="product-title">Espelhos redondos</h2>
                                     <p className="product-text-left">
                                         Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -72,16 +53,16 @@ function Portfolio() {
                                     </div>
                                 </div>
                                 <figure>
-                                    <img src={Image1} alt="product" className="zoom" />
+                                    <img src={Image5} alt="product" className="zoom" />
                                 </figure>
 
                             </div>
-                            <div className="section-portfolio-product">
+                            <div className="section-portfolio-product reverse">
                                 <figure>
-                                    <img src={Image1} alt="product" className="zoom" />
+                                    <img src={Image2} alt="product" className="zoom" />
                                 </figure>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Mesas de centro</h2>
+                                    <h2 className="product-title">Mesas de canto</h2>
                                     <p className="product-text-right">
                                         Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -111,8 +92,66 @@ function Portfolio() {
                                     </div>
                                 </div>
                                 <figure>
+                                    <img src={Image3} alt="product" className="zoom" />
+                                </figure>
+
+                            </div>
+                            <div className="section-portfolio-product reverse">
+                                <figure>
                                     <img src={Image1} alt="product" className="zoom" />
                                 </figure>
+                                <div className="section-product-description">
+                                    <h2 className="product-title">Banquetas e Puffs</h2>
+                                    <p className="product-text-right">
+                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                                        Proin eget tortor risus. Sed porttitor lectus nibh. Nulla quis lorem ut
+                                        libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
+                                        porttitor at sem. Donec rutrum congue leo eget malesuada.
+                                    </p>
+                                    <div className="product-buttom">
+                                        <Link to="contact">Ver mais</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="section-portfolio-product">
+                                <div className="section-product-description">
+                                    <h2 className="product-title">Mesas de jantar</h2>
+                                    <p className="product-text-left">
+                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                                        Proin eget tortor risus. Sed porttitor lectus nibh. Nulla quis lorem ut
+                                        libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
+                                        porttitor at sem. Donec rutrum congue leo eget malesuada.
+                                    </p>
+                                    <div className="product-buttom">
+                                        <Link to="contact">Ver mais</Link>
+                                    </div>
+                                </div>
+                                <figure>
+                                    <img src={Image5} alt="product" className="zoom" />
+                                </figure>
+                            </div>
+                            <div className="section-portfolio-product reverse">
+                                <figure>
+                                    <img src={Image4} alt="product" className="zoom" />
+                                </figure>
+                                <div className="section-product-description">
+                                    <h2 className="product-title">Aparadores</h2>
+                                    <p className="product-text-right">
+                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                                        Proin eget tortor risus. Sed porttitor lectus nibh. Nulla quis lorem ut
+                                        libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
+                                        porttitor at sem. Donec rutrum congue leo eget malesuada.
+                                    </p>
+                                    <div className="product-buttom">
+                                        <Link to="contact">Ver mais</Link>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
