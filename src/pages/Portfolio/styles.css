@@ -25,6 +25,7 @@
 .section .section-portfolio .section-portfolio-product img {
   width: 100%;
   margin-bottom: -0.7rem;
+  border-radius: 0;
 }
 
 .section-portfolio-product {

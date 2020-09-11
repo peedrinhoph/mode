@@ -4,6 +4,7 @@ import Inicio from './pages/Inicio';
 import Portfolio from './pages/Portfolio';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import ShowMore from './pages/ShowMore';
 
 export default function Routes() {
     return (
@@ -16,6 +17,10 @@ export default function Routes() {
              <Route
                 path="/portfolio"
                 component={Portfolio}
+            />
+             <Route
+                path="/show-more"
+                component={ShowMore}
             />
              <Route
                 path="/about-us"

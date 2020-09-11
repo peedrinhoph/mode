@@ -51,7 +51,7 @@ function Portfolio() {
                                         <br />Tamanhos: 350mm, 400mm, 500mm e 600mm
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
+                                        <Link to="show-more">Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
