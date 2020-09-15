@@ -14,21 +14,25 @@ export default function Routes() {
                 component={Inicio}
                 exact
             />
-             <Route
+            <Route
                 path="/portfolio"
                 component={Portfolio}
+                exact
             />
-             <Route
-                path="/show-more"
+            <Route
+                path="/portfolio/show-more/:params"
                 component={ShowMore}
+                exact
             />
-             <Route
+            <Route
                 path="/about-us"
                 component={AboutUs}
+                exact
             />
             <Route
                 path="/contact"
                 component={Contact}
+                exact
             />
         </BrowserRouter>
     )

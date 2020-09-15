@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useRouteMatch } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
@@ -14,6 +14,8 @@ import Image6 from '../../assets/images/photo6.jpg';
 import './styles.css';
 
 function Portfolio() {
+    let { url } = useRouteMatch();
+
     const [scroll, setScroll] = useState('hidden');
     useEffect(() => {
         const scrollListener = () => {
@@ -51,12 +53,12 @@ function Portfolio() {
                                         <br />Tamanhos: 350mm, 400mm, 500mm e 600mm
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="show-more">Ver mais</Link>
+                                        <Link to={`${url}/show-more/mirror`}>Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
                                     <figure>
-                                        <img src={Image5} alt="product" className="hover-blur" />
+                                        <img src={Image5} alt="product" className="zoom" />
                                     </figure>
                                 </div>
 
@@ -64,7 +66,7 @@ function Portfolio() {
                             <div className="section-portfolio-product reverse">
                                 <div className="product-image">
                                     <figure>
-                                        <img src={Image2} alt="product" className="hover-blur" />
+                                        <img src={Image2} alt="product" className="zoom" />
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
@@ -79,7 +81,7 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
+                                        <Link to={`${url}/show-more/corner-tables`}>Ver mais</Link>
                                     </div>
                                 </div>
                             </div>
@@ -96,19 +98,19 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
+                                        <Link to={`${url}/show-more/center-tables`}>Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
                                     <figure>
-                                        <img src={Image3} alt="product" className="hover-blur" />
+                                        <img src={Image3} alt="product" className="zoom" />
                                     </figure>
                                 </div>
                             </div>
                             <div className="section-portfolio-product reverse">
                                 <div className="product-image">
                                     <figure>
-                                        <img src={Image1} alt="product" className="hover-blur" />
+                                        <img src={Image1} alt="product" className="zoom" />
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
@@ -123,7 +125,7 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
+                                        <Link to={`${url}/show-more/stools-and-puffs`}>Ver mais</Link>
                                     </div>
                                 </div>
                             </div>
@@ -140,12 +142,12 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
+                                        <Link to={`${url}/show-more/dining-tables`}>Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
                                     <figure>
-                                        <img src={Image5} alt="product" className="hover-blur" />
+                                        <img src={Image5} alt="product" className="zoom" />
                                     </figure>
                                 </div>
 
@@ -153,7 +155,7 @@ function Portfolio() {
                             <div className="section-portfolio-product reverse">
                                 <div className="product-image">
                                     <figure>
-                                        <img src={Image4} alt="product" className="hover-blur" />
+                                        <img src={Image4} alt="product" className="zoom" />
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
@@ -168,7 +170,7 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
+                                        <Link to={`${url}/show-more/sideboards`}>Ver mais</Link>
                                     </div>
                                 </div>
                             </div>
@@ -185,12 +187,12 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to="contact">Ver mais</Link>
+                                        <Link to={`${url}/show-more/others`}>Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
                                     <figure>
-                                        <img src={Image6} alt="product" className="hover-blur" />
+                                        <img src={Image6} alt="product" className="zoom" />
                                     </figure>
                                 </div>
                             </div>

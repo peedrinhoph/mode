@@ -1,24 +1,52 @@
 import React from 'react';
+import { useParams, Link } from 'react-router-dom';
+
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
 import Image5 from '../../assets/images/photo3.jpg';
+import backIcon from '../../assets/images/icons/back.svg';
 
 import './styles.css';
 
 function ShowMore() {
+    function local(path) {
+        switch (path) {
+            case 'mirror':
+                return 'Espelhos';
+            case 'corner-tables':
+                return 'Mesas de Canto';
+            case 'center-tables':
+                return 'Mesas de Centro';
+            case 'stools-and-puffs':
+                return 'Banquetas e Puffs';
+            case 'dining-tables':
+                return 'Mesas de Jantar';
+            case 'sideboards':
+                return 'Aparadores';
+            case 'others':
+                return 'Outros';
+            default:
+                return null;
+        }
+    }
+
+    let { params } = useParams();
     return (
         <div id="page-portfolio-show" className="container ">
             <PageHeader />
             <main>
                 <div id="page-start-content">
                     <div className="section-list">
-
+                        <div className="section-back">
+                            <Link to="/portfolio"><img src={backIcon} alt="Voltar" /></Link>
+                            <span>{local(params)}</span>
+                        </div>
                         <div className="section-list-grid">
                             <div className="section-product-show">
                                 <div className="product-image-show">
                                     <figure>
-                                        <img src={Image5} alt="product" />
+                                        <img src={Image5} alt="product" className="hover-gray" />
                                     </figure>
                                 </div>
                                 <div className="section-description-show">
@@ -34,7 +62,7 @@ function ShowMore() {
                             <div className="section-product-show">
                                 <div className="product-image-show">
                                     <figure>
-                                        <img src={Image5} alt="product" />
+                                        <img src={Image5} alt="product" className="hover-gray" />
                                     </figure>
                                 </div>
                                 <div className="section-description-show">
@@ -50,7 +78,7 @@ function ShowMore() {
                             <div className="section-product-show">
                                 <div className="product-image-show">
                                     <figure>
-                                        <img src={Image5} alt="product" />
+                                        <img src={Image5} alt="product" className="hover-gray" />
                                     </figure>
                                 </div>
                                 <div className="section-description-show">
@@ -66,7 +94,7 @@ function ShowMore() {
                             <div className="section-product-show">
                                 <div className="product-image-show">
                                     <figure>
-                                        <img src={Image5} alt="product" />
+                                        <img src={Image5} alt="product" className="hover-gray" />
                                     </figure>
                                 </div>
                                 <div className="section-description-show">
@@ -82,7 +110,7 @@ function ShowMore() {
                             <div className="section-product-show">
                                 <div className="product-image-show">
                                     <figure>
-                                        <img src={Image5} alt="product" />
+                                        <img src={Image5} alt="product" className="hover-gray" />
                                     </figure>
                                 </div>
                                 <div className="section-description-show">
@@ -98,7 +126,7 @@ function ShowMore() {
                             <div className="section-product-show">
                                 <div className="product-image-show">
                                     <figure>
-                                        <img src={Image5} alt="product" />
+                                        <img src={Image5} alt="product" className="hover-gray" />
                                     </figure>
                                 </div>
                                 <div className="section-description-show">
@@ -110,6 +138,39 @@ function ShowMore() {
                                     </p>
                                 </div>
                             </div>
+
+                            <div className="section-product-show">
+                                <div className="product-image-show">
+                                    <figure>
+                                        <img src={Image5} alt="product" className="hover-gray" />
+                                    </figure>
+                                </div>
+                                <div className="section-description-show">
+                                    <h2 className="product-title-show">MODELO MC700</h2>
+                                    <p className="product-text-show">
+                                        Estrutura: Preto Brilho, Preto Fosco, Bronze e Branco
+                                        <br />Tampo: Pinos tratado 40mm
+                                        <br />Dimensões: 1100 x 500 x 300
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="section-product-show">
+                                <div className="product-image-show">
+                                    <figure>
+                                        <img src={Image5} alt="product" className="hover-gray" />
+                                    </figure>
+                                </div>
+                                <div className="section-description-show">
+                                    <h2 className="product-title-show">MODELO MC800</h2>
+                                    <p className="product-text-show">
+                                        Estrutura: Preto Brilho, Preto Fosco, Bronze e Branco
+                                        <br />Tampo: Pinos tratado 40mm
+                                        <br />Dimensões: 1100 x 500 x 300
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
