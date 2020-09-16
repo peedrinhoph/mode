@@ -31,7 +31,7 @@ function ShowMore() {
         }
     }
 
-    let { params } = useParams();
+    const { params } = useParams();
     return (
         <div id="page-portfolio-show" className="container ">
             <PageHeader />

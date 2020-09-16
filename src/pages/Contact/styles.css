@@ -23,13 +23,23 @@
 #page-contact-data p{
     font: 400 2rem Poppins;
     color: var(--color-text-complement);
-    line-height: 2rem;
-    text-align-last: left;
+}
+
+.contact-social-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-social-group img{
+    opacity: .8;
+    
 }
 
 #page-contact-data p a{
     text-decoration: none;
     color: var(--color-text-complement);
+    margin-left: 1rem;
 }
 
 #page-contact-data iframe{
