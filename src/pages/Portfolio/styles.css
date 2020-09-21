@@ -41,7 +41,8 @@
 }
 
 .product-title{
-  font: 400 Poppins;
+  font: 400 3rem Poppins;
+  font-variant: small-caps;
   color: var(--color-text-complement);
   padding: 10px;
   text-align: center;
@@ -81,6 +82,7 @@
   font: 400 2rem Poppins;
   text-decoration: none;
   text-align: center;
+  font-variant: small-caps;
 }
 
 .product-buttom  a:hover {

@@ -59,7 +59,8 @@
 }
 
 #page-contact-form fieldset legend {
-    font: 400 2.4rem Bebas Neue;
+    font: 2.4rem Poppins;
+    font-variant: small-caps;
     color: var(--color-text-complement);
     margin-bottom: 2.4rem;
     display: flex;
@@ -93,7 +94,8 @@
     border: 0;
     border-radius: 0.8rem;
     cursor: pointer;
-    font: 400 2rem Bebas Neue;
+    font: 2.1rem Poppins;
+    font-variant: small-caps;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -114,7 +114,7 @@ function Portfolio() {
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Banquetas e Puffs</h2>
+                                    <h2 className="product-title">Banquetas e puffs</h2>
                                     <p className="product-text-right product-text">
                                         Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -75,7 +75,7 @@ function Inicio() {
                     </div>
 
                     <div className="section-why">
-                        <h1 className="section-why-title">Móveis de Aço</h1>
+                        <h1 className="section-why-title">Móveis de aço</h1>
                         <div className="section-why-grid">
                             <div className="section-why-text">
                                 <p>

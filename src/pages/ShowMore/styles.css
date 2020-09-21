@@ -36,6 +36,7 @@
 
 .section-back span{
     font: 2.1rem Poppins;
+    font-variant: small-caps;
     color: var(--color-text-complement);
 }
 

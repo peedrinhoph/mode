@@ -66,7 +66,7 @@ function Contact() {
                     <div id="page-contact-form" className="page-contact-form">
                         <form onSubmit={handleSendMessage}>
                             <fieldset>
-                                <legend>contate-nos</legend>
+                                <legend>Contate-nos</legend>
                                 <Input
                                     required
                                     name="name"

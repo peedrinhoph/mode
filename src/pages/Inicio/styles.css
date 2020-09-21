@@ -25,7 +25,9 @@
 }
 
 .section-title-text { 
+    font: 400 3.4rem Poppins;
     color: var(--color-text-complement);
+    font-variant: small-caps;
 }
 
 .section-90-vw .section-product {
@@ -46,8 +48,10 @@
 }
 
 .section-90-vw .section-ver-mais a {
+    font: 400 2rem Poppins;
     text-decoration: none;
     color: var(--color-text-complement);
+    font-variant: small-caps;
 }
 
 .section-90-vw .section-ver-mais a:hover {
@@ -154,6 +158,7 @@
     font: 400 2rem Poppins;
     text-decoration: none;
     text-align: center;
+    font-variant: small-caps;
 }
 
 .section-contact-link a:hover {
@@ -174,11 +179,13 @@
 }
 /*FIM SECTION TRANSITION IMAGE*/
 .section-why-title,
-.section-background-image-title{
-    font: 400 32px Poppins;
+.section-background-image-title {
+    font: 400 3.4rem Poppins;
     color: var(--color-title-in-primary);
     padding: 6rem;
+    font-variant: small-caps;
 }
+
 .section-why-grid,
 .section-comment {
     display: grid;

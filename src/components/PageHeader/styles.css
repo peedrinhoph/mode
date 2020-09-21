@@ -29,6 +29,7 @@
     transition: opacity 0.2s;
     color: var(--color-text-in-primary);
     position: relative;
+
 }
 
 .page-header .logo-and-menu a:link {
