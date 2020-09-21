@@ -23,6 +23,7 @@
 #page-contact-data p{
     font: 400 2rem Poppins;
     color: var(--color-text-complement);
+    line-height: 2.2rem;
 }
 
 .contact-social-group {
@@ -36,17 +37,18 @@
     
 }
 
-#page-contact-data p a{
+#page-contact-data a{
     text-decoration: none;
     color: var(--color-text-complement);
-    margin-left: 1rem;
+    padding: 0 0 0 1rem;
+    font: 400 1.7rem Poppins;
 }
 
 #page-contact-data iframe{
     padding: 0 0 0 0;
 }
 
-#page-contact-data p a:hover {
+#page-contact-data a:hover {
     color: var(--color-primary-dark);
 }
 

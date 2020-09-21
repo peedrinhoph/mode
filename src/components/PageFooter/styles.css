@@ -1,38 +1,50 @@
 .page-footer {
     display: flex;
     flex-direction: column;
-    padding-top: 8rem;
-    border-top: .1rem solid var(--color-line-in-white);
-    padding-bottom: 8rem;
-    margin-top: 8rem;
+   
     background: var(--color-box-footer);
 }
 
-.page-footer .page-footer-all {
+.page-footer-all {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
-    align-items: center;
+    align-items: flex-start;
     padding: 1.6rem 0;
 }
 
-.page-footer .page-footer-all .page-footer-copyright p{
+.page-footer-copyright p{
     line-height: 3.2rem;
     text-align-last: center;
     color: var(--color-text-base);
+    padding: 4rem 2rem 4rem 2rem;
+    border-top: .1rem solid var(--color-line-in-white);
 }
 
-.page-footer .page-footer-all .page-footer-copyright a{
+.page-footer-group a,
+.page-footer-copyright a{
    text-decoration: none;
    color: var(--color-text-base);
 }
 
-.page-footer .page-footer-all .page-footer-copyright a:hover {
+.page-footer-copyright a:hover {
     opacity: .8;
 }
 
-.page-footer .page-footer-all .page-footer-social { 
+.page-footer-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.page-footer-group h2{ 
+    font-variant: small-caps;
+    margin-bottom: 1rem;
+}
+
+.page-footer-social { 
     display: flex;
     height: 5rem;
     align-items: center;
@@ -40,11 +52,11 @@
     margin-top: 1.6rem;
 }
 
-.page-footer .page-footer-all .page-footer-social a{ 
-    margin: 1rem;
+.page-footer-social a{ 
+    margin-right: 1rem;
 }
 
-.page-footer .page-footer-all .page-footer-social a:hover{ 
+.page-footer-social a:hover{ 
     opacity: .8;
 }
 
@@ -53,13 +65,13 @@
         height: auto;
     }
 
-    .page-footer .page-footer-all {
+    .page-footer-all {
         max-width: 1200px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
-    .page-footer .page-footer-all .page-footer-social { 
+    .page-footer-social { 
         margin-top: 0;
     }
 }

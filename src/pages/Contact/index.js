@@ -37,22 +37,21 @@ function Contact() {
                         <br />
                         <div className="contact-social-group">
                             <img src={whatsApp} alt="instagram" />
-                            <p><a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou entrando em contato através do site, " target="_blank" rel="noopener noreferrer"> (054) 9 9644-8912</a></p>
+                            <a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou entrando em contato através do site, " target="_blank" rel="noopener noreferrer"> (054) 9 9644-8912</a>
                         </div>
                         <div className="contact-social-group">
                             <img src={mail} alt="instagram" />
-                            <p><a href="mailto:contact@moveismode.com.br" >contact@moveismode.com.br</a></p>
+                           <a href="mailto:contact@moveismode.com.br" >contact@moveismode.com.br</a>
                         </div>
                         <div className="contact-social-group">
                             <img src={instagram} alt="instagram" />
-                            <p><a href="https://www.instagram.com/moveismode" target="_blank" rel="noopener noreferrer">instagram.com/moveismode</a></p>
+                           <a href="https://www.instagram.com/moveismode" target="_blank" rel="noopener noreferrer">instagram.com/moveismode</a>
                         </div>
                         <div className="contact-social-group">
                             <img src={facebook} alt="facebook" />
-                            <p><a href="https://www.facebook.com/moveismode" target="_blank" rel="noopener noreferrer">facebook.com/moveismode</a></p>
+                           <a href="https://www.facebook.com/moveismode" target="_blank" rel="noopener noreferrer">facebook.com/moveismode</a>
                         </div>
                         <br />
-                        <p>Atendimento</p>
                         <p>Seg - Sex: 08:00h - 17:00h <br /> 
                         Sáb - Dom: 08:00h - 12:30h</p>
                         <iframe
