@@ -29,7 +29,7 @@
     transition: opacity 0.2s;
     color: var(--color-text-in-primary);
     position: relative;
-
+    letter-spacing: 2px;
 }
 
 .page-header .logo-and-menu a:link {

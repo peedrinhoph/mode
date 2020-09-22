@@ -15,7 +15,6 @@
 }
 
 .page-footer-copyright p{
-    line-height: 3.2rem;
     text-align-last: center;
     color: var(--color-text-base);
     padding: 4rem 2rem 4rem 2rem;
@@ -28,6 +27,7 @@
    color: var(--color-text-base);
 }
 
+.page-footer-group a:hover,
 .page-footer-copyright a:hover {
     opacity: .8;
 }
@@ -40,8 +40,9 @@
 }
 
 .page-footer-group h2{ 
+    margin: 1rem 0 1rem 0;
     font-variant: small-caps;
-    margin-bottom: 1rem;
+    letter-spacing: 2px;
 }
 
 .page-footer-social { 
