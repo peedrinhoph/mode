@@ -1,45 +1,109 @@
-#page-teacher-list {
+  #page-about {
     width: 100vw;
     height: 100vh;
+  }
+  
+  #page-about main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../assets/images/image1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding-top: 2rem;
+    width: 100%;
+  }
+
+  .section-about {
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  .section-about-title {
+    margin-bottom: 1.6rem;
+    font: Poppins;
+    text-align: center;
+    color: var(--color-title-in-primary);
+  }
+
+  .section-mv {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    
+  }
+
+  .section-m {
+    padding: 2.6rem 1.6rem 2.6rem 1.6rem;
+  }
+  
+  .section-m h3,
+  .section-m h1{ 
+    font: Poppins;
+    color: var(--color-title-in-primary);
+    line-height: 105%;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    text-align: center;
+  }
+
+  .section-m p{ 
+    margin-top: 1rem;
+    font: 400 1.6rem Poppins;
+    color: var(--color-title-in-primary);
+    text-align: center;
+  }
+
+  .section-about-link {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+    height: 100%;
 }
 
-#search-teachers {
-    margin-top: 3.2rem;
+.section-about-link a {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: hsla(0,0%,100%,.5);
+    padding: 1.6rem 2.6rem;
+    font: 400 2rem Poppins;
+    text-decoration: none;
+    text-align: center;
+    font-variant: small-caps;
 }
 
-#search-teachers label {
-    color: var(--color-text-in-primary);
+.section-about-link a:hover {
+    border-color: hsla(0,0%,100%,1);
 }
 
-#page-teacher-list main {
-    margin: 3.2rem auto;
-    width: 90%;
-    margin-top: 11rem;
+.section-about-black-link a { 
+    color: var(--color-text-complement);
+    border-color: var(--primary-light);
 }
 
-
-
-@media (min-width: 700px) {
-    #page-teacher-list {
+  @media (min-width: 700px) {
+    #page-about {
         max-width: 100%;
     }
-
-    #search-teachers {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 16px;
-        position: absolute;
-        bottom: -30px;
-
-    }
-    #search-teachers .input-block + .input-block,
-    #search-teachers .select-block + .select-block {
-        margin-top: 0;
+  
+    #page-about main {
+        margin-top: 11rem;
     }
 
-    #page-teacher-list main {
-        padding: 3.2rem 0;
-        max-width: 740px;
-        margin: 0 auto;
+    .section-mv {
+      grid-template-columns: repeat(3, 1fr);
     }
-}
+  
+  }
+  
+  @media (min-width: 900px) {
+    .section-about {
+        padding-bottom: 3rem;
+        padding-right: 13vw;
+        padding-left: 13vw;
+    }
+  
+  }
