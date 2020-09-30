@@ -46,14 +46,14 @@
     line-height: 105%;
     letter-spacing: 1px;
     font-variant: small-caps;
-    text-align: center;
+    text-align: left;
   }
 
   .section-m p{ 
     margin-top: 1rem;
     font: 400 1.6rem Poppins;
     color: var(--color-title-in-primary);
-    text-align: center;
+    text-align: left;
   }
 
   .section-about-link {

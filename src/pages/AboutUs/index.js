@@ -14,39 +14,39 @@ function AboutUs() {
                 <div id="page-about-content">
                     <div className="section-about">
                         <div className="section-about-title">
-                            <h2>Criada em Bento Gonçalves na Serra Gaúcha</h2>
+                            <h2>Idealizada em Bento Gonçalves na Serra Gaúcha no ano de 2020</h2>
                         </div>
                         <div className="section-mv">
                             <div className="section-m">
                                 <h1>Quem</h1>
                                 <h3>Somos?</h3>
-                                <p>É tida pelo motivo da existência da sua empresa, ou seja, previsão de conquistas futuras e como espera que os clientes vejam a sua empresa.</p>
+                                <p>A Mode é uma empresa jovem inspirada em produzir produtos com paixão e dedicação para iluminar ainda mais os lares dos nossos clientes.</p>
                             </div>
                             <div className="section-m">
                                 <h1>O que</h1>
                                 <h3>Fazemos?</h3>
-                                <p>Psse princípio está ligado a missão e foca na imagem do futuro que a sua empresa deseja alcançar, ou seja, tem um objetivo de como ela se enxerga lá na frente.</p>
+                                <p>Criamos, produzimos e vendemos móveis complementares de bom design, qualidade e sofisticação na produção e acabamento dos produtos que é feito 100% manual.</p>
                             </div>
                             <div className="section-m">
                                 <h1>Como</h1>
                                 <h3>Adquirir?</h3>
-                                <p>Pode ser considerado como as motivações da empresa, pense no que faz a sua empresa ser o que é. Quais são os valores (ex.: compromisso, foco, proatividade, dentre outros) da sua empresa?</p>
+                                <p>Você pode entrar em contato conosco clicando em Contate-nos. Ficaremos felizes em poder lhe atender e fazer o melhor possível para que você se sinta em casa.</p>
                             </div>
                             <div className="section-m">
                                 <h1>Missão</h1>
-                                <p>É tida pelo motivo da existência da sua empresa, ou seja, previsão de conquistas futuras e como espera que os clientes vejam a sua empresa.</p>
+                                <p>Oferecer a nossos clientes o que tem de melhor em móveis complementares e de decoração para proporcionar aconchego com design, qualidade e sofisticação em nossos produtos.</p>
                             </div>
                             <div className="section-m">
                                 <h1>Visão</h1>
-                                <p>Psse princípio está ligado a missão e foca na imagem do futuro que a sua empresa deseja alcançar, ou seja, tem um objetivo de como ela se enxerga lá na frente.</p>
+                                <p>Ser a melhor empresa em móveis complementares e de decoração inovadora para ambientes.</p>
                             </div>
                             <div className="section-m">
                                 <h1>Valores</h1>
-                                <p>Comprometimento, Qualidade, Excelência, Inovação, Transparência, Prazer em servir</p>
+                                <p>Comprometimento, Qualidade, Eficiência, Inovação, Transparência, Prazer em servir nossos clientes</p>
                             </div>
                         </div>
                         <div className="section-about-link">
-                            <Link to="contact">Contate-nos para conhecer melhor</Link>
+                            <Link to="contact">Contate-nos</Link>
                         </div>
                     </div>
                 </div>
