@@ -16,7 +16,7 @@ const PageHeader = (props) => {
                     <ul id="navmenu" className="navmenu">
                         <li className="line-hover"><Link to="/">Início</Link></li>
                         <li className="line-hover"><Link to="/portfolio">Portfólio</Link></li>
-                        <li className="line-hover"><Link to="/about-us">Quem somos</Link></li>
+                        <li className="line-hover"><Link to="/about-us">Institucional</Link></li>
                         <li className="line-hover"><Link to="/contact">Contato</Link></li>
                     </ul>
                 </nav>
