@@ -15,7 +15,6 @@ import './styles.css';
 
 function Inicio() {
     const [scroll, setScroll] = useState('hidden');
-
     useEffect(() => {
         const scrollListener = () => {
             if (window.scrollY < 60) {
@@ -33,7 +32,7 @@ function Inicio() {
     
     return (
         <div id="page-start" className="container ">
-            <PageHeader colorTransparent={scroll}></PageHeader>
+            <PageHeader colorTransparent={scroll} logoAnimation={scroll}></PageHeader>
             <main>
                 <div id="page-start-content">
                     <div className="section-transition-image">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
@@ -7,9 +7,24 @@ import PageFooter from '../../components/PageFooter';
 import './styles.css';
 
 function AboutUs() {
+    const [scroll, setScroll] = useState('hidden');
+    useEffect(() => {
+        const scrollListener = () => {
+            if (window.scrollY < 60) {
+                setScroll(true);
+            } else {
+                setScroll(false);
+            }
+        };
+        window.addEventListener("scroll", scrollListener);
+
+        return () => {
+            window.removeEventListener("scroll", scrollListener);
+        };
+    }, []);
     return (
         <div id="page-about" className="container ">
-            <PageHeader ></PageHeader>
+            <PageHeader logoAnimation={scroll}></PageHeader>
             <main>
                 <div id="page-about-content">
                     <div className="section-about">

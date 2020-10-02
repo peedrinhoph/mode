@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
@@ -27,9 +27,25 @@ function Contact() {
         })
     };
 
+    const [scroll, setScroll] = useState('hidden');
+    useEffect(() => {
+        const scrollListener = () => {
+            if (window.scrollY < 60) {
+                setScroll(true);
+            } else {
+                setScroll(false);
+            }
+        };
+        window.addEventListener("scroll", scrollListener);
+
+        return () => {
+            window.removeEventListener("scroll", scrollListener);
+        };
+    }, []);
+
     return (
         <div id="page-contact" className="container">
-            <PageHeader title="" />
+             <PageHeader logoAnimation={scroll}></PageHeader>
             <main>
                 <div id="page-contact-content" className="page-contact-content">
                     <div id="page-contact-data" className="contact-data">

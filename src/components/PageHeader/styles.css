@@ -38,6 +38,7 @@
 
 .page-header .logo-and-menu > img {
     height: 8rem;
+    transition: all 0.13s ease-in-out;
 }
 
 .page-header .logo-and-menu > nav > ul{
@@ -112,6 +113,9 @@
         max-width: 450px;
     }
 
+    #logo-6rem {
+        height: 6rem;
+    }
     /*INICIO EFEITO DA BORDA BOTTOM COM HOVER*/
     .page-header .logo-and-menu a:after{
         content: "";

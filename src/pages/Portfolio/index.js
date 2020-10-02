@@ -34,7 +34,7 @@ function Portfolio() {
 
     return (
         <div id="page-portfolio" className="container ">
-            <PageHeader></PageHeader>
+            <PageHeader logoAnimation={scroll}></PageHeader>
             <main>
                 <div id="page-start-content">
                     <div className="section">

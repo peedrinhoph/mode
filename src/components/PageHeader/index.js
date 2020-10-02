@@ -6,12 +6,10 @@ import logoImg from '../../assets/images/Mode-Móveis-4.png';
 import './styles.css';
 
 const PageHeader = (props) => {
-    
-    
     return (
         <header className={props.colorTransparent ? "page-header" : "page-header page-header-black"}>
             <div id="logo-and-menu" className="logo-and-menu">
-                <img id="logo" className="logo" src={logoImg} alt="Mode" />
+                <img id={props.logoAnimation ? "logo" : "logo-6rem"} className="logo" src={logoImg} alt="Mode" />
                 <nav id="menu" className="menu">
                     <ul id="navmenu" className="navmenu">
                         <li className="line-hover"><Link to="/">Início</Link></li>

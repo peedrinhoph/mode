@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
@@ -32,9 +32,26 @@ function ShowMore() {
     }
 
     const { params } = useParams();
+
+    const [scroll, setScroll] = useState('hidden');
+    useEffect(() => {
+        const scrollListener = () => {
+            if (window.scrollY < 60) {
+                setScroll(true);
+            } else {
+                setScroll(false);
+            }
+        };
+        window.addEventListener("scroll", scrollListener);
+
+        return () => {
+            window.removeEventListener("scroll", scrollListener);
+        };
+    }, []);
+
     return (
         <div id="page-portfolio-show" className="container ">
-            <PageHeader />
+            <PageHeader logoAnimation={scroll}></PageHeader>
             <main>
                 <div id="page-start-content">
                     <div className="section-list">
