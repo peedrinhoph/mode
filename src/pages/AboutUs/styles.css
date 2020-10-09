@@ -19,13 +19,14 @@
   .section-about {
     padding-right: 5vw;
     padding-left: 5vw;
+    background: linear-gradient(to bottom, transparent 25%, var(--color-primary));
   }
 
   .section-about-title {
-    margin-bottom: 1.6rem;
     font: Poppins;
-    text-align: center;
     color: var(--color-title-in-primary);
+    line-height: 140%;
+    padding: 1.6rem 0 0 1.6rem;
   }
 
   .section-mv {
