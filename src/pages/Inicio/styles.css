@@ -104,7 +104,7 @@
 
 .section-90-vw .section-product .section-project .section-project-title img{
     width: 6rem;
-    margin: 1.6rem 0;
+    margin: 1.6rem 1.6rem 1rem;
 }
 
 .section-90-vw .section-product .section-project .section-project-title h3{
@@ -231,7 +231,7 @@
 }
 
 #icon-img {
-    width: 3.75rem;
+    width: 6.75rem;
     height: 3.75rem;
     margin: 1rem;
 }
