@@ -29,7 +29,16 @@ function AboutUs() {
                 <div id="page-about-content">
                     <div className="section-about">
                         <div className="section-about-title">
-                            <h2>A mode surgiu em Bento Gonçalves na serra gaúcha com o intuito de oferecer produtos de qualidade para complementar os ambientes da casa de nossos clientes </h2>
+                            <h2>Um pouco sobre a mode móveis</h2>
+                            <p>Localizado em Bento Gonçalves, na Serra gaúcha, um dos polos brasileiros mais expressivos do setor moveleiro, 
+                                a Mode trabalha com a fabricação de móveis e peças de decoração em aço carbono. Uma empresa que prima pela qualidade 
+                                e inovação dos produtos que atendem as mais diversificadas tendências comerciais e residenciais, 
+                                com foco principal em oferecer o melhor em produto e qualidade a seus clientes. 
+                                <br /><br />
+                                O cuidado com o meio ambiente também é prioridade para nós, com isso a madeira utilizada em nossos produtos são certificadas e fruto de reflorestamento, 
+                                além de no processo industrial, evitar qualquer tipo de poluição através de resíduos que podem prejudicar o nosso bem estar e a natureza.
+                                <br /><br />
+                            </p>
                         </div>
                         <div className="section-mv">
                             <div className="section-m">

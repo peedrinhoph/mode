@@ -23,9 +23,6 @@
   }
 
   .section-about-title {
-    font: Poppins;
-    color: var(--color-title-in-primary);
-    line-height: 140%;
     padding: 1.6rem 0 0 1.6rem;
   }
 
@@ -40,6 +37,7 @@
     padding: 2.6rem 1.6rem 2.6rem 1.6rem;
   }
   
+  .section-about-title h2,
   .section-m h3,
   .section-m h1{ 
     font: Poppins;
@@ -50,6 +48,7 @@
     text-align: left;
   }
 
+  .section-about-title p,
   .section-m p{ 
     margin-top: 1rem;
     font: 400 1.6rem Poppins;
