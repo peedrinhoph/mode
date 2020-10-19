@@ -82,19 +82,17 @@ function Inicio() {
                         <div className="section-why-grid">
                             <div className="section-why-text">
                                 <p>
-                                    Dentre os móveis de aço carbono é possível encontrar uma
-                                    grande variedade de peças que podem compor perfeitamente
-                                    ambientes residenciais e comerciais, como mesas de centro,
-                                    de jantar, aparadores e estantes, entre outros.<br/><br/>
-                                    A fabricação de móveis de aço carbono é capaz de conferir maior 
-                                    resistência, durabilidade e valor estético aos produtos, mas o uso 
-                                    deste material pode proporcionar ainda outros benefícios além desses, 
-                                    pois o aço carbono proporciona um visual moderno e arrojado para os ambientes 
-                                    em que é utilizado.<br/><br/>
-                                    Os móveis de aço carbono também apresentam a vantagem de terem uma vida útil 
-                                    mais longa, pois sua matéria-prima é consideravelmente mais resistente que a madeira, 
-                                    ou plástico, por exemplo, o que faz desses móveis uma alternativa de ótimo custo-benefício 
-                                    para o consumidor.
+                                    Durabilidade, design e modernidade: Dentre as vantagens dos móveis de aço carbono é possível encontrar uma
+                                    grande variedade de peças que possam contribuir de forma funcional e agradável
+                                    todos os ambientes residenciais e corporativos, como por exemplo: mesas de jantar,
+                                    de escritório, de centro, aparadores, prateleiras e estantes, entre outras inúmeras peças.<br/><br/>
+                                    Nos últimos tempos tem ganhado muito espaço na decoração de ambientes onde partiram de espaços indústriais ou comerciais
+                                    e foram para dentro das casas e empresas com uma proposta visual mais moderna e arrojada nos ambientes em que são utilizados.<br/><br/>
+
+                                    São móveis trabalhados em chapas e tubos de aço com diversas espessuras de modo a suportar diferentes 
+                                    cargas de peso e seu processo de pintura utiliza o sistema eletrostática epóxi a pó (técnica que garante alta resistência à umidade 
+                                    e produtos químicos, alta durabilidade e resistência à abrasão). Além disso, as peças são disponibilizadas em cores variadas para 
+                                    combinar com qualquer ambiente, o que faz desses móveis uma alternativa prática e com um ótimo custo/benefício. 
                                 </p>
                             </div>
                         </div>
