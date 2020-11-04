@@ -25,7 +25,7 @@ const PageHeader = (props) => {
                 <div className="page-footer-group">
                     <h2>Galeria do cliente <span>EM BREVE</span></h2>
                     <p>Poste uma foto do seu produto Mode</p>
-                    <p>nas redes sociais marcando @moveismode e</p>
+                    <p>nas redes sociais marcando <b>@moveismode</b> e</p>
                     <p>as fotos selecionadas irão aparecer em nosso site :D</p>
                 </div>
                 <div className="page-footer-group">
@@ -36,16 +36,16 @@ const PageHeader = (props) => {
                 <div className="page-footer-group">
                     <h2>Menu</h2>
                     <Link to="/">Inicio</Link>
-                    <Link to="portfolio">Portfólio</Link>
-                    <Link to="about-us">Quem somos</Link>
-                    <Link to="contact">Contato</Link>
+                    <Link to="/portfolio">Portfólio</Link>
+                    <Link to="/about-us">Quem somos</Link>
+                    <Link to="/contact">Contato</Link>
                 </div>
 
                 <div className="page-footer-group">
                     <h2>Contatos</h2>
                     <p>(54) 9 9644-8912</p>
                     <p>contato@moveismode.com.br</p>
-                    <p>Poste uma foto e marque a @moveismode</p>
+                    <p>Poste uma foto e marque a <b>@moveismode</b></p>
                     <div className="page-footer-social">
                         <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">
                             <img src={instagram} className="instagram" alt="instagram" />

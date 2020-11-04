@@ -64,7 +64,7 @@ function AboutUs() {
                             </div>
                             <div className="section-m">
                                 <h1>Visão</h1>
-                                <p>Ser a melhor empresa em móveis complementares e de decoração inovadora para ambientes</p>
+                                <p>Ser uma empresa inovadora que esta sempre a frente entregando produtos que se adequem em todos os tipos de ambientes com a melhor qualidade possível</p>
                             </div>
                             <div className="section-m">
                                 <h1>Valores</h1>
