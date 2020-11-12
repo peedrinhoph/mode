@@ -20,9 +20,9 @@
 }
 
 #page-contact-data p{
-    font: 400 2rem Poppins;
+    font: 400 1.9rem Poppins;
     color: var(--color-text-complement);
-    line-height: 2.2rem;
+    line-height: 2.4rem;
 }
 
 .contact-social-group {
@@ -60,8 +60,7 @@
 }
 
 #page-contact-form fieldset legend {
-    font: 2.4rem Poppins;
-    font-variant: small-caps;
+    font: 1.9rem Poppins;
     color: var(--color-text-complement);
     margin-bottom: 2.4rem;
     display: flex;
@@ -69,6 +68,7 @@
     justify-content: space-between;
     width: 100%;
     border-bottom: 1px solid var(--color-line-in-white);
+    line-height: 2.4rem;
 }
 
 #page-contact-form fieldset .input-block + .textarea-block {
@@ -131,7 +131,7 @@
     
     .contact-data {
         grid-area: contact;
-        align-self: center;
+        align-self: auto;
     }
 
     #page-contact-data p{

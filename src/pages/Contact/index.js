@@ -15,7 +15,7 @@ function Contact() {
     const [whatsapp, setWhatsapp] = useState('+55 ');
     const [message, setMessage] = useState('');
     const [email, setEmail] = useState('@');
-
+    const [cidade, setCidade] = useState('');
     function handleSendMessage(e) {
         e.preventDefault();
 
@@ -23,7 +23,8 @@ function Contact() {
             name,
             email,
             whatsapp,
-            message
+            message,
+            cidade
         })
     };
 
@@ -49,7 +50,8 @@ function Contact() {
             <main>
                 <div id="page-contact-content" className="page-contact-content">
                     <div id="page-contact-data" className="contact-data">
-                        <p>Olá, se ainda tiver qualquer dúvida sobre nossos produtos<br /> não hesite em entrar em contato!</p>
+                        <p>Você já conhece e segue nossas redes sociais? <br/><br/>
+                            Seja no Instagram ou no Facebook você confere nossos produtos e lançamentos de maneira mais informativa e dinâmica...</p>
                         <br />
                         <div className="contact-social-group">
                             <img src={whatsApp} alt="instagram" />
@@ -80,18 +82,19 @@ function Contact() {
                     <div id="page-contact-form" className="page-contact-form">
                         <form onSubmit={handleSendMessage}>
                             <fieldset>
-                                <legend>Contate-nos</legend>
+                                <legend>Preencha o formulário abaixo e clique em "enviar", que em até 48 horas úteis, um de nossos consultores entrará em contato com você.
+                                </legend>
                                 <Input
                                     required
                                     name="name"
-                                    label="Nome completo"
+                                    label="Nome completo*"
                                     value={name}
                                     onChange={(e) => { setName(e.target.value) }}
                                 />
                                 <Input
                                     required
                                     name="email"
-                                    label="Seu melhor e-mail"
+                                    label="Seu melhor e-mail*"
                                     value={email}
                                     onChange={(e) => { setEmail(e.target.value) }}
                                     type="email"
@@ -100,11 +103,17 @@ function Contact() {
                                 <Input
                                     required
                                     name="whatsapp"
-                                    label="WhatsApp"
+                                    label="WhatsApp*"
                                     value={whatsapp}
                                     onChange={(e) => { setWhatsapp(e.target.value) }}
                                 />
-
+                                <Input
+                                    required
+                                    name="cidade"
+                                    label="Cidade - Estado(UF)"
+                                    value={cidade}
+                                    onChange={(e) => { setCidade(e.target.value) }}
+                                />
                                 <Textarea
                                     required
                                     name="mensagem"
