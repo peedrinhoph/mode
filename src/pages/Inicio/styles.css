@@ -198,6 +198,50 @@
     padding: 2.6rem;
     text-align: center;
 }
+
+@keyframes colorCycle {
+    0%, 55% {
+        filter: brightness(0) invert(1);
+    }
+    11%, 33% {
+        filter: none;
+    }
+}
+
+.section-transition-description h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 8rem;
+    line-height: 10rem;
+    letter-spacing: -.75rem;
+}
+
+.section-transition-description h1 span {
+    padding: 0 0.67rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    filter: brightness(0) invert(1);
+    animation: colorCycle 10s ease-in-out infinite;
+} 
+
+.section-transition-description h1 span:nth-child(1) {
+    background-image: linear-gradient(90deg, #a8672a, #eeb35a);
+}
+
+.section-transition-description h1 span:nth-child(2) {
+    background-image: linear-gradient(90deg, #eeb35a, #a8672a);
+    animation-delay: 3.33s;
+}
+
+.section-transition-description h1 span:nth-child(3) {
+    background-image: linear-gradient(90deg, #a8672a, #eeb35a);
+    animation-delay: 6.66s;
+}
+
 /*FIM SECTION TRANSITION IMAGE*/
 .section-why-title,
 .section-background-image-title {
@@ -244,7 +288,7 @@
 
     .section-transition-image {
         background-attachment: scroll;
-        padding: 15rem 0 0 0;
+        padding: 5rem 0 0 0;
     }
 }
 

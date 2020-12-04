@@ -15,7 +15,7 @@ function Contact() {
     const [whatsapp, setWhatsapp] = useState('+55 ');
     const [message, setMessage] = useState('');
     const [email, setEmail] = useState('@');
-    const [cidade, setCidade] = useState('');
+    const [city, setCity] = useState('');
     function handleSendMessage(e) {
         e.preventDefault();
 
@@ -24,7 +24,7 @@ function Contact() {
             email,
             whatsapp,
             message,
-            cidade
+            city
         })
     };
 
@@ -111,8 +111,8 @@ function Contact() {
                                     required
                                     name="cidade"
                                     label="Cidade - Estado(UF)"
-                                    value={cidade}
-                                    onChange={(e) => { setCidade(e.target.value) }}
+                                    value={city}
+                                    onChange={(e) => { setCity(e.target.value) }}
                                 />
                                 <Textarea
                                     required

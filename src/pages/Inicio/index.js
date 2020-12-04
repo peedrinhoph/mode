@@ -33,7 +33,7 @@ function Inicio() {
             window.removeEventListener("scroll", scrollListener);
         };
     }, []);
-    
+
     return (
         <div id="page-start" className="container ">
             <PageHeader colorTransparent={scroll} logoAnimation={scroll}></PageHeader>
@@ -41,10 +41,17 @@ function Inicio() {
                 <div id="page-start-content">
                     <div className="section-transition-image">
                         <div className="section-transition-description">
-                            <h1>Toda a sofisticação e inovação idealizados <br />em diferentes projetos</h1>
-                            <div className="section-contact-link">
-                                <Link to="contact">Contate-nos</Link>
-                            </div>
+                            {/*<h1>
+                                    Toda a sofisticação e inovação idealizados <br />em diferentes projetos
+                                </h1>*/}
+                            <h1>
+                                <span>Inovação.</span>
+                                <span>Qualidade.</span>
+                                <span>Sofisticação.</span>
+                            </h1>
+                            {/*<div className="section-contact-link">
+                                    <Link to="contact">Contate-nos</Link>
+                                </div>*/}
                         </div>
                     </div>
 
@@ -85,14 +92,14 @@ function Inicio() {
                                     Durabilidade, design e modernidade: Dentre as vantagens dos móveis de aço carbono é possível encontrar uma
                                     grande variedade de peças que possam contribuir de forma funcional e agradável
                                     todos os ambientes residenciais e corporativos, como por exemplo: mesas de jantar,
-                                    de escritório, de centro, aparadores, prateleiras e estantes, entre outras inúmeras peças.<br/><br/>
+                                    de escritório, de centro, aparadores, prateleiras e estantes, entre outras inúmeras peças.<br /><br />
                                     Nos últimos tempos tem ganhado muito espaço na decoração de ambientes onde partiram de espaços indústriais ou comerciais
-                                    e foram para dentro das casas e empresas com uma proposta visual mais moderna e arrojada nos ambientes em que são utilizados.<br/><br/>
+                                    e foram para dentro das casas e empresas com uma proposta visual mais moderna e arrojada nos ambientes em que são utilizados.<br /><br />
 
-                                    São móveis trabalhados em chapas e tubos de aço com diversas espessuras de modo a suportar diferentes 
-                                    cargas de peso e seu processo de pintura utiliza o sistema eletrostática epóxi a pó (técnica que garante alta resistência à umidade 
-                                    e produtos químicos, alta durabilidade e resistência à abrasão). Além disso, as peças são disponibilizadas em cores variadas para 
-                                    combinar com qualquer ambiente, o que faz desses móveis uma alternativa prática e com um ótimo custo/benefício. 
+                                    São móveis trabalhados em chapas e tubos de aço com diversas espessuras de modo a suportar diferentes
+                                    cargas de peso e seu processo de pintura utiliza o sistema eletrostática epóxi a pó (técnica que garante alta resistência à umidade
+                                    e produtos químicos, alta durabilidade e resistência à abrasão). Além disso, as peças são disponibilizadas em cores variadas para
+                                    combinar com qualquer ambiente, o que faz desses móveis uma alternativa prática e com um ótimo custo/benefício.
                                 </p>
                             </div>
                         </div>
