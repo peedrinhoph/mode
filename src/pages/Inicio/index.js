@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image1 from '../../assets/images/photo1.jpg';
-import Image2 from '../../assets/images/photo2.jpg';
-import Image3 from '../../assets/images/photo3.jpg';
-import Image4 from '../../assets/images/photo4.jpg';
-import Image5 from '../../assets/images/photo5.jpg';
-import Image6 from '../../assets/images/photo6.jpg';
+import Image1 from '../../assets/images/products/costelagiratoria.png';
+import Image2 from '../../assets/images/products/aparadorvintage.jpg';
+import Image3 from '../../assets/images/products/costelafixa.jpeg';
+import Image4 from '../../assets/images/products/mesacentroaro.jpg';
+import Image5 from '../../assets/images/products/mesacentroembuia.jpg';
+import Image6 from '../../assets/images/products/mesabistro.jpg';
 import Aspas from '../../assets/images/icons/aspas.svg';
 import Project from '../../assets/images/icons/project.svg';
 import Pencil from '../../assets/images/icons/pencil.svg';

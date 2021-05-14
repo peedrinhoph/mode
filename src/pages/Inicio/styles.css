@@ -150,7 +150,7 @@
     content: '';
     width: 100%;
     height: 70vh;
-    background: linear-gradient(to right, transparent 90%, white);
+    background: linear-gradient(to bottom, transparent 85%, white);
 }
 
 .section-transition-image:before {
@@ -213,9 +213,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 8rem;
-    line-height: 10rem;
-    letter-spacing: -.75rem;
+    font-size: 6rem;
+    line-height: 7.5rem;
+    letter-spacing: -.50rem;
 }
 
 .section-transition-description h1 span {
@@ -286,9 +286,10 @@
         width: 100%;
     }
 
-    .section-transition-image {
-        background-attachment: scroll;
-        padding: 5rem 0 0 0;
+    .section-transition-description h1{
+        font-size: 6rem;
+        line-height: 8rem;
+        letter-spacing: -.45rem;
     }
 }
 
@@ -303,6 +304,11 @@
     
     .section-90-vw .section-product {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-transition-image {
+        background-attachment: scroll;
+        padding: 10rem 0 0 0;
     }
 
     .section-comment {

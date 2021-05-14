@@ -137,4 +137,7 @@
     }
     /*FIM EFEITO DA BORDA BOTTOM COM HOVER*/
     
+    .page-header .logo-and-menu .menu .navmenu  .line-hover > .active {
+        border-bottom: 1px solid var(--color-line-in-white);
+    }
 }
