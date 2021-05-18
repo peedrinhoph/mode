@@ -53,7 +53,7 @@ function Portfolio() {
                                         <br />Tamanhos: 350mm, 400mm, 500mm e 600mm
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/mirror`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/rib-armchair`}>Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -118,7 +118,7 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/stools-and-puffs`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/puffs`}>Ver mais</Link>
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/dining-tables`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/stools`}>Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">

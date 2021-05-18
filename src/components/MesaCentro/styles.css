@@ -1,0 +1,35 @@
+.product-image-show {
+    margin-top: 15px;
+}
+
+.product-image-show img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.section-description-show {
+    padding: 0 5px 0 5px;
+}
+
+.product-title-show {
+    font: 400 Poppins;
+    color: var(--color-text-complement);
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.product-text-show {
+    font: 400 1.6rem Poppins;
+    color: var(--color-text-complement);
+    padding: 15px 0 15px 0;
+}
+  
+  @media (min-width: 700px) {
+     
+  
+      .product-image-show {
+          margin-top: 0;
+      }
+  
+    
+    }

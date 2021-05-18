@@ -4,6 +4,12 @@ import { useParams, Link } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 import ProductMirror from '../../components/ProductMirror';
+import PoltronaCostela from '../../components/PoltronaCostela';
+import MesaCanto from '../../components/MesaCanto';
+import MesaCentro from '../../components/MesaCentro';
+import Puff from '../../components/Puff';
+import Banqueta from '../../components/Banqueta';
+import Aparador from '../../components/Aparador';
 
 import backIcon from '../../assets/images/icons/back.svg';
 
@@ -12,22 +18,43 @@ import './styles.css';
 function ShowMore() {
     function local(path) {
         switch (path) {
-            case 'mirror':
-                return 'Espelhos';
+            case 'rib-armchair':
+                return 'Poltrona Costela';
             case 'corner-tables':
                 return 'Mesas de Canto';
             case 'center-tables':
                 return 'Mesas de Centro';
-            case 'stools-and-puffs':
-                return 'Banquetas e Puffs';
-            case 'dining-tables':
-                return 'Mesas de Jantar';
+            case 'puffs':
+                return 'Puffs';
+            case 'stools':
+                return 'Banquetas';
             case 'sideboards':
                 return 'Aparadores';
             case 'others':
                 return 'Outros';
             default:
                 return null;
+        }
+    }
+
+    function page(name) {
+        switch (name) {
+            case 'rib-armchair':
+                return <PoltronaCostela />;
+            case 'corner-tables':
+                return <MesaCanto />;
+            case 'center-tables':
+                return <MesaCentro />
+            case 'puffs':
+                return <Puff />
+            case 'stools':
+                return <Banqueta />
+            case 'sideboards':
+                return <Aparador />
+            case 'other':
+                return <ProductMirror />
+            default:
+                return <h1>Opss, Produto não encontrado!</h1>;
         }
     }
 
@@ -60,7 +87,7 @@ function ShowMore() {
                             <span>{local(params)}</span>
                         </div>
                         <div className="section-list-grid">
-                            <ProductMirror />
+                            {page(params)}
                         </div>
                     </div>
                 </div>
