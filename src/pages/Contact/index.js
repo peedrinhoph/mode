@@ -18,14 +18,15 @@ function Contact() {
     const [city, setCity] = useState('');
     function handleSendMessage(e) {
         e.preventDefault();
-
-        console.log({
+        const link = `https://api.whatsapp.com/send?phone=054996448912&text=Meu nome é ${name}, moro em ${city}, ${message}. Meus contatos de WhatsApp: ${whatsapp} e e-mail: ${email}`;
+        window.open(link, "_blank");
+        /*console.log({
             name,
             email,
             whatsapp,
             message,
             city
-        })
+        })*/
     };
 
     const [scroll, setScroll] = useState('hidden');

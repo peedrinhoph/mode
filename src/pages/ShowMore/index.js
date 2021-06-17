@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useHistory } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
@@ -59,7 +59,7 @@ function ShowMore() {
     }
 
     const { params } = useParams();
-
+    const { goBack } = useHistory();
     const [scroll, setScroll] = useState('hidden');
     useEffect(() => {
         const scrollListener = () => {

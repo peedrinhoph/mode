@@ -1,58 +1,68 @@
 import React from 'react';
 import './styles.css';
 
-import Image5 from '../../assets/images/products/costelagiratoria.png';
+import Display from '../ImageDisplay';
+import Image1 from '../../assets/images/products/costelagiratoria.png';
+import Image2 from '../../assets/images/products/costelagiratoria1.png';
+import Image3 from '../../assets/images/products/costelafixa.jpeg';
+import Image4 from '../../assets/images/products/costelafixa1.png';
+
+const lista = [{
+    "id": 1,
+    "nome": "Poltrona Costela Giratória com Puff",
+    "modelo": "Poltrona",
+    "referencia": "MDCLA1000 e MDCLA1001",
+    "descricao": "Costela Giratória com almofadas em corino ou tecido, pés em madeira tingida.",
+    "tampo": "",
+    "cores": "Natural",
+    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "imagens": [
+        {
+            "url": Image1
+        },
+        {
+            "url": Image2
+        },
+    ]
+}, {
+    "id": 2,
+    "nome": "Poltrona Costela Fixa com Puff",
+    "modelo": "Poltrona",
+    "referencia": "MDCLA1002 e MDCLA1003",
+    "descricao": "Costela fixa com almofadas em corino ou tecido com pés metálicos na cor preta.",
+    "tampo": "",
+    "cores": "Preto",
+    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "imagens": [
+        {
+            "url": Image3
+        },
+        {
+            "url": Image4
+        },
+    ]
+}];
 
 const ProductList1 = () => {
     return (
         <>
-            <div className="section-product-show">
-                <div className="product-image-show">
-                    <figure>
-                        <img src={Image5} alt="product" className="zoom" />
-                    </figure>
-                </div>
-                <div className="section-description-show">
-                    <h2 className="product-title-show">MODELO MC100</h2>
-                    <p className="product-text-show">
-                        Estrutura: Preto Brilho, Preto Fosco, Bronze e Branco
-                    <br />Tampo: Pinos tratado 40mm
-                    <br />Dimensões: 1100 x 500 x 300
-                </p>
-                </div>
-            </div>
-
-            <div className="section-product-show">
-                <div className="product-image-show">
-                    <figure>
-                        <img src={Image5} alt="product" className="zoom" />
-                    </figure>
-                </div>
-                <div className="section-description-show">
-                    <h2 className="product-title-show">MODELO MC200</h2>
-                    <p className="product-text-show">
-                        Estrutura: Preto Brilho, Preto Fosco, Bronze e Branco
-                                        <br />Tampo: Pinos tratado 40mm
-                                        <br />Dimensões: 1100 x 500 x 300
-                                    </p>
-                </div>
-            </div>
-
-            <div className="section-product-show">
-                <div className="product-image-show">
-                    <figure>
-                        <img src={Image5} alt="product" className="zoom" />
-                    </figure>
-                </div>
-                <div className="section-description-show">
-                    <h2 className="product-title-show">MODELO MC300</h2>
-                    <p className="product-text-show">
-                        Estrutura: Preto Brilho, Preto Fosco, Bronze e Branco
-                                        <br />Tampo: Pinos tratado 40mm
-                                        <br />Dimensões: 1100 x 500 x 300
-                                    </p>
-                </div>
-            </div>
+            {lista.map((item, index) => {
+                return (
+                    <div key={index} className="section-product-show">
+                        <Display imagens={item.imagens} alt={item.descricao} />
+                        <div className="section-description-show">
+                            <h2 className="product-title-show">{item.nome}</h2>
+                            <p className="product-text-show">
+                                Descrição: {item.descricao}
+                                <br />Cores: {item.cores}
+                                <br />Dimensões: {item.dimensao}
+                                <br />Referência: {item.referencia}
+                            </p>
+                        </div>
+                    </div>
+                )
+            })
+            }
         </>
     );
 }
