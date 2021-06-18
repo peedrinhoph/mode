@@ -83,7 +83,7 @@ function ShowMore() {
                 <div id="page-start-content">
                     <div className="section-list">
                         <div className="section-back">
-                            <Link to="/portfolio"><img src={backIcon} alt="Voltar" /></Link>
+                            <Link onClick={goBack}><img src={backIcon} alt="Voltar" /></Link>
                             <span>{local(params)}</span>
                         </div>
                         <div className="section-list-grid">

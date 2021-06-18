@@ -9,14 +9,14 @@
 
 .product-image-show .images {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    column-gap: 16px;
+    grid-template-columns: repeat(4 , 1fr);
+    column-gap: 5px;
     margin: 16px 40px 0;
   }
    
   .product-image-show .images button {
     border: 0;
-    height: 88px;
+    height: 80px;
     background: none;
     cursor: pointer;
     border-radius: 20px;

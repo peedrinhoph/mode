@@ -14,7 +14,7 @@ const lista = [{
     "referencia": "MDCLA1000 e MDCLA1001",
     "descricao": "Costela Giratória com almofadas em corino ou tecido, pés em madeira tingida.",
     "tampo": "",
-    "cores": "Natural",
+    "pintura": "Natural",
     "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
     "imagens": [
         {
@@ -31,7 +31,7 @@ const lista = [{
     "referencia": "MDCLA1002 e MDCLA1003",
     "descricao": "Costela fixa com almofadas em corino ou tecido com pés metálicos na cor preta.",
     "tampo": "",
-    "cores": "Preto",
+    "pintura": "Preto",
     "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
     "imagens": [
         {
@@ -46,22 +46,23 @@ const lista = [{
 const ProductList1 = () => {
     return (
         <>
-            {lista.map((item, index) => {
-                return (
-                    <div key={index} className="section-product-show">
-                        <Display imagens={item.imagens} alt={item.descricao} />
-                        <div className="section-description-show">
-                            <h2 className="product-title-show">{item.nome}</h2>
-                            <p className="product-text-show">
-                                Descrição: {item.descricao}
-                                <br />Cores: {item.cores}
-                                <br />Dimensões: {item.dimensao}
-                                <br />Referência: {item.referencia}
-                            </p>
+            {
+                lista.map((item, index) => {
+                    return (
+                        <div key={index} className="section-product-show">
+                            <Display imagens={item.imagens} alt={item.descricao} />
+                            <div className="section-description-show">
+                                <h2 className="product-title-show">{item.nome}</h2>
+                                <p className="product-text-show">
+                                    Descrição: {item.descricao}
+                                    <br />Pintura: {item.pintura}
+                                    <br />Dimensões: {item.dimensao}
+                                    <br />Referência: {item.referencia}
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                )
-            })
+                    )
+                })
             }
         </>
     );

@@ -10,7 +10,7 @@ import Image3 from '../../assets/images/products/puff.jpg';
 import Image4 from '../../assets/images/products/mesacentroaro.jpg';
 import Image5 from '../../assets/images/products/aparadorvintage.jpg';
 import Image6 from '../../assets/images/products/banqueta.jpg';
-import Image7 from '../../assets/images/products/cadeiraestofada.jpg';
+import Image7 from '../../assets/images/products/cadeira_concha1.jpg';
 import Image8 from '../../assets/images/products/mesabistro.jpg';
 
 import './styles.css';
