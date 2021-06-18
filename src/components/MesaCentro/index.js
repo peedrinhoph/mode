@@ -17,15 +17,18 @@ import Image12 from '../../assets/images/products/mesa_centro_alcada_embuia.jpg'
 import Image13 from '../../assets/images/products/mesa_centro_alcada_mel.jpg';
 import Image14 from '../../assets/images/products/mesa_centro_pisa1.jpg';
 import Image15 from '../../assets/images/products/mesa_centro_pisa2.jpg';
+import Image16 from '../../assets/images/products/mesa_centro_pisa3.jpg';
+import Image17 from '../../assets/images/products/mesa_centro_pisa4.jpg';
+
 
 const lista = [{"id": 1,
-    "nome": "Poltrona Costela Giratória com Puff",
-    "modelo": "Poltrona",
-    "referencia": "MDCLA1000 e MDCLA1001",
-    "descricao": "Costela Giratória com almofadas em corino ou tecido, pés em madeira tingida.",
+    "nome": "Mesa de centro dupla",
+    "modelo": "Mesa de centro",
+    "referencia": "MDCTR1005 e MDCTR1006",
+    "descricao": "Mesa de centro dupla 600mm de diâmetro tampo em mdf com lamina de embuia natural.",
     "tampo": "",
-    "pintura": "Natural",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "pintura": "Aço corten",
+    "dimensao": "mm x mm x mm",
     "imagens": [
         {
             "url": Image1
@@ -41,7 +44,7 @@ const lista = [{"id": 1,
     "id": 2,
     "nome": "Mesa centro aliança",
     "modelo": "Mesa de centro",
-    "referencia": "MDCLA1002 e MDCLA1003",
+    "referencia": "MDCTR1004",
     "descricao": "Mesa de centro feita com ferro chato, tampo em mdf com lamina de embuia escuro.",
     "tampo": "",
     "pintura": "Bronze liquida, Dourado, Preto Fosco e Niquel",
@@ -72,14 +75,14 @@ const lista = [{"id": 1,
         },
     ]
 }, {
-    "id": 3,
-    "nome": "Poltrona Costela Fixa com Puff",
-    "modelo": "Poltrona",
-    "referencia": "MDCLA1002 e MDCLA1003",
-    "descricao": "Costela fixa com almofadas em corino ou tecido com pés metálicos na cor preta.",
+    "id": 4,
+    "nome": "Mesa de centro retângulo",
+    "modelo": "Mesa de centro",
+    "referencia": "MDCTR1001",
+    "descricao": "Mesa de centro tubo 30x70 com tampo em mdf com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "",
-    "pintura": "Preto",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "pintura": "Preto Fosco, Bronze e Aço Corten",
+    "dimensao": "350mm x 700mm x 450mm",
     "imagens": [
         {
             "url": Image8
@@ -95,13 +98,13 @@ const lista = [{"id": 1,
         },
     ]
 }, {
-    "id": 3,
-    "nome": "Poltrona Costela Fixa com Puff",
-    "modelo": "Poltrona",
-    "referencia": "MDCLA1002 e MDCLA1003",
-    "descricao": "Costela fixa com almofadas em corino ou tecido com pés metálicos na cor preta.",
+    "id": 5,
+    "nome": "Mesa de centro alçada",
+    "modelo": "Mesa de centro",
+    "referencia": "MDCTR1002",
+    "descricao": "Mesa de centro tubo 20x20 tampo em mdf com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "",
-    "pintura": "Preto",
+    "pintura": "Preto Fosco, Cobre e Niquel",
     "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
     "imagens": [
         {
@@ -112,20 +115,26 @@ const lista = [{"id": 1,
         },
     ]
 }, {
-    "id": 4,
-    "nome": "Poltrona Costela Fixa com Puff",
-    "modelo": "Poltrona",
-    "referencia": "MDCLA1002 e MDCLA1003",
-    "descricao": "Costela fixa com almofadas em corino ou tecido com pés metálicos na cor preta.",
+    "id": 6,
+    "nome": "Mesa de centro pisa",
+    "modelo": "Mesa de centro",
+    "referencia": "MDCTR0008",
+    "descricao": "Mesa de centro tubo 15x15 tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "",
-    "pintura": "Preto",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "pintura": "Aço Corten Liquida, Niquel e Preto",
+    "dimensao": "435mm x 700mm x 395mm",
     "imagens": [
         {
             "url": Image14
         },
         {
+            "url": Image16
+        },
+        {
             "url": Image15
+        },
+        {
+            "url": Image17
         },
     ]
 }];
