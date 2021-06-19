@@ -173,7 +173,7 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/others`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/chair`}>Ver mais</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -201,7 +201,7 @@ function Portfolio() {
                                         <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/sideboards`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/tables`}>Ver mais</Link>
                                     </div>
                                 </div>
                             </div>

@@ -8,9 +8,10 @@ import PoltronaCostela from '../../components/PoltronaCostela';
 import MesaCanto from '../../components/MesaCanto';
 import MesaCentro from '../../components/MesaCentro';
 import Puff from '../../components/Puff';
+import Chair from '../../components/Chair';
 import Banqueta from '../../components/Banqueta';
 import Aparador from '../../components/Aparador';
-
+import Table from '../../components/Table';
 import backIcon from '../../assets/images/icons/back.svg';
 
 import './styles.css';
@@ -30,6 +31,10 @@ function ShowMore() {
                 return 'Banquetas';
             case 'sideboards':
                 return 'Aparadores';
+            case 'chair':
+                return 'Cadeiras';
+            case 'tables':
+                return 'Mesas bistro';
             case 'others':
                 return 'Outros';
             default:
@@ -51,6 +56,10 @@ function ShowMore() {
                 return <Banqueta />
             case 'sideboards':
                 return <Aparador />
+            case 'chair':
+                return <Chair />
+            case 'tables':
+                return <Table />
             case 'other':
                 return <ProductMirror />
             default:
