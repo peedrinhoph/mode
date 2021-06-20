@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import Display from '../ImageDisplay';
+import Display from '../../components/ImageDisplay';
 import Image1 from '../../assets/images/products/mesa_centro_dupla1.jpg';
 import Image2 from '../../assets/images/products/mesa_centro_dupla2.jpg';
 import Image3 from '../../assets/images/products/mesa_centro_dupla3.jpg';
@@ -22,13 +22,13 @@ import Image17 from '../../assets/images/products/mesa_centro_pisa4.jpg';
 
 
 const lista = [{"id": 1,
-    "nome": "Mesa de centro dupla",
+    "nome": "Mesa Anexo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1005 e MDCTR1006",
-    "descricao": "Mesa de centro dupla 600mm de diâmetro tampo em mdf com lamina de embuia natural.",
+    "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 600mm de diâmetro tampo em mdf e lamina de embuia natural",
     "tampo": "",
     "pintura": "Aço corten",
-    "dimensao": "mm x mm x mm",
+    "dimensao": "MDCTR1005 xxx x xxx x xxx e MDCTR1006 xxx x xxx x xxx",
     "imagens": [
         {
             "url": Image1
@@ -42,10 +42,10 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 2,
-    "nome": "Mesa centro aliança",
+    "nome": "Mesa Aliança",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1004",
-    "descricao": "Mesa de centro feita com ferro chato, tampo em mdf com lamina de embuia escuro.",
+    "descricao": "Mesa de centro feita com ferro chato, tampo em mdf com lamina de embuia escuro",
     "tampo": "",
     "pintura": "Bronze liquida, Dourado, Preto Fosco e Niquel",
     "dimensao": "370mm x 640mm",
@@ -59,10 +59,10 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 3,
-    "nome": "Mesa de centro X",
+    "nome": "Mesa X",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1000",
-    "descricao": "Mesa de centro ferro chato 1 1/2 com tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro.",
+    "descricao": "Mesa de centro ferro chato 1 1/2 com tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro",
     "tampo": "",
     "pintura": "Aço Corten e Preto Fosco",
     "dimensao": "300mm x 300cm x 300mm",
@@ -76,10 +76,10 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 4,
-    "nome": "Mesa de centro retângulo",
+    "nome": "Mesa Retângulo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1001",
-    "descricao": "Mesa de centro tubo 30x70 com tampo em mdf com lamina de nogueira cor mel ou embuia escuro.",
+    "descricao": "Mesa de centro tubo 30x70 com tampo em mdf com lamina de nogueira cor mel ou embuia escuro",
     "tampo": "",
     "pintura": "Preto Fosco, Bronze e Aço Corten",
     "dimensao": "350mm x 700mm x 450mm",
@@ -99,10 +99,10 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 5,
-    "nome": "Mesa de centro alçada",
+    "nome": "Mesa Alçada",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1002",
-    "descricao": "Mesa de centro tubo 20x20 tampo em mdf com lamina de nogueira cor mel ou embuia escuro.",
+    "descricao": "Mesa de centro tubo 20x20 tampo em mdf com lamina de nogueira cor mel ou embuia escuro",
     "tampo": "",
     "pintura": "Preto Fosco, Cobre e Niquel",
     "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
@@ -116,10 +116,10 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 6,
-    "nome": "Mesa de centro pisa",
+    "nome": "Mesa Pisa",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR0008",
-    "descricao": "Mesa de centro tubo 15x15 tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro.",
+    "descricao": "Mesa de centro tubo 15x15 tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro",
     "tampo": "",
     "pintura": "Aço Corten Liquida, Niquel e Preto",
     "dimensao": "435mm x 700mm x 395mm",

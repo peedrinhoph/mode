@@ -1,44 +1,40 @@
 import React from 'react';
 import './styles.css';
 
-import Display from '../ImageDisplay';
-import Image1 from '../../assets/images/products/costelagiratoria.png';
-import Image2 from '../../assets/images/products/costelagiratoria1.png';
-import Image3 from '../../assets/images/products/costelafixa.jpeg';
-import Image4 from '../../assets/images/products/costelafixa1.png';
+import Display from '../../components/ImageDisplay';
+import Image1 from '../../assets/images/products/aparador_vintage.jpg';
+import Image2 from '../../assets/images/products/aparador_arco_mel.jpg';
+import Image3 from '../../assets/images/products/aparador_arco_embuia.jpg';
 
-const lista = [{
-    "id": 1,
-    "nome": "Poltrona Costela Giratória com Puff",
-    "modelo": "Poltrona",
-    "referencia": "MDCLA1000 e MDCLA1001",
-    "descricao": "Costela Giratória com almofadas em corino ou tecido, pés em madeira tingida.",
+
+const lista = [{"id": 1,
+    "nome": "Aparador vintage",
+    "modelo": "Mesa e aparador",
+    "referencia": "MDAPR1001",
+    "descricao": "Aparador ferro redondo 3/8 e ferro chato 3/4x1/8 tampo em madeira envernizado",
     "tampo": "",
-    "pintura": "Natural",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "pintura": "Preto",
+    "dimensao": "800mm x 1100mm x 400mm",
     "imagens": [
         {
             "url": Image1
-        },
-        {
-            "url": Image2
-        },
+        }
     ]
 }, {
     "id": 2,
-    "nome": "Poltrona Costela Fixa com Puff",
-    "modelo": "Poltrona",
-    "referencia": "MDCLA1002 e MDCLA1003",
-    "descricao": "Costela fixa com almofadas em corino ou tecido com pés metálicos na cor preta.",
+    "nome": "Aparador arco",
+    "modelo": "Mesa e aparador",
+    "referencia": "MDAPR1000",
+    "descricao": "Aparador em ferro chato 3/4 x 1/8 tampo em mdf com lamina de embuia escuro ou nogueira mel",
     "tampo": "",
-    "pintura": "Preto",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "pintura": "Preto Fosco e Niquel",
+    "dimensao": "810mm x 1190mm x 315mm",
     "imagens": [
         {
-            "url": Image3
+            "url": Image2
         },
         {
-            "url": Image4
+            "url": Image3
         },
     ]
 }];

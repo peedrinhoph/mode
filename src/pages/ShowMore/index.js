@@ -3,15 +3,15 @@ import { useParams, Link, useHistory } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
-import ProductMirror from '../../components/ProductMirror';
-import PoltronaCostela from '../../components/PoltronaCostela';
-import MesaCanto from '../../components/MesaCanto';
-import MesaCentro from '../../components/MesaCentro';
-import Puff from '../../components/Puff';
-import Chair from '../../components/Chair';
-import Banqueta from '../../components/Banqueta';
-import Aparador from '../../components/Aparador';
-import Table from '../../components/Table';
+import ProductMirror from '../ProductMirror';
+import PoltronaCostela from '../PoltronaCostela';
+import MesaCanto from '../MesaCanto';
+import MesaCentro from '../MesaCentro';
+import Puff from '../Puff';
+import Chair from '../Chair';
+import Banqueta from '../Banqueta';
+import Aparador from '../Aparador';
+import Table from '../Table';
 import backIcon from '../../assets/images/icons/back.svg';
 
 import './styles.css';

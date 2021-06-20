@@ -49,8 +49,6 @@ function Portfolio() {
                                         De lá pra cá, a poltrona se tornou um símbolo de elegância, estilo e modernidade. Tudo isso sem abrir mão do conforto.
                                         Sim, porque se você tem dúvidas se a poltrona costela é ou não confortável, nos aqui já podemos adiantar que sim,
                                         ela é extremamente confortável e você também vai chegar a essa conclusão.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
-                                        <br />Tamanhos: 350mm, 400mm, 500mm e 600mm
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/rib-armchair`}>Ver mais</Link>
@@ -77,7 +75,6 @@ function Portfolio() {
                                         jantar e até mesmo no quarto. E uma grande vantagem da mesa de canto é que
                                         ela é uma excelente opção para casas compactas, pois ao contrário da mesa de
                                         centro a mesa de canto não atrapalha a circulação pelo ambiente.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/corner-tables`}>Ver mais</Link>
@@ -91,7 +88,6 @@ function Portfolio() {
                                         A mesa de centro é um dos móveis mais estratégicos para a decoração de um ambiente.
                                         Aliás, o seu próprio nome já dá pistas da sua relevância no espaço: ficando no centro de tudo,
                                         é natural que chame a atenção e diga muito sobre o estilo de decoração e até mesmo a personalidade dos donos da casa.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/center-tables`}>Ver mais</Link>
@@ -115,7 +111,6 @@ function Portfolio() {
                                         Os puffs são móveis versáteis e funcionais que se adequam a qualquer
                                         espaço e ambiente de uma decoração para casa, por isso são muito utilizados
                                         na decoração e otimização de diversos cômodos.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/puffs`}>Ver mais</Link>
@@ -130,7 +125,6 @@ function Portfolio() {
                                         para levar mais conforto e funcionalidade aos ambientes residenciais.
                                         Elas são objetos versáteis e podem ajudar a compor qualquer espaço interno
                                         ou externo de uma casa, seja qual for o nível de formalidade e a tendência decorativa predominante.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/stools`}>Ver mais</Link>
@@ -156,7 +150,6 @@ function Portfolio() {
                                         combinado com pequenos objetos e acessórios. Os modelos mais delicados e com ausência
                                         de gavetas ou portinhas pedem uma composição mais limpa. Para isso, use vasinhos com flores,
                                         velas, porta-retratos, quadrinhos ou esculturas.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/sideboards`}>Ver mais</Link>
@@ -170,7 +163,6 @@ function Portfolio() {
                                         As cadeiras estofadas além de super confortáveis também são um daqueles
                                         móveis que chega para protagonizar a decoração principalmente quando
                                         falamos de cadeiras estofadas coloridas.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/chair`}>Ver mais</Link>
@@ -198,7 +190,6 @@ function Portfolio() {
                                     mais é do que um pequeno bar ou restaurante, onde são servidos petiscos, 
                                     bebidas alcoólicas e cafés. O ambiente geralmente é charmoso e acolhedor, 
                                     a comida não é rebuscada e o clima é informal.
-                                        <br /><br />Cores: Preto Brilho, Preto Fosco, Bronze e Branco
                                     </p>
                                     <div className="product-buttom">
                                         <Link to={`${url}/show-more/tables`}>Ver mais</Link>

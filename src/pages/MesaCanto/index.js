@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import Display from '../ImageDisplay';
+import Display from '../../components/ImageDisplay';
 import Image1 from '../../assets/images/products/mesa_canto_dupla1.jpg';
 import Image2 from '../../assets/images/products/mesa_canto_dupla2.jpg';
 import Image3 from '../../assets/images/products/mesa_canto_quadrada_mel1.jpg';
@@ -15,7 +15,7 @@ const lista = [{
     "nome": "Mesa de canto dupla",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
-    "descricao": "Mesa de canto maior com diâmetro de 500mm e menor com 450mm. Tampos MDF com folha de nogueira na cor natural.",
+    "descricao": "Mesa de canto maior com diâmetro de 500mm e menor com 450mm. Tampos MDF com folha de nogueira na cor natural",
     "tampo": "",
     "pintura": "Dourado",
     "dimensao": "Maior 800mm x 900mm 680mm - Menor 444mm x 555mm x 680mm",
@@ -32,7 +32,7 @@ const lista = [{
     "nome": "Mesa de canto nogueira",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1000",
-    "descricao": "Mesa de canto tubo redondo 5/8 com tampo tipo bandeja em mdf com folha de nogueira e embuia.",
+    "descricao": "Mesa de canto tubo redondo 5/8 com tampo tipo bandeja em mdf com folha de nogueira e embuia",
     "tampo": "Mel, Embuia Escuro",
     "pintura": "Aço Corten, Preto Fosco, Bronze e Dourado",
     "dimensao": "700mm x 400mm x 330mm",
@@ -49,7 +49,7 @@ const lista = [{
     "nome": "Mesa de canto vintage",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1001",
-    "descricao": "Mesa de canto ferro 3/8 com tampo tipo bandeja em mdf com folha de nogueira envernizado.",
+    "descricao": "Mesa de canto ferro 3/8 com tampo tipo bandeja em mdf com folha de nogueira envernizado",
     "tampo": "",
     "pintura": "Preto brilho",
     "dimensao": "400mm x 400mm x 670mm",

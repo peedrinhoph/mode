@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import Display from '../ImageDisplay';
+import Display from '../../components/ImageDisplay';
 import Image1 from '../../assets/images/products/cadeira_concha1.jpg';
 import Image2 from '../../assets/images/products/cadeira_concha2.jpg';
 import Image3 from '../../assets/images/products/cadeira_concha3.jpg';

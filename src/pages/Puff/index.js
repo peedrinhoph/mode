@@ -1,21 +1,24 @@
 import React from 'react';
 import './styles.css';
 
-import Display from '../ImageDisplay';
-import Image1 from '../../assets/images/products/banqueta_bistro1.jpg';
-import Image2 from '../../assets/images/products/banqueta_bistro2.jpg';
-import Image3 from '../../assets/images/products/banqueta_concha2.jpg';
-import Image4 from '../../assets/images/products/banqueta_concha1.jpg';
+import Display from '../../components/ImageDisplay';
+import Image1 from '../../assets/images/products/puff_estofado_branco.jpg';
+import Image2 from '../../assets/images/products/puff_pelucia_preto2.jpg';
+import Image3 from '../../assets/images/products/puff_estofado_branco.jpg';
+import Image4 from '../../assets/images/products/puff_estofado_branco.jpg';
+import Image5 from '../../assets/images/products/puff_estofado_branco.jpg';
+import Image6 from '../../assets/images/products/puff_estofado_branco.jpg';
+import Image7 from '../../assets/images/products/puff_estofado_branco.jpg';
 
 
 const lista = [{"id": 1,
-    "nome": "Banqueta bistrô",
+    "nome": "Puff Juliana ",
     "modelo": "Puff e banqueta",
-    "referencia": "MDBQ1000",
-    "descricao": "Banqueta de ferro com acento em courvin texturizado",
+    "referencia": "MDPUFF0001",
+    "descricao": "Puff tubular com estofado pelúcia preto ou tecido capri branco",
     "tampo": "",
-    "pintura": "Grafite",
-    "dimensao": "750mm x 370mm",
+    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "dimensao": "500mm x 350mm x 310mm",
     "imagens": [
         {
             "url": Image1
@@ -26,36 +29,36 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 2,
-    "nome": "Banqueta agatha",
+    "nome": "Puff Antonella",
     "modelo": "Puff e banqueta",
-    "referencia": "MDBQ1003",
-    "descricao": "Banqueta concha madeira estofada em tecido joli rose, base em tubo de aço pintada em aço corten",
-    "tampo": "",
-    "pintura": "Aço corten, cobre",
-    "dimensao": "xxx x xxx x xxx",
-    "imagens": [
-        {
-            "url": Image3
-        },
-        {
-            "url": Image4
-        },
-    ]
-}, {
-    "id": 3,
-    "nome": "Banqueta lika",
-    "modelo": "Puff e banqueta",
-    "referencia": "MDBQ1001",
-    "descricao": "Banqueta tubular 20x20 alçada com estofado tecido capri branco",
+    "referencia": "xxxx",
+    "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": "500mm x 350mm x 310mm",
     "imagens": [
         {
-            "url": Image3
+            "url": Image4
         },
         {
-            "url": Image4
+            "url": Image5
+        },
+    ]
+}, {
+    "id": 3,
+    "nome": "Puff Anexo",
+    "modelo": "Puff e banqueta",
+    "referencia": "xxxx",
+    "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
+    "tampo": "",
+    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "dimensao": "300mm x 300cm x 300mm",
+    "imagens": [
+        {
+            "url": Image6
+        },
+        {
+            "url": Image7
         },
     ]
 }];

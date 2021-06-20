@@ -1,25 +1,45 @@
 import React from 'react';
 import './styles.css';
 
-import Display from '../ImageDisplay';
-import Image1 from '../../assets/images/products/mesa_bistro.jpg';
-import Image2 from '../../assets/images/products/mesa_bistro_conjunto.jpg';
+import Display from '../../components/ImageDisplay';
+import Image1 from '../../assets/images/products/costelagiratoria.png';
+import Image2 from '../../assets/images/products/costelagiratoria1.png';
+import Image3 from '../../assets/images/products/costelafixa.jpeg';
+import Image4 from '../../assets/images/products/costelafixa1.png';
 
-const lista = [{"id": 1,
-    "nome": "Mesa bistrot",
-    "modelo": "Mesas",
-    "referencia": "MDMBT1000",
-    "descricao": "Mesa ferro tampo mdf com lamina de embuia escuro",
+const lista = [{
+    "id": 1,
+    "nome": "Poltrona Costela Giratória com Puff",
+    "modelo": "Poltrona",
+    "referencia": "MDCLA1000 e MDCLA1001",
+    "descricao": "Costela Giratória com almofadas em corino ou tecido, pés em madeira tingida",
     "tampo": "",
-    "pintura": "Grafite",
-    "dimensao": "800mm x 1000mm",
+    "pintura": "Natural",
+    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
     "imagens": [
         {
             "url": Image1
         },
         {
             "url": Image2
-        }
+        },
+    ]
+}, {
+    "id": 2,
+    "nome": "Poltrona Costela Fixa com Puff",
+    "modelo": "Poltrona",
+    "referencia": "MDCLA1002 e MDCLA1003",
+    "descricao": "Costela fixa com almofadas em corino ou tecido com pés metálicos na cor preta",
+    "tampo": "",
+    "pintura": "Preto",
+    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "imagens": [
+        {
+            "url": Image3
+        },
+        {
+            "url": Image4
+        },
     ]
 }];
 
