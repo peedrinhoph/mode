@@ -105,7 +105,7 @@ const lista = [{"id": 1,
     "descricao": "Mesa de centro tubo 20x20 tampo em mdf com lamina de nogueira cor mel ou embuia escuro",
     "tampo": "",
     "pintura": "Preto Fosco, Cobre e Niquel",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "dimensao": "300mm x 450mm x 530mm",
     "imagens": [
         {
             "url": Image12
@@ -118,7 +118,7 @@ const lista = [{"id": 1,
     "id": 6,
     "nome": "Mesa Pisa",
     "modelo": "Mesa de centro",
-    "referencia": "MDCTR0008",
+    "referencia": "MDCTR1003",
     "descricao": "Mesa de centro tubo 15x15 tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro",
     "tampo": "",
     "pintura": "Aço Corten Liquida, Niquel e Preto",
@@ -150,7 +150,7 @@ const ProductList1 = () => {
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
                                 <p className="product-text-show">
-                                    Descrição: {item.descricao}
+                                    {item.descricao}
                                     <br />Pintura: {item.pintura}
                                     <br />Dimensões: {item.dimensao}
                                     <br />Referência: {item.referencia}

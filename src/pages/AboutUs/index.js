@@ -34,10 +34,10 @@ function AboutUs() {
                                 a Mode trabalha com a fabricação de móveis e peças de decoração em aço carbono. Uma empresa que prima pela qualidade 
                                 e inovação dos produtos que atendem as mais diversificadas tendências comerciais e residenciais, 
                                 com foco principal em oferecer o melhor em produto e qualidade a seus clientes. 
-                                <br /><br />
+                                {/*<br /><br />
                                 O cuidado com o meio ambiente também é prioridade para nós, com isso a madeira utilizada em nossos produtos são certificadas e fruto de reflorestamento, 
                                 além de no processo industrial, evitar qualquer tipo de poluição através de resíduos que podem prejudicar o nosso bem estar e a natureza.
-                                <br /><br />
+                                <br /><br />*/}
                             </p>
                         </div>
                         <div className="section-mv">

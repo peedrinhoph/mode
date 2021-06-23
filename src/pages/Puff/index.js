@@ -31,7 +31,7 @@ const lista = [{"id": 1,
     "id": 2,
     "nome": "Puff Antonella",
     "modelo": "Puff e banqueta",
-    "referencia": "xxxx",
+    "referencia": "MDPUFF0002",
     "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
@@ -74,7 +74,7 @@ const ProductList1 = () => {
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
                                 <p className="product-text-show">
-                                    Descrição: {item.descricao}
+                                    {item.descricao}
                                     <br />Pintura: {item.pintura}
                                     <br />Dimensões: {item.dimensao}
                                     <br />Referência: {item.referencia}

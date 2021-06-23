@@ -57,7 +57,7 @@ function Inicio() {
 
                     <div className="section-90-vw">
                         <div className="section-title">
-                            <h2 className="section-title-text">Projetos e produtos</h2>
+                            <h2 className="section-title-text">Lançamentos</h2>
                         </div>
                         <div className="section-product">
                             <figure>
@@ -103,9 +103,12 @@ function Inicio() {
                                 </p>
                             </div>
                         </div>
+                        <div className="section-contact-link">
+                            <Link to="about-us">Quem somos</Link>
+                        </div>
                     </div>
 
-                    <div className="section-90-vw">
+                    {/*<div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-title-text">Porque nos escolher</h2>
                         </div>
@@ -145,9 +148,9 @@ function Inicio() {
                         <div className="section-contact-link section-contact-black-link">
                             <Link to="about-us">Quem somos</Link>
                         </div>
-                    </div>
+                    </div>*/}
 
-                    <div className="section-background-image">
+                    {/*<div className="section-background-image">
                         <h1 className="section-background-image-title">Depoimentos</h1>
                         <div className="section-comment">
                             <div className="section-comment-block">
@@ -195,7 +198,7 @@ function Inicio() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </main>
             {scroll && <span id="mouse"></span>}

@@ -34,7 +34,7 @@ const ProductList1 = () => {
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
                                 <p className="product-text-show">
-                                    Descrição: {item.descricao}
+                                    {item.descricao}
                                     <br />Pintura: {item.pintura}
                                     <br />Dimensões: {item.dimensao}
                                     <br />Referência: {item.referencia}
