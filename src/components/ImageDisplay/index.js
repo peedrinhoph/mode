@@ -7,14 +7,14 @@ const Display = ({ imagens, alt }) => {
     return (
         <div className="product-image-show">
             <figure>
-                <img src={imagens[activeImageIndex].url} alt="product" className="zoom" />
+                <img src={imagens[activeImageIndex].url} alt={alt} className="zoom" />
             </figure>
             <div className="images">
                 {
                     imagens.map((image, index) => {
                         return (
                             <button key={index} className={activeImageIndex === index ? 'active' : ''} type="button" onClick={() => { setActiveImageIndex(index) }}>
-                                <img src={image.url} alt={image.alt} />
+                                <img src={image.url} alt={alt} />
                             </button>
                         )
                     })

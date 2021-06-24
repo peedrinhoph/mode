@@ -139,12 +139,12 @@
         transform: scale(1);
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
-        cursor: auto;
+        cursor: crosshair;
       }
     
       .zoom:hover {
-        -webkit-transform: scale(1.05);
-        transform: scale(1.05);
+        -webkit-transform: scale(1.06);
+        transform: scale(1.06);
       }
 
       /* Gray Scale */
@@ -192,7 +192,7 @@
     .hover-opacity:hover {
         opacity: .5;
     }
-
+    /* Slide */
     .hover-slide {
         margin-left: 10px;
         -webkit-transform: scale(1.1);
