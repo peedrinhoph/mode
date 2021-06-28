@@ -14,11 +14,11 @@ function Contact() {
     const [name, setName] = useState('');
     const [whatsapp, setWhatsapp] = useState('+55 ');
     const [message, setMessage] = useState('');
-    const [email, setEmail] = useState('@');
+    const [email, setEmail] = useState('');
     const [city, setCity] = useState('');
     function handleSendMessage(e) {
         e.preventDefault();
-        const link = `https://api.whatsapp.com/send?phone=054996448912&text=Meu nome é ${name}, moro em ${city}, ${message}. Meus contatos de WhatsApp: ${whatsapp} e e-mail: ${email}`;
+        const link = `https://api.whatsapp.com/send?phone=+5554996448912&text=Meu nome é ${name}, moro em ${city}, ${message}. Meus contatos de WhatsApp: ${whatsapp} e e-mail: ${email}`;
         window.open(link, "_blank");
         /*console.log({
             name,
@@ -59,16 +59,18 @@ function Contact() {
                             <a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou entrando em contato através do site, " target="_blank" rel="noopener noreferrer"> (054) 9 9644-8912</a>
                         </div>
                         <div className="contact-social-group">
-                            <img src={mail} alt="instagram" />
-                            <a href="mailto:contact@moveismode.com.br" >contact@moveismode.com.br</a>
+                            <img src={mail} alt="contact@modemoveis.com.br" />
+                            <a href="mailto:contact@moveismode.com.br" >contact@modemoveis.com.br</a>
                         </div>
+                       
                         <div className="contact-social-group">
-                            <img src={instagram} alt="instagram" />
-                            <a href="https://www.instagram.com/moveismode" target="_blank" rel="noopener noreferrer">instagram.com/moveismode</a>
-                        </div>
-                        <div className="contact-social-group">
-                            <img src={facebook} alt="facebook" />
+                            <img src={facebook} alt="modemoveis" />
                             <a href="https://www.facebook.com/moveismode" target="_blank" rel="noopener noreferrer">facebook.com/moveismode</a>
+                        </div>
+
+                        <div className="contact-social-group">
+                            <img src={instagram} alt="modemoveis" />
+                            <a href="https://www.instagram.com/moveismode" target="_blank" rel="noopener noreferrer">instagram.com/moveismode</a>
                         </div>
                         <br />
 
@@ -83,8 +85,8 @@ function Contact() {
                     <div id="page-contact-form" className="page-contact-form">
                         <form onSubmit={handleSendMessage}>
                             <fieldset>
-                                <legend>Preencha o formulário abaixo e clique em "enviar", que em até 48 horas úteis, um de nossos consultores entrará em contato com você.
-                                </legend>
+                                {/*<legend>Preencha o formulário abaixo e clique em "enviar", que em até 48 horas úteis, um de nossos consultores entrará em contato com você.</legend>*/}
+                                <legend>Preencha os dados abaixo para iniciar uma conversa via WhatsApp conosco, responderemos seu contato o mais breve possível</legend>
                                 <Input
                                     required
                                     name="name"
@@ -124,7 +126,7 @@ function Contact() {
                                 />
                             </fieldset>
                             <footer>
-                                <button type="submit">Enviar</button>
+                                <button type="submit">Iniciar Conversa no WhatsApp</button>
                             </footer>
                         </form>
                     </div>
