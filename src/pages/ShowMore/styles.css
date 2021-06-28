@@ -27,7 +27,8 @@
 .section-back a {
     height: 3.2rem;
     transition: opacity 0.2s;
-
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .section-back a:hover {
