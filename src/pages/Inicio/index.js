@@ -15,6 +15,10 @@ import Project from '../../assets/images/icons/project.svg';
 import Pencil from '../../assets/images/icons/pencil.svg';
 import Selo from '../../assets/images/icons/selo.svg';
 
+import Sol from '../../assets/images/icons/evitar-sol-umidade.png';
+import Quimicos from '../../assets/images/icons/produtos-quimicos.png';
+import Flanela from '../../assets/images/icons/flanela-umedecida.png';
+
 import './styles.css';
 
 function Inicio() {
@@ -149,7 +153,37 @@ function Inicio() {
                             <Link to="about-us">Quem somos</Link>
                         </div>
                     </div>*/}
+                    <div className="section-90-vw">
+                        <div className="section-title">
+                            <h2 className="section-title-text">Cuidados para uma boa conservação do móvel</h2>
+                        </div>
+                        <div className="section-product">
+                            <div className="section-project">
+                                <div className="section-project-title">
+                                    <img src={Sol} alt="asdas" />
+                                    <h3>Tempo</h3>
+                                </div>
+                                <p>Evitar expor a luminosidade excessiva do sol pois pode deixar o móvel descolorido, a não ser que você esteja procurando um efeito envelhecido. 
+                                    E principalmente mantenha longe da água, umidade também é prejudicial a sua conservação.</p>
+                            </div>
 
+                            <div className="section-project">
+                                <div className="section-project-title">
+                                    <img src={Quimicos} alt="asdas" />
+                                    <h3>Químicos</h3>
+                                </div>
+                                <p>Evitar útilizar alcool ou produtos químicos, pois muitos produtos de limpeza são abrasivos e podem manchar ou até arranhar o móvel.</p>
+                            </div>
+
+                            <div className="section-project">
+                                <div className="section-project-title">
+                                    <img src={Flanela} alt="asdas" />
+                                    <h3>Limpeza</h3>
+                                </div>
+                                <p>Para limpeza sempre utilize uma flanela - aquelas laranjas - seca ou levemente umedecida em agua com sabão neutro, é o mais indicado, contanto que você seque muito bem depois.</p>
+                            </div>
+                        </div>
+                    </div>
                     {/*<div className="section-background-image">
                         <h1 className="section-background-image-title">Depoimentos</h1>
                         <div className="section-comment">
