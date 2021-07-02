@@ -3,6 +3,7 @@ import './styles.css';
 
 import Display from '../../components/ImageDisplay';
 import DisplayDimenssion from '../../components/DimenssionDisplay';
+
 import Image1 from '../../assets/images/products/mesa_canto_dupla1.jpg';
 import Image2 from '../../assets/images/products/mesa_canto_dupla2.jpg';
 import Image3 from '../../assets/images/products/mesa_canto_quadrada_mel1.jpg';
@@ -17,7 +18,7 @@ const lista = [{
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
     "descricao": "Mesa de canto maior com diâmetro de 500mm e menor com 450mm. Tampos MDF com folha de nogueira na cor natural",
-    "tampo": "",
+    "tampo": "Natural",
     "pintura": "Dourado",
     "dimensao": [
         {
@@ -68,7 +69,7 @@ const lista = [{
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1001",
     "descricao": "Mesa de canto ferro 3/8 com tampo tipo bandeja em mdf com folha de nogueira envernizado",
-    "tampo": "",
+    "tampo": "Natural",
     "pintura": "Preto brilho",
     "dimensao": [
         {
@@ -91,7 +92,6 @@ const ProductList1 = () => {
                 lista.map((item, index) => {
                     return (
                         <div key={index} className="section-product-show">
-
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
                                 <Display imagens={item.imagens} alt={item.descricao} />
@@ -99,7 +99,8 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                <br />Pintura: {item.pintura}
+                                <br />Acabamento: {item.pintura}
+                                <br />Tampo: {item.tampo}
                                 </p>
                             </div>
                         </div>

@@ -2,6 +2,8 @@ import React from 'react';
 import './styles.css';
 
 import Display from '../../components/ImageDisplay';
+import DisplayDimenssion from '../../components/DimenssionDisplay';
+
 import Image1 from '../../assets/images/products/puff_estofado_branco.jpg';
 import Image2 from '../../assets/images/products/puff_pelucia_preto2.jpg';
 import Image3 from '../../assets/images/products/puff_estofado_branco.jpg';
@@ -19,6 +21,13 @@ const lista = [{"id": 1,
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": "500mm x 350mm x 310mm",
+    "dimensao": [
+        {
+            "comprimento": "31cm",
+            "profundidade": "56cm",
+            "altura": "50cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image1
@@ -35,7 +44,13 @@ const lista = [{"id": 1,
     "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
-    "dimensao": "500mm x 350mm x 310mm",
+    "dimensao": [
+        {
+            "comprimento": "64cm",
+            "profundidade": "56cm",
+            "altura": "37cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image4
@@ -52,7 +67,13 @@ const lista = [{"id": 1,
     "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
-    "dimensao": "300mm x 300cm x 300mm",
+    "dimensao": [
+        {
+            "comprimento": "64cm",
+            "profundidade": "56cm",
+            "altura": "37cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image6
@@ -70,14 +91,14 @@ const ProductList1 = () => {
                 lista.map((item, index) => {
                     return (
                         <div key={index} className="section-product-show">
-                            <Display imagens={item.imagens} alt={item.descricao} />
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
+                                <Display imagens={item.imagens} alt={item.descricao} />
+                                <h2 className="product-title-show">REF. {item.referencia}</h2>
+                                <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Pintura: {item.pintura}
-                                    <br />Dimensões: {item.dimensao}
-                                    <br />Referência: {item.referencia}
+                                    <br />Acabamento: {item.pintura}
                                 </p>
                             </div>
                         </div>

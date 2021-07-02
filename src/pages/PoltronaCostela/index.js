@@ -2,6 +2,8 @@ import React from 'react';
 import './styles.css';
 
 import Display from '../../components/ImageDisplay';
+import DisplayDimenssion from '../../components/DimenssionDisplay';
+
 import Image1 from '../../assets/images/products/costelagiratoria.png';
 import Image2 from '../../assets/images/products/costelagiratoria1.png';
 import Image3 from '../../assets/images/products/costelafixa.jpeg';
@@ -15,7 +17,18 @@ const lista = [{
     "descricao": "Juntas ou separados a poltrona costela giratória e o puff complementam qualquer ambiente, com almofadas em corino ou tecido, pés em madeira tingida",
     "tampo": "",
     "pintura": "Natural",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "dimensao": [
+        {
+            "comprimento": "68cm",
+            "profundidade": "94cm",
+            "altura": "85cm"
+        },
+        {
+            "comprimento": "68cm",
+            "profundidade": "56cm",
+            "altura": "44cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image1
@@ -32,7 +45,18 @@ const lista = [{
     "descricao": "Juntas ou separados a poltrona costela fixa e o puff complementam qualquer ambiente,  almofadas em corino ou tecido com pés metálicos na cor preta",
     "tampo": "",
     "pintura": "Preto",
-    "dimensao": "Poltrona 800mm x 900mm 680mm - Puff 444mm x 555mm x 680mm",
+    "dimensao": [
+        {
+            "comprimento": "68cm",
+            "profundidade": "94cm",
+            "altura": "85cm"
+        },
+        {
+            "comprimento": "68cm",
+            "profundidade": "56cm",
+            "altura": "44cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image3
@@ -50,14 +74,14 @@ const ProductList1 = () => {
                 lista.map((item, index) => {
                     return (
                         <div key={index} className="section-product-show">
-                            <Display imagens={item.imagens} alt={item.descricao} />
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
+                                <Display imagens={item.imagens} alt={item.descricao} />
+                                <h2 className="product-title-show">REF. {item.referencia}</h2>
+                                <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Pintura: {item.pintura}
-                                    <br />Dimensões: {item.dimensao}
-                                    <br />Referência: {item.referencia}
+                                    <br />Acabamento: {item.pintura}
                                 </p>
                             </div>
                         </div>

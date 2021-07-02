@@ -2,6 +2,8 @@ import React from 'react';
 import './styles.css';
 
 import Display from '../../components/ImageDisplay';
+import DisplayDimenssion from '../../components/DimenssionDisplay';
+
 import Image1 from '../../assets/images/products/mesa_centro_dupla1.jpg';
 import Image2 from '../../assets/images/products/mesa_centro_dupla2.jpg';
 import Image3 from '../../assets/images/products/mesa_centro_dupla3.jpg';
@@ -21,14 +23,26 @@ import Image16 from '../../assets/images/products/mesa_centro_pisa3.jpg';
 import Image17 from '../../assets/images/products/mesa_centro_pisa4.jpg';
 
 
-const lista = [{"id": 1,
+const lista = [{
+    "id": 1,
     "nome": "Mesa Anexo",
     "modelo": "Mesa de centro",
-    "referencia": "MDCTR1005 e MDCTR1006",
+    "referencia": "MDCTR1005 + MDCTR1006",
     "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 600mm de diâmetro tampo em mdf e lamina de embuia natural",
-    "tampo": "",
+    "tampo": "Natural",
     "pintura": "Aço corten",
-    "dimensao": "MDCTR1005 xxx x xxx x xxx e MDCTR1006 xxx x xxx x xxx",
+    "dimensao": [
+        {
+            "comprimento": "40cm",
+            "profundidade": "50cm",
+            "altura": "70cm"
+        },
+        {
+            "comprimento": "40cm",
+            "profundidade": "50cm",
+            "altura": "70cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image1
@@ -46,9 +60,15 @@ const lista = [{"id": 1,
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1004",
     "descricao": "Mesa de centro feita com ferro chato, tampo em mdf com lamina de embuia escuro",
-    "tampo": "",
+    "tampo": "Embuia escuro",
     "pintura": "Bronze liquida, Dourado, Preto Fosco e Niquel",
-    "dimensao": "370mm x 640mm",
+    "dimensao": [
+        {
+            "comprimento": "64cm",
+            "profundidade": "56cm",
+            "altura": "37cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image4
@@ -63,9 +83,15 @@ const lista = [{"id": 1,
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1000",
     "descricao": "Mesa de centro ferro chato 1 1/2 com tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro",
-    "tampo": "",
+    "tampo": "Mel, Embuia escuro",
     "pintura": "Aço Corten e Preto Fosco",
-    "dimensao": "300mm x 300cm x 300mm",
+    "dimensao": [
+        {
+            "comprimento": "0cm",
+            "profundidade": "0cm",
+            "altura": "0cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image6
@@ -80,9 +106,15 @@ const lista = [{"id": 1,
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1001",
     "descricao": "Mesa de centro tubo 30x70 com tampo em mdf com lamina de nogueira cor mel ou embuia escuro",
-    "tampo": "",
+    "tampo": "Mel, Embuia escuro",
     "pintura": "Preto Fosco, Bronze e Aço Corten",
-    "dimensao": "350mm x 700mm x 450mm",
+    "dimensao": [
+        {
+            "comprimento": "70cm",
+            "profundidade": "45cm",
+            "altura": "35cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image8
@@ -103,9 +135,15 @@ const lista = [{"id": 1,
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1002",
     "descricao": "Mesa de centro tubo 20x20 tampo em mdf com lamina de nogueira cor mel ou embuia escuro",
-    "tampo": "",
+    "tampo": "Mel, Embuia escuro",
     "pintura": "Preto Fosco, Cobre e Niquel",
-    "dimensao": "300mm x 450mm x 530mm",
+    "dimensao": [
+        {
+            "comprimento": "53cm",
+            "profundidade": "45cm",
+            "altura": "30cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image12
@@ -120,9 +158,16 @@ const lista = [{"id": 1,
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1003",
     "descricao": "Mesa de centro tubo 15x15 tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro",
-    "tampo": "",
+    "tampo": "Mel, Embuia escuro",
     "pintura": "Aço Corten Liquida, Niquel e Preto",
     "dimensao": "435mm x 700mm x 395mm",
+    "dimensao": [
+        {
+            "comprimento": "70cm",
+            "profundidade": "39.5cm",
+            "altura": "43.5cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image14
@@ -146,14 +191,15 @@ const ProductList1 = () => {
                 lista.map((item, index) => {
                     return (
                         <div key={index} className="section-product-show">
-                            <Display imagens={item.imagens} alt={item.descricao} />
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
+                                <Display imagens={item.imagens} alt={item.descricao} />
+                                <h2 className="product-title-show">REF. {item.referencia}</h2>
+                                <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Pintura: {item.pintura}
-                                    <br />Dimensões: {item.dimensao}
-                                    <br />Referência: {item.referencia}
+                                    <br />Acabamento: {item.pintura}
+                                    <br />Tampo: {item.tampo}
                                 </p>
                             </div>
                         </div>
