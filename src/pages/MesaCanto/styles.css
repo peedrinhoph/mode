@@ -15,31 +15,6 @@
     padding: 15px 0 15px 0;
 }
 
-.product-dimenssion {
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-}
-
-.product-dimenssion-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.product-dimenssion figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-text-complement);
-    border-radius: 10rem;
-}
-
-.product-dimenssion figure > img{
-    width: 5rem;
-    height: 5rem;
-}
-
   @media (min-width: 700px) {
      
   

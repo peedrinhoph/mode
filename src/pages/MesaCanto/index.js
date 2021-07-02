@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 
 import Display from '../../components/ImageDisplay';
+import DisplayDimenssion from '../../components/DimenssionDisplay';
 import Image1 from '../../assets/images/products/mesa_canto_dupla1.jpg';
 import Image2 from '../../assets/images/products/mesa_canto_dupla2.jpg';
 import Image3 from '../../assets/images/products/mesa_canto_quadrada_mel1.jpg';
@@ -9,10 +10,6 @@ import Image4 from '../../assets/images/products/mesa_canto_quadrada_mel2.jpg';
 import Image5 from '../../assets/images/products/mesa_canto_quadrada_embuia2.jpg';
 import Image6 from '../../assets/images/products/mesa_canto_quadrada_embuia1.jpg';
 import Image7 from '../../assets/images/products/mesa_canto_vintage.jpg';
-
-import Altura from '../../assets/images/icons/altura.png';
-import Comprimento from '../../assets/images/icons/comprimento.png';
-import Profundidade from '../../assets/images/icons/profundidade.png';
 
 const lista = [{
     "id": 1,
@@ -22,7 +19,18 @@ const lista = [{
     "descricao": "Mesa de canto maior com diâmetro de 500mm e menor com 450mm. Tampos MDF com folha de nogueira na cor natural",
     "tampo": "",
     "pintura": "Dourado",
-    "dimensao": "Maior 800mm x 900mm 680mm  Menor 444mm x 555mm x 680mm",
+    "dimensao": [
+        {
+            "comprimento": "40cm",
+            "profundidade": "50cm",
+            "altura": "70cm"
+        },
+        {
+            "comprimento": "40cm",
+            "profundidade": "45cm",
+            "altura": "70cm",
+        },
+    ],
     "imagens": [
         {
             "url": Image1
@@ -39,10 +47,13 @@ const lista = [{
     "descricao": "Mesa de canto tubo redondo 5/8 com tampo tipo bandeja em mdf com folha de nogueira e embuia",
     "tampo": "Mel, Embuia Escuro",
     "pintura": "Aço Corten, Preto Fosco, Bronze e Dourado",
-    "dimensao": "700mm x 400mm x 330mm",
-    "comprimento": "40cm",
-    "profundidade": "40cm",
-    "altura": "70cm",
+    "dimensao": [
+        {
+            "comprimento": "40cm",
+            "profundidade": "40cm",
+            "altura": "70cm",
+        },
+    ],
     "imagens": [
         {
             "url": Image3
@@ -59,7 +70,13 @@ const lista = [{
     "descricao": "Mesa de canto ferro 3/8 com tampo tipo bandeja em mdf com folha de nogueira envernizado",
     "tampo": "",
     "pintura": "Preto brilho",
-    "dimensao": "400mm x 400mm x 670mm",
+    "dimensao": [
+        {
+            "comprimento": "40cm",
+            "profundidade": "40cm",
+            "altura": "67cm",
+        },
+    ],
     "imagens": [
         {
             "url": Image7
@@ -74,37 +91,16 @@ const ProductList1 = () => {
                 lista.map((item, index) => {
                     return (
                         <div key={index} className="section-product-show">
-                            <Display imagens={item.imagens} alt={item.descricao} />
+
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
+                                <Display imagens={item.imagens} alt={item.descricao} />
+                                <h2 className="product-title-show">REF. {item.referencia}</h2>
+                                <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Pintura: {item.pintura}
-                                    <br />Medidas: {item.dimensao}
-                                    <br />Referência: {item.referencia}
+                                <br />Pintura: {item.pintura}
                                 </p>
-                                <h2 className="product-title-show">Medidas</h2>
-                                <div className="product-dimenssion">
-                                
-                                    <div className="product-dimenssion-group">
-                                        <figure>
-                                            <img src={Comprimento} alt="Comprimento" />
-                                        </figure>
-                                        <p className="product-text-show">Compr. <br/> {item.comprimento}</p>
-                                    </div>
-                                    <div className="product-dimenssion-group">
-                                        <figure>
-                                            <img src={Profundidade} alt="Profundidade" />
-                                        </figure>
-                                        <p className="product-text-show">Profun. <br/> {item.profundidade}</p>
-                                    </div>
-                                    <div className="product-dimenssion-group">
-                                        <figure>
-                                            <img src={Altura} alt="Altura" />
-                                        </figure>
-                                        <p className="product-text-show">Altura. <br/> {item.altura}</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     )

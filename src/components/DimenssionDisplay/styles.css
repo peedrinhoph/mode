@@ -1,0 +1,34 @@
+
+.product-dimenssion {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+}
+
+.product-dimenssion .product-dimenssion-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-dimenssion .product-dimenssion-group figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-text-complement);
+  border-radius: 10rem;
+}
+
+.product-dimenssion .product-dimenssion-group figure > img{
+  width: 4rem;
+  height: 4rem;
+}
+
+.product-dimenssion .product-dimenssion-group p {
+  font: 400 1.6rem Poppins;
+  color: var(--color-text-complement);
+  padding: 0 0 .5rem 0;
+}
+
+.product-dimenssion .product-dimenssion-group p + p {
+  padding: 0 0 0 0;
+}
