@@ -14,7 +14,7 @@ const lista = [{
     "nome": "Costela Giratória com Puff",
     "modelo": "Poltrona",
     "referencia": "MDCLA1000 e MDCLA1001",
-    "descricao": "Juntas ou separados a poltrona costela giratória e o puff complementam qualquer ambiente, com almofadas em corino ou tecido, pés em madeira tingida",
+    "descricao": "Juntas ou separados a poltrona costela giratória e o puff complementam qualquer ambiente, com almofadas em corino ou tecido, pés em madeira tingida.",
     "tampo": "",
     "pintura": "Natural",
     "dimensao": [
@@ -42,7 +42,7 @@ const lista = [{
     "nome": "Costela Fixa com Puff",
     "modelo": "Poltrona",
     "referencia": "MDCLA1002 e MDCLA1003",
-    "descricao": "Juntas ou separados a poltrona costela fixa e o puff complementam qualquer ambiente,  almofadas em corino ou tecido com pés metálicos na cor preta",
+    "descricao": "Juntas ou separados a poltrona costela fixa e o puff complementam qualquer ambiente, almofadas em corino ou tecido com pés metálicos na cor preta.",
     "tampo": "",
     "pintura": "Preto",
     "dimensao": [
@@ -81,7 +81,7 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Acabamento: {item.pintura}
+                                    <br /><br />Acabamento: {item.pintura}
                                 </p>
                             </div>
                         </div>

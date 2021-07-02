@@ -28,8 +28,8 @@ const lista = [{
     "nome": "Mesa Anexo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1005 + MDCTR1006",
-    "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 600mm de diâmetro tampo em mdf e lamina de embuia natural",
-    "tampo": "Natural",
+    "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 60cm de diâmetro tampo em MDF e lamina de embuia escuro.",
+    "tampo": "Embuia escuro",
     "pintura": "Aço corten",
     "dimensao": [
         {
@@ -59,7 +59,7 @@ const lista = [{
     "nome": "Mesa Aliança",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1004",
-    "descricao": "Mesa de centro feita com ferro chato, tampo em mdf com lamina de embuia escuro",
+    "descricao": "Mesa de centro ferro chato, tampo em MDF com lamina de embuia escuro.",
     "tampo": "Embuia escuro",
     "pintura": "Bronze liquida, Dourado, Preto Fosco e Niquel",
     "dimensao": [
@@ -82,7 +82,7 @@ const lista = [{
     "nome": "Mesa X",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1000",
-    "descricao": "Mesa de centro ferro chato 1 1/2 com tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro",
+    "descricao": "Mesa de centro ferro chato, tampo tipo bandeja em MDF com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "Mel, Embuia escuro",
     "pintura": "Aço Corten e Preto Fosco",
     "dimensao": [
@@ -105,7 +105,7 @@ const lista = [{
     "nome": "Mesa Retângulo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1001",
-    "descricao": "Mesa de centro tubo 30x70 com tampo em mdf com lamina de nogueira cor mel ou embuia escuro",
+    "descricao": "Mesa de centro tubo 30x70, tampo em MDF com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "Mel, Embuia escuro",
     "pintura": "Preto Fosco, Bronze e Aço Corten",
     "dimensao": [
@@ -134,7 +134,7 @@ const lista = [{
     "nome": "Mesa Alçada",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1002",
-    "descricao": "Mesa de centro tubo 20x20 tampo em mdf com lamina de nogueira cor mel ou embuia escuro",
+    "descricao": "Mesa de centro tubular, tampo em MDF com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "Mel, Embuia escuro",
     "pintura": "Preto Fosco, Cobre e Niquel",
     "dimensao": [
@@ -157,7 +157,7 @@ const lista = [{
     "nome": "Mesa Pisa",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1003",
-    "descricao": "Mesa de centro tubo 15x15 tampo tipo bandeja em mdf com lamina de nogueira cor mel ou embuia escuro",
+    "descricao": "Mesa de centro tubular, tampo tipo bandeja em MDF com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "Mel, Embuia escuro",
     "pintura": "Aço Corten Liquida, Niquel e Preto",
     "dimensao": "435mm x 700mm x 395mm",
@@ -198,7 +198,7 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Acabamento: {item.pintura}
+                                    <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
                                 </p>
                             </div>

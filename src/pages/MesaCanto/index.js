@@ -17,7 +17,7 @@ const lista = [{
     "nome": "Mesa de canto dupla",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
-    "descricao": "Mesa de canto maior com diâmetro de 500mm e menor com 450mm. Tampos MDF com folha de nogueira na cor natural",
+    "descricao": "Mesa de canto maior com diâmetro de 50cm e mesa menor com 45cm, tampos MDF com folha de nogueira na cor natural.",
     "tampo": "Natural",
     "pintura": "Dourado",
     "dimensao": [
@@ -45,7 +45,7 @@ const lista = [{
     "nome": "Mesa de canto nogueira",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1000",
-    "descricao": "Mesa de canto tubo redondo 5/8 com tampo tipo bandeja em mdf com folha de nogueira e embuia",
+    "descricao": "Mesa de canto tubo redondo, tampo tipo bandeja medindo 33cm em MDF com folha de nogueira ou embuia escuro.",
     "tampo": "Mel, Embuia Escuro",
     "pintura": "Aço Corten, Preto Fosco, Bronze e Dourado",
     "dimensao": [
@@ -68,7 +68,7 @@ const lista = [{
     "nome": "Mesa de canto vintage",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1001",
-    "descricao": "Mesa de canto ferro 3/8 com tampo tipo bandeja em mdf com folha de nogueira envernizado",
+    "descricao": "Mesa de canto em ferro, com tampo tipo bandeja em MDF com folha de nogueira tingida.",
     "tampo": "Natural",
     "pintura": "Preto brilho",
     "dimensao": [
@@ -99,8 +99,8 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                <br />Acabamento: {item.pintura}
-                                <br />Tampo: {item.tampo}
+                                    <br /><br />Acabamento: {item.pintura}
+                                    <br />Tampo: {item.tampo}
                                 </p>
                             </div>
                         </div>

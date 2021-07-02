@@ -2,18 +2,26 @@ import React from 'react';
 import './styles.css';
 
 import Display from '../../components/ImageDisplay';
+import DisplayDimenssion from '../../components/DimenssionDisplay';
+
 import Image1 from '../../assets/images/products/cadeira_concha1.jpg';
 import Image2 from '../../assets/images/products/cadeira_concha2.jpg';
 import Image3 from '../../assets/images/products/cadeira_concha3.jpg';
 
 const lista = [{"id": 1,
-    "nome": "Cadeira joli",
+    "nome": "Cadeira Joli",
     "modelo": "Cadeiras",
     "referencia": "MDCA1002",
-    "descricao": "Cadeira concha madeira estofada em tecido joli rose, base em tubo de aço pintada em aço corten",
+    "descricao": "Cadeira concha em MDF, estofada em tecido joli rose, base tubular na cor aço corten.",
     "tampo": "",
     "pintura": "Aço corten, cobre",
-    "dimensao": "xxx x xxx x xxx",
+    "dimensao": [
+        {
+            "comprimento": "119cm",
+            "profundidade": "31.5cm",
+            "altura": "81cm"
+        },
+    ],
     "imagens": [
         {
             "url": Image1
@@ -34,14 +42,14 @@ const ProductList1 = () => {
                 lista.map((item, index) => {
                     return (
                         <div key={index} className="section-product-show">
-                            <Display imagens={item.imagens} alt={item.descricao} />
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
+                                <Display imagens={item.imagens} alt={item.descricao} />
+                                <h2 className="product-title-show">REF. {item.referencia}</h2>
+                                <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Pintura: {item.pintura}
-                                    <br />Dimensões: {item.dimensao}
-                                    <br />Referência: {item.referencia}
+                                    <br /><br />Acabamento: {item.pintura}
                                 </p>
                             </div>
                         </div>

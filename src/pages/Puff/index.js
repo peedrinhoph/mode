@@ -17,7 +17,7 @@ const lista = [{"id": 1,
     "nome": "Puff Juliana ",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF0001",
-    "descricao": "Puff tubular com estofado pelúcia preto ou tecido capri branco",
+    "descricao": "Puff tubular com estofado pelúcia preto ou tecido capri branco.",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": "500mm x 350mm x 310mm",
@@ -82,6 +82,29 @@ const lista = [{"id": 1,
             "url": Image7
         },
     ]
+}, {
+    "id": 3,
+    "nome": "Puff Helena",
+    "modelo": "Puff e banqueta",
+    "referencia": "xxxx",
+    "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
+    "tampo": "",
+    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "dimensao": [
+        {
+            "comprimento": "64cm",
+            "profundidade": "56cm",
+            "altura": "37cm"
+        },
+    ],
+    "imagens": [
+        {
+            "url": Image6
+        },
+        {
+            "url": Image7
+        },
+    ]
 }];
 
 const ProductList1 = () => {
@@ -98,7 +121,7 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br />Acabamento: {item.pintura}
+                                    <br /> <br />Acabamento: {item.pintura}
                                 </p>
                             </div>
                         </div>
