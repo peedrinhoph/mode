@@ -15,7 +15,6 @@ const lista = [{
     "descricao": "Mesa de ferro, tampo MDF com lamina de embuia escuro diâmetro de 100cm.",
     "tampo": "Embuia escuro",
     "pintura": "Grafite",
-    "dimensao": "800mm x 1000mm",
     "dimensao": [
         {
             "comprimento": "0cm",

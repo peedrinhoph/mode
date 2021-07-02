@@ -7,9 +7,9 @@ import DisplayDimenssion from '../../components/DimenssionDisplay';
 import Image1 from '../../assets/images/products/mesa_canto_dupla1.jpg';
 import Image2 from '../../assets/images/products/mesa_canto_dupla2.jpg';
 import Image3 from '../../assets/images/products/mesa_canto_quadrada_mel1.jpg';
-import Image4 from '../../assets/images/products/mesa_canto_quadrada_mel2.jpg';
+//import Image4 from '../../assets/images/products/mesa_canto_quadrada_mel2.jpg';
 import Image5 from '../../assets/images/products/mesa_canto_quadrada_embuia2.jpg';
-import Image6 from '../../assets/images/products/mesa_canto_quadrada_embuia1.jpg';
+//import Image6 from '../../assets/images/products/mesa_canto_quadrada_embuia1.jpg';
 import Image7 from '../../assets/images/products/mesa_canto_vintage.jpg';
 
 const lista = [{

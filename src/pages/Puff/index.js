@@ -6,7 +6,7 @@ import DisplayDimenssion from '../../components/DimenssionDisplay';
 
 import Image1 from '../../assets/images/products/puff_estofado_branco.jpg';
 import Image2 from '../../assets/images/products/puff_pelucia_preto2.jpg';
-import Image3 from '../../assets/images/products/puff_estofado_branco.jpg';
+//import Image3 from '../../assets/images/products/puff_estofado_branco.jpg';
 import Image4 from '../../assets/images/products/puff_estofado_branco.jpg';
 import Image5 from '../../assets/images/products/puff_estofado_branco.jpg';
 import Image6 from '../../assets/images/products/puff_estofado_branco.jpg';
@@ -17,14 +17,13 @@ const lista = [{"id": 1,
     "nome": "Puff Juliana ",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF0001",
-    "descricao": "Puff tubular com estofado pelúcia preto ou tecido capri branco.",
+    "descricao": "Puff tubular com estofado pelúcia preto ou tecido capri branco diâmetro do assento 35cm.",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
-    "dimensao": "500mm x 350mm x 310mm",
     "dimensao": [
         {
-            "comprimento": "31cm",
-            "profundidade": "56cm",
+            "comprimento": "0cm",
+            "profundidade": "0cm",
             "altura": "50cm"
         },
     ],

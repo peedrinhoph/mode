@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link, useHistory } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
@@ -92,7 +92,7 @@ function ShowMore() {
                 <div id="page-start-content">
                     <div className="section-list">
                         <div className="section-back">
-                            <a onClick={goBack}><img src={backIcon} alt="Voltar" /></a>
+                            <button type="button" onClick={goBack}><img src={backIcon} alt="Voltar" /></button>
                             <span>{local(params)}</span>
                         </div>
                         <div className="section-list-grid">

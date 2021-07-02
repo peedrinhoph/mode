@@ -10,10 +10,10 @@ import Image3 from '../../assets/images/products/costelafixa.jpeg';
 import Image4 from '../../assets/images/products/banqueta_concha2.jpg';
 import Image5 from '../../assets/images/products/mesa_canto_dupla1.jpg';
 import Image6 from '../../assets/images/products/mesabistro.jpg';
-import Aspas from '../../assets/images/icons/aspas.svg';
-import Project from '../../assets/images/icons/project.svg';
-import Pencil from '../../assets/images/icons/pencil.svg';
-import Selo from '../../assets/images/icons/selo.svg';
+//import Aspas from '../../assets/images/icons/aspas.svg';
+//import Project from '../../assets/images/icons/project.svg';
+//import Pencil from '../../assets/images/icons/pencil.svg';
+//import Selo from '../../assets/images/icons/selo.svg';
 
 import Sol from '../../assets/images/icons/evitar-sol-umidade.png';
 import Quimicos from '../../assets/images/icons/produtos-quimicos.png';

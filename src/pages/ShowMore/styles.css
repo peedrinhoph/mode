@@ -24,14 +24,18 @@
     padding: 10px 0 10px 0;
 }
 
-.section-back a {
+.section-back button {
     height: 3.2rem;
     transition: opacity 0.2s;
     cursor: pointer;
-    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    background-color: transparent;
 }
 
-.section-back a:hover {
+.section-back button:hover {
     opacity: 0.6;
 }
 

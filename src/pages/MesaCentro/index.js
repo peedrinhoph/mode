@@ -160,13 +160,12 @@ const lista = [{
     "descricao": "Mesa de centro tubular, tampo tipo bandeja em MDF com lamina de nogueira cor mel ou embuia escuro.",
     "tampo": "Mel, Embuia escuro",
     "pintura": "Aço Corten Liquida, Niquel e Preto",
-    "dimensao": "435mm x 700mm x 395mm",
     "dimensao": [
         {
             "comprimento": "70cm",
             "profundidade": "39.5cm",
             "altura": "43.5cm"
-        },
+        }
     ],
     "imagens": [
         {
