@@ -7,10 +7,11 @@ import DisplayDimenssion from '../../components/DimenssionDisplay';
 import Image1 from '../../assets/images/products/banqueta_bistro1.jpg';
 import Image2 from '../../assets/images/products/banqueta_bistro2.jpg';
 import Image3 from '../../assets/images/products/banqueta_concha2.jpg';
-import Image4 from '../../assets/images/products/banqueta_concha1.jpg';
+import Image4 from '../../assets/images/products/MDBQ1001.jpeg';
 
 
-const lista = [{"id": 1,
+const lista = [{
+    "id": 1,
     "nome": "Banqueta Bistrô",
     "modelo": "Puff e banqueta",
     "referencia": "MDBQ1000",
@@ -34,48 +35,42 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 2,
-    "nome": "Banqueta Agatha",
+    "nome": "Banqueta Lika",
     "modelo": "Puff e banqueta",
-    "referencia": "MDBQ1003",
-    "descricao": "Banqueta concha madeira estofada em tecido joli rose, base em tubo de aço pintada em aço corten.",
+    "referencia": "MDBQ1001",
+    "descricao": "Banqueta tubular alçada com estofado tecido capri branco, altura do assento 79cm.",
     "tampo": "",
-    "pintura": "Aço corten, cobre",
+    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": [
         {
-            "comprimento": "64cm",
-            "profundidade": "56cm",
-            "altura": "37cm"
+            "comprimento": "42cm",
+            "profundidade": "42cm",
+            "altura": "90cm"
         },
     ],
     "imagens": [
-        {
-            "url": Image3
-        },
         {
             "url": Image4
         },
     ]
 }, {
-    "id": 3,
-    "nome": "Banqueta Lika",
+    "id": 4,
+    "nome": "Banqueta Agatha",
     "modelo": "Puff e banqueta",
-    "referencia": "MDBQ1001",
-    "descricao": "Banqueta tubular 20x20 alçada com estofado tecido capri branco.",
+    "referencia": "MDBQ1003",
+    "descricao": "Banqueta concha MDF estofada em tecido joli rose, base tubular na cor aço corten, altura do assento 70cm, profundidade do assento 46cm.",
     "tampo": "",
-    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "pintura": "Aço corten, cobre",
     "dimensao": [
         {
-            "comprimento": "64cm",
+            "comprimento": "58cm",
             "profundidade": "56cm",
-            "altura": "37cm"
+            "altura": "90cm"
         },
     ],
     "imagens": [
         {
             "url": Image3
-        },
-        {
-            "url": Image4
         },
     ]
 }];

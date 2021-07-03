@@ -28,19 +28,19 @@ const lista = [{
     "nome": "Mesa Anexo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1005 + MDCTR1006",
-    "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 60cm de diâmetro tampo em MDF e lamina de embuia escuro.",
+    "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 50cm de diâmetro tampo em MDF e lamina de embuia escuro.",
     "tampo": "Embuia escuro",
     "pintura": "Aço corten",
     "dimensao": [
         {
-            "comprimento": "40cm",
+            "comprimento": "50cm",
             "profundidade": "50cm",
-            "altura": "70cm"
+            "altura": "35cm"
         },
         {
-            "comprimento": "40cm",
+            "comprimento": "50cm",
             "profundidade": "50cm",
-            "altura": "70cm"
+            "altura": "30cm"
         },
     ],
     "imagens": [
@@ -59,13 +59,13 @@ const lista = [{
     "nome": "Mesa Aliança",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1004",
-    "descricao": "Mesa de centro ferro chato, tampo em MDF com lamina de embuia escuro.",
+    "descricao": "Mesa de centro ferro chato, tampo em MDF oval com lamina de embuia escuro.",
     "tampo": "Embuia escuro",
     "pintura": "Bronze liquida, Dourado, Preto Fosco e Niquel",
     "dimensao": [
         {
             "comprimento": "64cm",
-            "profundidade": "56cm",
+            "profundidade": "54cm",
             "altura": "37cm"
         },
     ],
@@ -87,9 +87,9 @@ const lista = [{
     "pintura": "Aço Corten e Preto Fosco",
     "dimensao": [
         {
-            "comprimento": "0cm",
-            "profundidade": "0cm",
-            "altura": "0cm"
+            "comprimento": "60cm",
+            "profundidade": "40cm",
+            "altura": "40cm"
         },
     ],
     "imagens": [

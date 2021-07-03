@@ -12,14 +12,14 @@ const lista = [{"id": 1,
     "nome": "Cadeira Joli",
     "modelo": "Cadeiras",
     "referencia": "MDCA1002",
-    "descricao": "Cadeira concha em MDF, estofada em tecido joli rose, base tubular na cor aço corten.",
+    "descricao": "Cadeira concha MDF estofada em tecido joli rose, base tubular na cor aço corten, altura do assento 48cm, profundidade do assento 48cm.",
     "tampo": "",
     "pintura": "Aço corten, cobre",
     "dimensao": [
         {
-            "comprimento": "119cm",
-            "profundidade": "31.5cm",
-            "altura": "81cm"
+            "comprimento": "57cm",
+            "profundidade": "57cm",
+            "altura": "96cm"
         },
     ],
     "imagens": [

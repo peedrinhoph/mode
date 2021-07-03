@@ -7,24 +7,25 @@ import DisplayDimenssion from '../../components/DimenssionDisplay';
 import Image1 from '../../assets/images/products/puff_estofado_branco.jpg';
 import Image2 from '../../assets/images/products/puff_pelucia_preto2.jpg';
 //import Image3 from '../../assets/images/products/puff_estofado_branco.jpg';
-import Image4 from '../../assets/images/products/puff_estofado_branco.jpg';
-import Image5 from '../../assets/images/products/puff_estofado_branco.jpg';
-import Image6 from '../../assets/images/products/puff_estofado_branco.jpg';
+import Image4 from '../../assets/images/products/MDPUFF1003.jpeg';
+import Image5 from '../../assets/images/products/MDPUFF1002.jpeg';
+import Image6 from '../../assets/images/products/MDPUFF1004.jpeg';
 import Image7 from '../../assets/images/products/puff_estofado_branco.jpg';
 
 
-const lista = [{"id": 1,
+const lista = [{
+    "id": 1,
     "nome": "Puff Juliana ",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF0001",
-    "descricao": "Puff tubular com estofado pelúcia preto ou tecido capri branco diâmetro do assento 35cm.",
+    "descricao": "Puff tubular dourado brilho, estofado pelúcia preto ou tecido capri branco, diâmetro do assento 35cm.",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": [
         {
             "comprimento": "0cm",
             "profundidade": "0cm",
-            "altura": "50cm"
+            "altura": "45cm"
         },
     ],
     "imagens": [
@@ -37,71 +38,62 @@ const lista = [{"id": 1,
     ]
 }, {
     "id": 2,
-    "nome": "Puff Antonella",
+    "nome": "Puff Helena",
     "modelo": "Puff e banqueta",
-    "referencia": "MDPUFF0002",
-    "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
+    "referencia": "MDPUFF1002",
+    "descricao": "Puff tubular cobre, estofado com 15cm de tecido capri branco embutido na estrutura, diâmetro do assento 35cm.",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": [
         {
-            "comprimento": "64cm",
-            "profundidade": "56cm",
-            "altura": "37cm"
+            "comprimento": "0cm",
+            "profundidade": "0cm",
+            "altura": "45cm"
         },
     ],
     "imagens": [
-        {
-            "url": Image4
-        },
         {
             "url": Image5
         },
     ]
 }, {
     "id": 3,
-    "nome": "Puff Anexo",
+    "nome": "Puff Antonella",
     "modelo": "Puff e banqueta",
-    "referencia": "xxxx",
-    "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
+    "referencia": "MDPUFF1003",
+    "descricao": "Puff tubular rose, estofado de tecido capri branco, diâmetro do assento 35cm.",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": [
         {
-            "comprimento": "64cm",
-            "profundidade": "56cm",
-            "altura": "37cm"
+            "comprimento": "0cm",
+            "profundidade": "0cm",
+            "altura": "45cm"
         },
     ],
     "imagens": [
         {
-            "url": Image6
-        },
-        {
-            "url": Image7
+            "url": Image4
         },
     ]
 }, {
-    "id": 3,
-    "nome": "Puff Helena",
+    "id": 4,
+    "nome": "Puff Sophia",
     "modelo": "Puff e banqueta",
-    "referencia": "xxxx",
-    "descricao": "Puff tubular com estofado de tecido capri branco embutido na estrutura",
+    "referencia": "MDPUFF1004",
+    "descricao": "Puff tubular, estofado de tecido capri branco embutido na estrutura",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": [
         {
-            "comprimento": "64cm",
-            "profundidade": "56cm",
-            "altura": "37cm"
+            "comprimento": "0cm",
+            "profundidade": "0cm",
+            "altura": "45cm"
         },
     ],
     "imagens": [
         {
             "url": Image6
-        },
-        {
-            "url": Image7
         },
     ]
 }];

@@ -17,19 +17,19 @@ const lista = [{
     "nome": "Mesa de canto dupla",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
-    "descricao": "Mesa de canto maior com diâmetro de 50cm e mesa menor com 45cm, tampos MDF com folha de nogueira na cor natural.",
+    "descricao": "Mesa de canto maior com diâmetro de 51cm e mesa menor com 46cm, tampos MDF com folha de nogueira na cor natural.",
     "tampo": "Natural",
     "pintura": "Dourado",
     "dimensao": [
         {
-            "comprimento": "40cm",
-            "profundidade": "50cm",
-            "altura": "70cm"
+            "comprimento": "51cm",
+            "profundidade": "51cm",
+            "altura": "60cm"
         },
         {
-            "comprimento": "40cm",
-            "profundidade": "45cm",
-            "altura": "70cm",
+            "comprimento": "46cm",
+            "profundidade": "46cm",
+            "altura": "55cm",
         },
     ],
     "imagens": [

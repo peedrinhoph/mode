@@ -18,7 +18,7 @@ function Contact() {
     const [city, setCity] = useState('');
     function handleSendMessage(e) {
         e.preventDefault();
-        const link = `https://api.whatsapp.com/send?phone=+5554996448912&text=Meu nome é ${name}, moro em ${city}, ${message}. Meus contatos de WhatsApp: ${whatsapp} e e-mail: ${email}`;
+        const link = `https://api.whatsapp.com/send?phone=+5554997024574&text=Meu nome é ${name}, moro em ${city}, ${message}. Meus contatos de WhatsApp: ${whatsapp} e e-mail: ${email}`;
         window.open(link, "_blank");
         /*console.log({
             name,
@@ -56,7 +56,7 @@ function Contact() {
                         <br />
                         <div className="contact-social-group">
                             <img src={whatsApp} alt="instagram" />
-                            <a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou entrando em contato através do site, " target="_blank" rel="noopener noreferrer"> (054) 9 9644-8912</a>
+                            <a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Estou entrando em contato através do site, " target="_blank" rel="noopener noreferrer"> (054) 9 9702-4574</a>
                         </div>
                         <div className="contact-social-group">
                             <img src={mail} alt="contact@modemoveis.com.br" />
