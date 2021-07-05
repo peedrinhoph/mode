@@ -14,7 +14,7 @@ import Image7 from '../../assets/images/products/mesa_canto_vintage.jpg';
 
 const lista = [{
     "id": 1,
-    "nome": "Mesa de canto dupla",
+    "nome": "Mesa de canto Doble",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
     "descricao": "Mesa de canto maior com diâmetro de 51cm e mesa menor com 46cm, tampos MDF com folha de nogueira na cor natural.",

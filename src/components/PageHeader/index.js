@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logoImg from '../../assets/images/Mode-Móveis-4.png';
+import logoImg from '../../assets/images/Mode-Moveis-4.png';
 
 import './styles.css';
 

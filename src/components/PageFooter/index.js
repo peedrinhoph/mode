@@ -43,8 +43,8 @@ const PageHeader = (props) => {
 
                 <div className="page-footer-group">
                     <h2>Contatos</h2>
-                    <p>(54) 9 9644-8912</p>
-                    <p>contato@moveismode.com.br</p>
+                    <p>+55 (54) 9 9702-4574</p>
+                    <p><a href="mailto:contato@modemoveis.com.br" >contato@modemoveis.com.br</a></p>
                     <p>Poste uma foto e marque a <b>@moveismode</b></p>
                     <div className="page-footer-social">
                         <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">
@@ -53,7 +53,7 @@ const PageHeader = (props) => {
                         <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">
                             <img src={facebook} className="facebook" alt="facebook" />
                         </a>
-                        <a href="https://api.whatsapp.com/send?phone=054996448912&text=Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site," target="_blank" rel="noopener noreferrer">
+                        <a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site," target="_blank" rel="noopener noreferrer">
                             <img src={whatsApp} className="whatsapp" alt="whatsapp" />
                         </a>
                     </div>
@@ -64,7 +64,7 @@ const PageHeader = (props) => {
             </div>
             <div className="tooltip">
                 <h2>Olá!</h2><br />
-                <p><Link to="contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>
+                <p><Link to="/contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>
                 <span className="tooltip-span">i</span>
             </div>
         </footer>

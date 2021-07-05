@@ -6,10 +6,10 @@ import PageFooter from '../../components/PageFooter';
 
 import Image1 from '../../assets/images/products/costelagiratoria.png';
 import Image2 from '../../assets/images/products/aparadorvintage.jpg';
-import Image3 from '../../assets/images/products/costelafixa.jpeg';
+import Image3 from '../../assets/images/products/mesa_centro_pisa1.jpg';
 import Image4 from '../../assets/images/products/banqueta_concha2.jpg';
 import Image5 from '../../assets/images/products/mesa_canto_dupla1.jpg';
-import Image6 from '../../assets/images/products/mesabistro.jpg';
+import Image6 from '../../assets/images/products/puff_pelucia_preto2.jpg';
 //import Aspas from '../../assets/images/icons/aspas.svg';
 //import Project from '../../assets/images/icons/project.svg';
 //import Pencil from '../../assets/images/icons/pencil.svg';

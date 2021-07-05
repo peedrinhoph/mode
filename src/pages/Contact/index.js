@@ -60,7 +60,7 @@ function Contact() {
                         </div>
                         <div className="contact-social-group">
                             <img src={mail} alt="contact@modemoveis.com.br" />
-                            <a href="mailto:contact@moveismode.com.br" >contact@modemoveis.com.br</a>
+                            <a href="mailto:contato@modemoveis.com.br" >contato@modemoveis.com.br</a>
                         </div>
                        
                         <div className="contact-social-group">
