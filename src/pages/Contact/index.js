@@ -59,8 +59,8 @@ function Contact() {
                             <a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Estou entrando em contato através do site, " target="_blank" rel="noopener noreferrer"> (054) 9 9702-4574</a>
                         </div>
                         <div className="contact-social-group">
-                            <img src={mail} alt="contact@modemoveis.com.br" />
-                            <a href="mailto:contato@modemoveis.com.br" >contato@modemoveis.com.br</a>
+                            <img src={mail} alt="comercial@modemoveis.com.br" />
+                            <a href="mailto:comercial@modemoveis.com.br" >comercial@modemoveis.com.br</a>
                         </div>
                        
                         <div className="contact-social-group">

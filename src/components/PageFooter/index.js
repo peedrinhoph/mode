@@ -44,7 +44,7 @@ const PageHeader = (props) => {
                 <div className="page-footer-group">
                     <h2>Contatos</h2>
                     <p>+55 (54) 9 9702-4574</p>
-                    <p><a href="mailto:contato@modemoveis.com.br" >contato@modemoveis.com.br</a></p>
+                    <p><a href="mailto:comercial@modemoveis.com.br" >comercial@modemoveis.com.br</a></p>
                     <p>Poste uma foto e marque a <b>@moveismode</b></p>
                     <div className="page-footer-social">
                         <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">

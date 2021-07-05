@@ -15,6 +15,7 @@ import Image7 from '../../assets/images/products/puff_estofado_branco.jpg';
 
 const lista = [{
     "id": 1,
+    "visivel": 1,
     "nome": "Puff Juliana ",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF0001",
@@ -38,6 +39,7 @@ const lista = [{
     ]
 }, {
     "id": 2,
+    "visivel": 0,
     "nome": "Puff Helena",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1002",
@@ -58,6 +60,7 @@ const lista = [{
     ]
 }, {
     "id": 3,
+    "visivel": 0,
     "nome": "Puff Antonella",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1003",
@@ -78,6 +81,7 @@ const lista = [{
     ]
 }, {
     "id": 4,
+    "visivel": 0,
     "nome": "Puff Sophia",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1004",
