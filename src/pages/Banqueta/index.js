@@ -32,7 +32,8 @@ const lista = [{
         {
             "url": Image2
         }
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 2,
     "nome": "Banqueta Lika",
@@ -52,7 +53,8 @@ const lista = [{
         {
             "url": Image4
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 4,
     "nome": "Banqueta Agatha",
@@ -72,7 +74,8 @@ const lista = [{
         {
             "url": Image3
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }];
 
 const ProductList1 = () => {
@@ -90,6 +93,7 @@ const ProductList1 = () => {
                                 <p className="product-text-show">
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
+                                    <br />"<small><i>{item.observacao}</i></small>"
                                 </p>
                             </div>
                         </div>

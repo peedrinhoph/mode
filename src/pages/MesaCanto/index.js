@@ -39,7 +39,8 @@ const lista = [{
         {
             "url": Image2
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 2,
     "nome": "Mesa de canto nogueira",
@@ -62,7 +63,8 @@ const lista = [{
         {
             "url": Image5
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 3,
     "nome": "Mesa de canto vintage",
@@ -82,7 +84,8 @@ const lista = [{
         {
             "url": Image7
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }];
 
 const ProductList1 = () => {
@@ -101,6 +104,7 @@ const ProductList1 = () => {
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
+                                    <br />"<small><i>{item.observacao}</i></small>"
                                 </p>
                             </div>
                         </div>

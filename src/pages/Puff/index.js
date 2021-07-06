@@ -6,16 +6,14 @@ import DisplayDimenssion from '../../components/DimenssionDisplay';
 
 import Image1 from '../../assets/images/products/puff_estofado_branco.jpg';
 import Image2 from '../../assets/images/products/puff_pelucia_preto2.jpg';
-//import Image3 from '../../assets/images/products/puff_estofado_branco.jpg';
+import Image3 from '../../assets/images/products/puff_estofado_branco1.jpg';
 import Image4 from '../../assets/images/products/MDPUFF1003.jpeg';
 import Image5 from '../../assets/images/products/MDPUFF1002.jpeg';
 import Image6 from '../../assets/images/products/MDPUFF1004.jpeg';
-import Image7 from '../../assets/images/products/puff_estofado_branco.jpg';
 
 
 const lista = [{
     "id": 1,
-    "visivel": 1,
     "nome": "Puff Juliana ",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF0001",
@@ -35,11 +33,13 @@ const lista = [{
         },
         {
             "url": Image2
+        },
+        {
+            "url": Image3
         }
-    ]
+    ], "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 2,
-    "visivel": 0,
     "nome": "Puff Helena",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1002",
@@ -57,10 +57,9 @@ const lista = [{
         {
             "url": Image5
         },
-    ]
+    ], "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 3,
-    "visivel": 0,
     "nome": "Puff Antonella",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1003",
@@ -78,10 +77,9 @@ const lista = [{
         {
             "url": Image4
         },
-    ]
+    ], "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 4,
-    "visivel": 0,
     "nome": "Puff Sophia",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1004",
@@ -99,7 +97,7 @@ const lista = [{
         {
             "url": Image6
         },
-    ]
+    ], "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }];
 
 const ProductList1 = () => {
@@ -116,7 +114,8 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br /> <br />Acabamento: {item.pintura}
+                                    <br /><br />Acabamento: {item.pintura}
+                                    <br />"<small><i>{item.observacao}</i></small>"
                                 </p>
                             </div>
                         </div>

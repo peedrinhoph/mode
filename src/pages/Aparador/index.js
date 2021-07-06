@@ -27,7 +27,8 @@ const lista = [{"id": 1,
         {
             "url": Image1
         }
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 2,
     "nome": "Aparador Arco",
@@ -50,7 +51,8 @@ const lista = [{"id": 1,
         {
             "url": Image3
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }];
 
 const ProductList1 = () => {
@@ -69,6 +71,7 @@ const ProductList1 = () => {
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
+                                    <br />"<small><i>{item.observacao}</i></small>"
                                 </p>
                             </div>
                         </div>

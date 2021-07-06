@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import Image5 from '../../assets/images/photo3.jpg';
+import Image5 from '../../assets/images/logo.jpg';
 
 const ProductList1 = () => {
     return (

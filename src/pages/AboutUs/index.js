@@ -54,7 +54,7 @@ function AboutUs() {
                             <div className="section-m">
                                 <h1>Como</h1>
                                 <h3>Adquirir?</h3>
-                                <p>Você pode entrar em contato conosco clicando em Contate-nos. Ficaremos felizes em poder lhe atender e fazer o melhor possível para que você se sinta em casa</p>
+                                <p>Preencha o formulário em CONTATO e inicie uma conversa via WhatsApp com nosso comercial. Ficaremos felizes em poder lhe atender e fazer o melhor possível para que você se sinta em casa</p>
                             </div>
                         </div>
                         <div className="section-mv">

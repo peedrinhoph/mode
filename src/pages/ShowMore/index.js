@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
@@ -68,7 +68,7 @@ function ShowMore() {
     }
 
     const { params } = useParams();
-    const { goBack } = useHistory();
+    //const { goBack } = useHistory();
     const [scroll, setScroll] = useState('hidden');
     useEffect(() => {
         const scrollListener = () => {
@@ -92,7 +92,8 @@ function ShowMore() {
                 <div id="page-start-content">
                     <div className="section-list">
                         <div className="section-back">
-                            <button type="button" onClick={goBack}><img src={backIcon} alt="Voltar" /></button>
+                            {/*<button type="button" onClick={goBack}><img src={backIcon} alt="Voltar" /></button>*/}
+                            <Link to="/portfolio"><img src={backIcon} alt="Voltar" /></Link>
                             <span>{local(params)}</span>
                         </div>
                         <div className="section-list-grid">

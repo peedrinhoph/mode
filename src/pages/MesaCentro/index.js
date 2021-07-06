@@ -53,7 +53,8 @@ const lista = [{
         {
             "url": Image3
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 2,
     "nome": "Mesa Aliança",
@@ -76,7 +77,8 @@ const lista = [{
         {
             "url": Image5
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 3,
     "nome": "Mesa X",
@@ -99,7 +101,8 @@ const lista = [{
         {
             "url": Image7
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 4,
     "nome": "Mesa Retângulo",
@@ -128,7 +131,8 @@ const lista = [{
         {
             "url": Image11
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 5,
     "nome": "Mesa Alçada",
@@ -151,7 +155,8 @@ const lista = [{
         {
             "url": Image13
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 6,
     "nome": "Mesa Pisa",
@@ -180,7 +185,8 @@ const lista = [{
         {
             "url": Image17
         },
-    ]
+    ], 
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }];
 
 const ProductList1 = () => {
@@ -199,6 +205,7 @@ const ProductList1 = () => {
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
+                                    <br />"<small><i>{item.observacao}</i></small>"
                                 </p>
                             </div>
                         </div>

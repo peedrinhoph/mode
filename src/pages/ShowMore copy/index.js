@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image5 from '../../assets/images/photo3.jpg';
+import Image5 from '../../assets/images/logo.jpg';
 
 import './styles.css';
 
