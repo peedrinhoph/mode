@@ -17,7 +17,7 @@ const lista = [{
     "nome": "Mesa de canto Doble",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
-    "descricao": "Mesa de canto maior com diâmetro de 51cm e mesa menor com 46cm, tampos MDF com folha de nogueira na cor natural.",
+    "descricao": "Mesa de canto maior com diâmetro de 51cm e mesa menor com 46cm, tampos MDF com folha de Nogueira na cor natural.",
     "tampo": "Natural",
     "pintura": "Dourado",
     "dimensao": [
@@ -46,8 +46,8 @@ const lista = [{
     "nome": "Mesa de canto nogueira",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1000",
-    "descricao": "Mesa de canto tubo redondo, tampo tipo bandeja medindo 33cm em MDF com folha de nogueira ou embuia escuro.",
-    "tampo": "Mel, Embuia Escuro",
+    "descricao": "Mesa de canto tubo redondo, tampo tipo bandeja medindo 33cm em MDF com folha de Nogueira ou Imbuia Escura.",
+    "tampo": "Mel, Imbuia Escura",
     "pintura": "Aço Corten, Preto Fosco, Bronze e Dourado",
     "dimensao": [
         {
@@ -70,7 +70,7 @@ const lista = [{
     "nome": "Mesa de canto vintage",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1001",
-    "descricao": "Mesa de canto em ferro, com tampo tipo bandeja em MDF com folha de nogueira tingida.",
+    "descricao": "Mesa de canto em ferro, com tampo tipo bandeja em MDF com folha de Nogueira tingida.",
     "tampo": "Natural",
     "pintura": "Preto brilho",
     "dimensao": [
@@ -104,7 +104,8 @@ const ProductList1 = () => {
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
-                                    <br />"<small><i>{item.observacao}</i></small>"
+                                    <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
+                                    <br /><small>* <i>{item.observacao}</i></small>
                                 </p>
                             </div>
                         </div>

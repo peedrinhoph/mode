@@ -115,7 +115,8 @@ const ProductList1 = () => {
                                 <p className="product-text-show">
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
-                                    <br />"<small><i>{item.observacao}</i></small>"
+                                    <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
+                                    <br /><small>* <i>{item.observacao}</i></small>
                                 </p>
                             </div>
                         </div>

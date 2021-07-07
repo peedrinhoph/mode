@@ -12,8 +12,8 @@ const lista = [{
     "nome": "Mesa Bistrot",
     "modelo": "Mesas",
     "referencia": "MDMBT1000",
-    "descricao": "Mesa de ferro, tampo MDF com lamina de embuia escuro diâmetro de 100cm.",
-    "tampo": "Embuia escuro",
+    "descricao": "Mesa de ferro, tampo MDF com lamina de Imbuia Escura diâmetro de 100cm.",
+    "tampo": "Imbuia Escura",
     "pintura": "Grafite",
     "dimensao": [
         {
@@ -49,7 +49,8 @@ const ProductList1 = () => {
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
-                                    <br />"<small><i>{item.observacao}</i></small>"
+                                    <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
+                                    <br /><small>* <i>{item.observacao}</i></small>
                                 </p>
                             </div>
                         </div>

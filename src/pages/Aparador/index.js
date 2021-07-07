@@ -34,8 +34,8 @@ const lista = [{"id": 1,
     "nome": "Aparador Arco",
     "modelo": "Mesa e aparador",
     "referencia": "MDAPR1000",
-    "descricao": "Aparador em ferro chato, tampo em MDF com lamina de embuia escuro ou nogueira mel.",
-    "tampo": "Mel, Embuia escuro",
+    "descricao": "Aparador em ferro chato, tampo em MDF com lamina de Imbuia Escura ou Nogueira Mel.",
+    "tampo": "Mel, Imbuia Escura",
     "pintura": "Preto Fosco e Niquel",
     "dimensao": [
         {
@@ -71,7 +71,8 @@ const ProductList1 = () => {
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
-                                    <br />"<small><i>{item.observacao}</i></small>"
+                                    <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
+                                    <br /><small>* <i>{item.observacao}</i></small>
                                 </p>
                             </div>
                         </div>

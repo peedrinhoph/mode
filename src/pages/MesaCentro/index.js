@@ -28,8 +28,8 @@ const lista = [{
     "nome": "Mesa Anexo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1005 + MDCTR1006",
-    "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 50cm de diâmetro tampo em MDF e lamina de embuia escuro.",
-    "tampo": "Embuia escuro",
+    "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 50cm de diâmetro tampo em MDF e lamina de Imbuia Escura.",
+    "tampo": "Imbuia Escura",
     "pintura": "Aço corten",
     "dimensao": [
         {
@@ -60,8 +60,8 @@ const lista = [{
     "nome": "Mesa Aliança",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1004",
-    "descricao": "Mesa de centro ferro chato, tampo em MDF oval com lamina de embuia escuro.",
-    "tampo": "Embuia escuro",
+    "descricao": "Mesa de centro ferro chato, tampo em MDF oval com lamina de Imbuia Escura.",
+    "tampo": "Imbuia Escura",
     "pintura": "Bronze liquida, Dourado, Preto Fosco e Niquel",
     "dimensao": [
         {
@@ -84,8 +84,8 @@ const lista = [{
     "nome": "Mesa X",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1000",
-    "descricao": "Mesa de centro ferro chato, tampo tipo bandeja em MDF com lamina de nogueira cor mel ou embuia escuro.",
-    "tampo": "Mel, Embuia escuro",
+    "descricao": "Mesa de centro ferro chato, tampo tipo bandeja em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
+    "tampo": "Mel, Imbuia Escura",
     "pintura": "Aço Corten e Preto Fosco",
     "dimensao": [
         {
@@ -108,8 +108,8 @@ const lista = [{
     "nome": "Mesa Retângulo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1001",
-    "descricao": "Mesa de centro tubo 30x70, tampo em MDF com lamina de nogueira cor mel ou embuia escuro.",
-    "tampo": "Mel, Embuia escuro",
+    "descricao": "Mesa de centro tubo 30x70, tampo em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
+    "tampo": "Mel, Imbuia Escura",
     "pintura": "Preto Fosco, Bronze e Aço Corten",
     "dimensao": [
         {
@@ -138,8 +138,8 @@ const lista = [{
     "nome": "Mesa Alçada",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1002",
-    "descricao": "Mesa de centro tubular, tampo em MDF com lamina de nogueira cor mel ou embuia escuro.",
-    "tampo": "Mel, Embuia escuro",
+    "descricao": "Mesa de centro tubular, tampo em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
+    "tampo": "Mel, Imbuia Escura",
     "pintura": "Preto Fosco, Cobre e Niquel",
     "dimensao": [
         {
@@ -162,8 +162,8 @@ const lista = [{
     "nome": "Mesa Pisa",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1003",
-    "descricao": "Mesa de centro tubular, tampo tipo bandeja em MDF com lamina de nogueira cor mel ou embuia escuro.",
-    "tampo": "Mel, Embuia escuro",
+    "descricao": "Mesa de centro tubular, tampo tipo bandeja em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
+    "tampo": "Mel, Imbuia Escura",
     "pintura": "Aço Corten Liquida, Niquel e Preto",
     "dimensao": [
         {
@@ -205,7 +205,8 @@ const ProductList1 = () => {
                                     {item.descricao}
                                     <br /><br />Acabamento: {item.pintura}
                                     <br />Tampo: {item.tampo}
-                                    <br />"<small><i>{item.observacao}</i></small>"
+                                    <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
+                                    <br /><small>* <i>{item.observacao}</i></small>
                                 </p>
                             </div>
                         </div>
