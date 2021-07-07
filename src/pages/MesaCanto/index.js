@@ -14,7 +14,7 @@ import Image7 from '../../assets/images/products/mesa_canto_vintage.jpg';
 
 const lista = [{
     "id": 1,
-    "nome": "Mesa de canto Doble",
+    "nome": "Mesa Doble",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
     "descricao": "Mesa de canto maior com diâmetro de 51cm e mesa menor com 46cm, tampos MDF com folha de Nogueira na cor natural.",
@@ -43,7 +43,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 2,
-    "nome": "Mesa de canto nogueira",
+    "nome": "Mesa Tower",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1000",
     "descricao": "Mesa de canto tubo redondo, tampo tipo bandeja medindo 33cm em MDF com folha de Nogueira ou Imbuia Escura.",
@@ -67,7 +67,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 3,
-    "nome": "Mesa de canto vintage",
+    "nome": "Mesa Vintage",
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1001",
     "descricao": "Mesa de canto em ferro, com tampo tipo bandeja em MDF com folha de Nogueira tingida.",

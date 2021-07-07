@@ -12,6 +12,7 @@ import Chair from '../Chair';
 import Banqueta from '../Banqueta';
 import Aparador from '../Aparador';
 import Table from '../Table';
+import Acabamento from '../Acabamento';
 import backIcon from '../../assets/images/icons/back.svg';
 
 import './styles.css';
@@ -35,6 +36,8 @@ function ShowMore() {
                 return 'Cadeiras';
             case 'tables':
                 return 'Mesas bistro';
+            case 'finishing':
+                return 'Acabamento e Texturas';
             case 'others':
                 return 'Outros';
             default:
@@ -60,6 +63,8 @@ function ShowMore() {
                 return <Chair />
             case 'tables':
                 return <Table />
+            case 'finishing':
+                return <Acabamento />
             case 'other':
                 return <ProductMirror />
             default:

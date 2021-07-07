@@ -25,7 +25,7 @@ import Image17 from '../../assets/images/products/mesa_centro_pisa4.jpg';
 
 const lista = [{
     "id": 1,
-    "nome": "Mesa Anexo",
+    "nome": "Mesa Xenia",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1005 + MDCTR1006",
     "descricao": "Juntas ou separadas complementam o seu ambiente, mesa de centro com 50cm de diâmetro tampo em MDF e lamina de Imbuia Escura.",
