@@ -39,7 +39,7 @@ const lista = [{
     "nome": "Banqueta Lika",
     "modelo": "Puff e banqueta",
     "referencia": "MDBQ1001",
-    "descricao": "Banqueta tubular alçada com estofado tecido capri branco, altura do assento 79cm.",
+    "descricao": "Banqueta tubular alçada com estofado tecido Capri Branco, altura do assento 79cm.",
     "tampo": "",
     "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
     "dimensao": [
@@ -60,9 +60,9 @@ const lista = [{
     "nome": "Banqueta Agatha",
     "modelo": "Puff e banqueta",
     "referencia": "MDBQ1003",
-    "descricao": "Banqueta concha MDF estofada em tecido joli rose, base tubular na cor aço corten, altura do assento 70cm, profundidade do assento 46cm.",
+    "descricao": "Banqueta concha MDF estofada em tecido Veludo Jolie rose, base tubular na cor aço corten, altura do assento 70cm, profundidade do assento 46cm.",
     "tampo": "",
-    "pintura": "Aço corten, cobre",
+    "pintura": "Aço Corten, Cobre",
     "dimensao": [
         {
             "comprimento": "58cm",

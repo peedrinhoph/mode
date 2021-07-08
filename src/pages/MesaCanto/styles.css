@@ -14,13 +14,3 @@
     color: var(--color-text-complement);
     padding: 15px 0 15px 0;
 }
-
-  @media (min-width: 700px) {
-     
-  
-      .product-image-show {
-          margin-top: 0;
-      }
-  
-    
-    }

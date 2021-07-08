@@ -22,11 +22,12 @@ import Image16 from '../../assets/images/products/acabamentos/joli_rose.jpg';
 import Image17 from '../../assets/images/products/acabamentos/nogueira_mel.jpg';
 import Image18 from '../../assets/images/products/acabamentos/imbuia_escura.jpg';
 import Image19 from '../../assets/images/products/acabamentos/capri_branco.jpg';
-import Image20 from '../../assets/images/products/acabamentos/ban.jpg';
+import Image20 from '../../assets/images/products/acabamentos/tecidobanqueta.jpg';
+import Image21 from '../../assets/images/products/acabamentos/dourado_especial.jpg';
 
 const lista = [{
     "id": 1,
-    "nome": "Imbuia Natural",
+    "nome": "MDF Imbuia Natural",
     "tipo": "Lamina",
     "descricao": "Lamina de Imbuia Escura natural.",
     "imagens": [
@@ -35,8 +36,18 @@ const lista = [{
         }
     ],
 }, {
+    "id": 19,
+    "nome": "MDF Imbuia Pintura Escura ",
+    "tipo": "Lamina",
+    "descricao": "Lamina de Imbuia tingida na cor escura.",
+    "imagens": [
+        {
+            "url": Image18
+        }
+    ],
+}, {
     "id": 2,
-    "nome": "Nogueira Natural",
+    "nome": "MDF Nogueira Natural",
     "tipo": "Lamina",
     "descricao": "Lamina de Nogueira natural.",
     "imagens": [
@@ -46,7 +57,7 @@ const lista = [{
     ],
 }, {
     "id": 18,
-    "nome": "Nogueira Pintura Mel",
+    "nome": "MDF Nogueira Pintura Mel",
     "tipo": "Lamina",
     "descricao": "Lamina de Nogueira tingida na cor Mel.",
     "imagens": [
@@ -55,13 +66,33 @@ const lista = [{
         }
     ],
 }, {
-    "id": 19,
-    "nome": "Imbuia Pintura Escura ",
-    "tipo": "Lamina",
-    "descricao": "Lamina de Imbuia tingida na cor escura.",
+    "id": 18,
+    "nome": "Tecido Jolie Rose",
+    "tipo": "Tecido aveludado para estofados.",
+    "descricao": "Tecido rose",
     "imagens": [
         {
-            "url": Image18
+            "url": Image16
+        }
+    ],
+}, {
+    "id": 19,
+    "nome": "Tecido Capri Branco",
+    "tipo": "Tecido",
+    "descricao": "Tecido capri.",
+    "imagens": [
+        {
+            "url": Image19
+        }
+    ],
+}, {
+    "id": 20,
+    "nome": "Courvin Preto",
+    "tipo": "Courvin",
+    "descricao": "Courvin texturizado para assento de banqueta.",
+    "imagens": [
+        {
+            "url": Image20
         }
     ],
 }, {
@@ -91,7 +122,7 @@ const lista = [{
     "descricao": "Pintura especial perolizada na cor Dourado.",
     "imagens": [
         {
-            "url": Image4
+            "url": Image21
         }
     ],
 }, {
@@ -214,38 +245,10 @@ const lista = [{
             "url": Image15
         }
     ],
-}, {
-    "id": 18,
-    "nome": "Joli Rose",
-    "tipo": "Tecido",
-    "descricao": "Tecido rose",
-    "imagens": [
-        {
-            "url": Image16
-        }
-    ],
-}, {
-    "id": 19,
-    "nome": "Capri Branco",
-    "tipo": "Tecido",
-    "descricao": "Tecido capri.",
-    "imagens": [
-        {
-            "url": Image19
-        }
-    ],
-}, {
-    "id": 20,
-    "nome": "Bistrot",
-    "tipo": "Tecido",
-    "descricao": "Tecido.",
-    "imagens": [
-        {
-            "url": Image20
-        }
-    ],
 }];
 
+const lista_tecidos = [
+];
 const ProductList1 = () => {
     return (
         <>
@@ -254,7 +257,7 @@ const ProductList1 = () => {
                     return (
                         <div key={index} className="section-product-show">
                             <div className="section-description-show">
-                                <h2 className="product-title-show">REF. {item.nome}</h2>
+                                <h2 className="product-title-show">{item.nome}</h2>
                                 <Display imagens={item.imagens} alt={item.descricao} />
                                 <p className="product-text-show">
                                     {item.descricao}
