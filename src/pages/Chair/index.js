@@ -9,7 +9,7 @@ import Image2 from '../../assets/images/products/cadeira_concha2.jpg';
 import Image3 from '../../assets/images/products/cadeira_concha3.jpg';
 
 const lista = [{"id": 1,
-    "nome": "Cadeira Joli",
+    "nome": "Cadeira Jolie",
     "modelo": "Cadeiras",
     "referencia": "MDCA1002",
     "descricao": "Cadeira concha MDF estofada em tecido Veludo Jolie rose, base tubular na cor Aço Corten, altura do assento 48cm, profundidade do assento 48cm.",

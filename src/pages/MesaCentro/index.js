@@ -62,7 +62,7 @@ const lista = [{
     "referencia": "MDCTR1004",
     "descricao": "Mesa de centro ferro chato, tampo em MDF oval com lamina de Imbuia Escura.",
     "tampo": "Imbuia Escura",
-    "pintura": "Bronze liquida, Dourado, Preto Fosco e Niquel",
+    "pintura": "Bronze Especial, Dourado, Preto Fosco e Niquel",
     "dimensao": [
         {
             "comprimento": "64cm",

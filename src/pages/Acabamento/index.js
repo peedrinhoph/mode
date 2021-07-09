@@ -24,6 +24,7 @@ import Image18 from '../../assets/images/products/acabamentos/imbuia_escura.jpg'
 import Image19 from '../../assets/images/products/acabamentos/capri_branco.jpg';
 import Image20 from '../../assets/images/products/acabamentos/tecidobanqueta.jpg';
 import Image21 from '../../assets/images/products/acabamentos/dourado_especial.jpg';
+import Image22 from '../../assets/images/products/acabamentos/bronze_especial.jpg';
 
 const lista = [{
     "id": 1,
@@ -203,6 +204,16 @@ const lista = [{
     "imagens": [
         {
             "url": Image11
+        }
+    ],
+}, {
+    "id": 21,
+    "nome": "Bronze Especial",
+    "tipo": "Liquida",
+    "descricao": "Pintura especial na cor Bronze.",
+    "imagens": [
+        {
+            "url": Image22
         }
     ],
 }, {
