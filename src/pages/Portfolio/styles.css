@@ -20,12 +20,19 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+
+}
+
+.product-image figure {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--color-background);
 }
 
 .section .section-portfolio .section-portfolio-product img {
   width: 100%;
   margin-bottom: -0.7rem;
-  border-radius: 0;
+  border-radius: 5px;
 }
 
 .section-portfolio-product {

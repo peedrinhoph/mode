@@ -258,8 +258,6 @@ const lista = [{
     ],
 }];
 
-const lista_tecidos = [
-];
 const ProductList1 = () => {
     return (
         <>

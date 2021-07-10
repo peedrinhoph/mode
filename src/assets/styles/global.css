@@ -34,7 +34,7 @@
   }
 
   body {
-      background: var(--color-background);
+      background: linear-gradient(var(--color-background), var(--color-background)) !important;
   }
 
   #root {

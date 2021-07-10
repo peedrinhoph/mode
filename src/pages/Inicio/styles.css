@@ -36,6 +36,12 @@
     gap: 10px;
 }
 
+.section-90-vw .section-product figure {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--color-background);
+  }
+
 .section-90-vw .section-product img {
     width: 100%;
     margin-bottom: -1rem;
