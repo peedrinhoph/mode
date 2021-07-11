@@ -20,7 +20,7 @@ const lista = [{
     "referencia": "MDPUFF0001",
     "descricao": "Puff tubular dourado brilho, estofado tecido Pelúcia Preto e Linho Capri Branco, diâmetro do assento 35cm.",
     "tampo": "",
-    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "pintura": "Dourado Especial",
     "dimensao": [
         {
             "comprimento": "0cm",
@@ -43,7 +43,7 @@ const lista = [{
     "referencia": "MDPUFF1002",
     "descricao": "Puff tubular cobre, estofado com 15cm de tecido Linho Capri Branco embutido na estrutura, diâmetro do assento 35cm.",
     "tampo": "",
-    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "pintura": "Cobre",
     "dimensao": [
         {
             "comprimento": "0cm",
@@ -63,7 +63,7 @@ const lista = [{
     "referencia": "MDPUFF1003",
     "descricao": "Puff tubular rose, estofado de tecido Linho Capri Bege, diâmetro do assento 35cm.",
     "tampo": "",
-    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "pintura": "Rose Gold",
     "dimensao": [
         {
             "comprimento": "0cm",
@@ -85,7 +85,7 @@ const lista = [{
     "referencia": "MDPUFF1004",
     "descricao": "Puff tubular, estofado de tecido Veludo Verde e Linho Capri Bege, diâmetro do assento 35cm.",
     "tampo": "",
-    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "pintura": "Bronze",
     "dimensao": [
         {
             "comprimento": "0cm",

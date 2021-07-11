@@ -36,7 +36,7 @@ const lista = [{"id": 1,
     "referencia": "MDAPR1000",
     "descricao": "Aparador em ferro chato, tampo em MDF com lamina de Imbuia Escura ou Nogueira Mel.",
     "tampo": "Mel, Imbuia Escura",
-    "pintura": "Preto Fosco e Niquel",
+    "pintura": "Preto Fosco",
     "dimensao": [
         {
             "comprimento": "119cm",

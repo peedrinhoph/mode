@@ -6,10 +6,10 @@ import PageFooter from '../../components/PageFooter';
 
 import Image1 from '../../assets/images/products/costelagiratoria.png';
 import Image2 from '../../assets/images/products/aparadorvintage.jpg';
-import Image3 from '../../assets/images/products/mesa_centro_pisa1.jpg';
+import Image3 from '../../assets/images/products/mesa_centro_retangular_embuia1.jpg';
 import Image4 from '../../assets/images/products/banqueta_concha2.jpg';
 import Image5 from '../../assets/images/products/mesa_canto_dupla1.jpg';
-import Image6 from '../../assets/images/products/puff_pelucia_preto2.jpg';
+import Image6 from '../../assets/images/products/MDPUFF1003.jpg';
 //import Aspas from '../../assets/images/icons/aspas.svg';
 //import Project from '../../assets/images/icons/project.svg';
 //import Pencil from '../../assets/images/icons/pencil.svg';
@@ -87,30 +87,94 @@ function Inicio() {
                             <Link to="portfolio">Ver mais</Link>
                         </div>
                     </div>
-
-                    <div className="section-why">
-                        <h1 className="section-why-title">Móveis de aço</h1>
-                        <div className="section-why-grid">
-                            <div className="section-why-text">
-                                <p>
-                                    Durabilidade, design e modernidade: Dentre as vantagens dos móveis de aço carbono é possível encontrar uma
-                                    grande variedade de peças que possam contribuir de forma funcional e agradável
-                                    todos os ambientes residenciais e corporativos, como por exemplo: mesas de jantar,
-                                    de escritório, de centro, aparadores, prateleiras e estantes, entre outras inúmeras peças.<br /><br />
-                                    Nos últimos tempos tem ganhado muito espaço na decoração de ambientes onde partiram de espaços indústriais ou comerciais
-                                    e foram para dentro das casas e empresas com uma proposta visual mais moderna e arrojada nos ambientes em que são utilizados.<br /><br />
-
-                                    São móveis trabalhados em chapas e tubos de aço com diversas espessuras de modo a suportar diferentes
-                                    cargas de peso e seu processo de pintura utiliza o sistema eletrostática epóxi a pó (técnica que garante alta resistência à umidade
-                                    e produtos químicos, alta durabilidade e resistência à abrasão). Além disso, as peças são disponibilizadas em cores variadas para
-                                    combinar com qualquer ambiente, o que faz desses móveis uma alternativa prática e com um ótimo custo/benefício.
-                                </p>
+                    <div className="section-background-image">
+                        <h1 className="section-background-image-title">Dúvidas Frequentes</h1>
+                        <div className="section-comment">
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Orçamento</h3>
+                                    <p>
+                                        Faça seu orçamento sem compromisso algum, basta preencher o formulário indicado na página CONTATO e iniciar uma conversa com nosso comercial através do WhatsApp,
+                                        ou se preferir, envie um e-mail para comercial@modemoveis.com.br com o código e quantidade dos produtos, em até 24 horas lhe retornaremos.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Fabricação</h3>
+                                    <p>
+                                        Seu pedido é direto na fabrica, a produção fica entre 20 a 30 dias a contar da data de confirmação do pagamento, podendo ser antecipada.
+                                        O seu produto será despachado em até 3 dias úteis após a finalização e analise de qualidade das peças.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Porque esse prazo</h3>
+                                    <p>
+                                        Precisamos deste tempo para uma produção coerente com a qualidade desejada.
+                                        Nossa linha de produtos demandam um trabalho bastante manual e exclusivo aos nossos clientes.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Aprovação do pedido</h3>
+                                    <p>
+                                        - Boleto Bancário em até 48 horas.
+                                        <br />- Cartão de Crédito em até 24 horas.
+                                        <br />- Débito em Conta ou Ted em até 4 horas.
+                                        <br />- PIX em até 2 horas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Entrega</h3>
+                                    <p>
+                                        O prazo de entrega varia conforme a região, CEP e meio de transporte optado para o envio.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Entrega por correios</h3>
+                                    <p>
+                                        Quando optado pelo sistema dos Correios, você será informado do código para rastrear sua encomenda através do WhatsApp, assim que ela for postada.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Entrega por transportadora</h3>
+                                    <p>
+                                        Será realizada somente entre segunda a sexta-feira, das 08h às 18:00h sem a possibilidade
+                                        de agendamento, com exceção de feriados. O pedido poderá ser recebido por um responsável, mediante a assinatura do comprovante de entrega.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Devoluções ou Trocas</h3>
+                                    <p>
+                                        Trabalhamos bastante para que você Ame seu produto Mode. Mas, se ainda assim você não ficou satisfeito, a gente resolve.
+                                        Entre em contato com nosso Comercial através do e-mail comercial@modemoveis.com.br ou se preferir via WhatsApp +5554 9 97024574 descrevendo o motivo da solicitação.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="section-comment-block">
+                                <div className="section-comment-text">
+                                    <h3>Desistência da compra</h3>
+                                    <p>
+                                        Solicitar o cancelamento em até 07(sete) dias corridos da aprovação. 
+                                        Será restituído o valor do produto no prazo de até 10(dez) dias úteis.
+                                        <br /><br /><i>Importante: <small>Uma vez que a compra for efetuada, nos fica claro que você cliente Aceita/Concorda com a nossa forma de trabalho, nos reservando todos os direitos.</small></i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="section-contact-link">
-                            <Link to="about-us">Quem somos</Link>
-                        </div>
                     </div>
+
 
                     {/*<div className="section-90-vw">
                         <div className="section-title">
@@ -163,7 +227,7 @@ function Inicio() {
                                     <img src={Sol} alt="asdas" />
                                     <h3>Tempo</h3>
                                 </div>
-                                <p>Evitar expor a luminosidade excessiva do sol pois pode deixar o móvel descolorido, a não ser que você esteja procurando um efeito envelhecido. 
+                                <p>Evitar expor a luminosidade excessiva do sol pois pode deixar o móvel descolorido, a não ser que você esteja procurando um efeito envelhecido.
                                     E principalmente mantenha longe da água, umidade também é prejudicial a sua conservação.</p>
                             </div>
 
@@ -233,6 +297,29 @@ function Inicio() {
                             </div>
                         </div>
                     </div>*/}
+                    <div className="section-why">
+                        <h1 className="section-why-title">Móveis de aço</h1>
+                        <div className="section-why-grid">
+                            <div className="section-why-text">
+                                <p>
+                                    Durabilidade, design e modernidade: Dentre as vantagens dos móveis de aço carbono é possível encontrar uma
+                                    grande variedade de peças que possam contribuir de forma funcional e agradável
+                                    todos os ambientes residenciais e corporativos, como por exemplo: mesas de jantar,
+                                    de escritório, de centro, aparadores, prateleiras e estantes, entre outras inúmeras peças.<br /><br />
+                                    Nos últimos tempos tem ganhado muito espaço na decoração de ambientes onde partiram de espaços indústriais ou comerciais
+                                    e foram para dentro das casas e empresas com uma proposta visual mais moderna e arrojada nos ambientes em que são utilizados.<br /><br />
+
+                                    São móveis trabalhados em chapas e tubos de aço com diversas espessuras de modo a suportar diferentes
+                                    cargas de peso e seu processo de pintura utiliza o sistema eletrostática epóxi a pó (técnica que garante alta resistência à umidade
+                                    e produtos químicos, alta durabilidade e resistência à abrasão). Além disso, as peças são disponibilizadas em cores variadas para
+                                    combinar com qualquer ambiente, o que faz desses móveis uma alternativa prática e com um ótimo custo/benefício.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="section-contact-link">
+                            <Link to="about-us">Quem somos</Link>
+                        </div>
+                    </div>
                 </div>
             </main>
             {scroll && <span id="mouse"></span>}

@@ -71,7 +71,7 @@ const lista = [{
     ],
 }, {
     "id": 18,
-    "nome": "Tecido Jolie Rose",
+    "nome": "Veludo Jolie Rose",
     "tipo": "Tecido aveludado para estofados.",
     "descricao": "Tecido rose",
     "imagens": [

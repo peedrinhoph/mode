@@ -18,7 +18,7 @@ const lista = [{
     "modelo": "Mesas de apoio",
     "referencia": "MDCTO1002",
     "descricao": "Mesa de canto maior com diâmetro de 51cm e mesa menor com 46cm, tampos MDF com folha de Nogueira na cor natural.",
-    "tampo": "Natural",
+    "tampo": "Nogueira Natural",
     "pintura": "Dourado",
     "dimensao": [
         {
@@ -48,7 +48,7 @@ const lista = [{
     "referencia": "MDCTO1000",
     "descricao": "Mesa de canto tubo redondo, tampo tipo bandeja medindo 33cm em MDF com folha de Nogueira ou Imbuia Escura.",
     "tampo": "Mel, Imbuia Escura",
-    "pintura": "Aço Corten, Preto Fosco, Bronze e Dourado",
+    "pintura": "Aço Corten Especial",
     "dimensao": [
         {
             "comprimento": "40cm",

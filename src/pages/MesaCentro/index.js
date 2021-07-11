@@ -62,7 +62,7 @@ const lista = [{
     "referencia": "MDCTR1004",
     "descricao": "Mesa de centro ferro chato, tampo em MDF oval com lamina de Imbuia Escura.",
     "tampo": "Imbuia Escura",
-    "pintura": "Bronze Especial, Dourado, Preto Fosco e Niquel",
+    "pintura": "Bronze Especial",
     "dimensao": [
         {
             "comprimento": "64cm",
@@ -81,12 +81,12 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 3,
-    "nome": "Mesa X",
+    "nome": "Mesa Cruzada",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1000",
     "descricao": "Mesa de centro ferro chato, tampo tipo bandeja em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
     "tampo": "Mel, Imbuia Escura",
-    "pintura": "Aço Corten e Preto Fosco",
+    "pintura": "Aço Corten",
     "dimensao": [
         {
             "comprimento": "60cm",
@@ -110,7 +110,7 @@ const lista = [{
     "referencia": "MDCTR1001",
     "descricao": "Mesa de centro tubo 30x70, tampo em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
     "tampo": "Mel, Imbuia Escura",
-    "pintura": "Preto Fosco, Bronze e Aço Corten",
+    "pintura": "Preto Fosco",
     "dimensao": [
         {
             "comprimento": "70cm",
@@ -140,7 +140,7 @@ const lista = [{
     "referencia": "MDCTR1002",
     "descricao": "Mesa de centro tubular, tampo em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
     "tampo": "Mel, Imbuia Escura",
-    "pintura": "Preto Fosco, Cobre e Niquel",
+    "pintura": "Preto Fosco",
     "dimensao": [
         {
             "comprimento": "53cm",
@@ -164,7 +164,7 @@ const lista = [{
     "referencia": "MDCTR1003",
     "descricao": "Mesa de centro tubular, tampo tipo bandeja em MDF com lamina de Nogueira Mel ou Imbuia Escura.",
     "tampo": "Mel, Imbuia Escura",
-    "pintura": "Aço Corten Liquida, Niquel e Preto",
+    "pintura": "Aço Corten Especial",
     "dimensao": [
         {
             "comprimento": "70cm",

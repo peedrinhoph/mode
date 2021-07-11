@@ -52,7 +52,7 @@ function Contact() {
                 <div id="page-contact-content" className="page-contact-content">
                     <div id="page-contact-data" className="contact-data">
                         <p>Você já conhece e segue nossas redes sociais? <br/><br/>
-                            Seja no Instagram ou no Facebook você confere nossos produtos e lançamentos de maneira mais informativa e dinâmica...</p>
+                            Seja no Instagram ou no Facebook você confere nossos produtos e lançamentos de maneira mais informativa e dinâmica. Siga-nos e fique por dentro das promoções e novidades.</p>
                         <br />
                         <div className="contact-social-group">
                             <img src={whatsApp} alt="instagram" />
@@ -86,7 +86,7 @@ function Contact() {
                         <form onSubmit={handleSendMessage}>
                             <fieldset>
                                 {/*<legend>Preencha o formulário abaixo e clique em "enviar", que em até 48 horas úteis, um de nossos consultores entrará em contato com você.</legend>*/}
-                                <legend>Preencha os dados abaixo para iniciar uma conversa via WhatsApp conosco, responderemos seu contato o mais breve possível</legend>
+                                <legend>Preencha os dados abaixo para iniciar uma conversa via WhatsApp conosco, responderemos seu contato em até 24 horas.</legend>
                                 <Input
                                     required
                                     name="name"

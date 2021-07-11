@@ -37,6 +37,7 @@ const PageHeader = (props) => {
                     <h2>Menu</h2>
                     <Link to="/">Inicio</Link>
                     <Link to="/portfolio">Portfólio</Link>
+                    <Link to="/portfolio/show-more/finishing">Acabamentos</Link>
                     <Link to="/about-us">Quem somos</Link>
                     <Link to="/contact">Contato</Link>
                 </div>

@@ -41,7 +41,7 @@ const lista = [{
     "referencia": "MDBQ1001",
     "descricao": "Banqueta tubular alçada com estofado tecido Capri Branco, altura do assento 79cm.",
     "tampo": "",
-    "pintura": "Dourado Brilho, Dourado Fosco, Rose Gold, Bronze, Cobre",
+    "pintura": "Bronze",
     "dimensao": [
         {
             "comprimento": "42cm",
@@ -62,7 +62,7 @@ const lista = [{
     "referencia": "MDBQ1003",
     "descricao": "Banqueta concha MDF estofada em tecido Veludo Jolie rose, base tubular na cor aço corten, altura do assento 70cm, profundidade do assento 46cm.",
     "tampo": "",
-    "pintura": "Aço Corten, Cobre",
+    "pintura": "Aço Corten",
     "dimensao": [
         {
             "comprimento": "58cm",
