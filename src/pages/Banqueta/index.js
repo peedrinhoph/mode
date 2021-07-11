@@ -7,7 +7,7 @@ import DisplayDimenssion from '../../components/DimenssionDisplay';
 import Image1 from '../../assets/images/products/banqueta_bistro1.jpg';
 import Image2 from '../../assets/images/products/banqueta_bistro2.jpg';
 import Image3 from '../../assets/images/products/banqueta_concha2.jpg';
-import Image4 from '../../assets/images/products/MDBQ1001.jpeg';
+import Image4 from '../../assets/images/products/MDBQ1001.jpg';
 
 
 const lista = [{

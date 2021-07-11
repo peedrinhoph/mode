@@ -25,6 +25,9 @@ import Image19 from '../../assets/images/products/acabamentos/capri_branco.jpg';
 import Image20 from '../../assets/images/products/acabamentos/tecidobanqueta.jpg';
 import Image21 from '../../assets/images/products/acabamentos/dourado_especial.jpg';
 import Image22 from '../../assets/images/products/acabamentos/bronze_especial.jpg';
+import Image23 from '../../assets/images/products/acabamentos/acocortenespecial.jpg';
+import Image24 from '../../assets/images/products/acabamentos/linhocapribege.jpg';
+import Image25 from '../../assets/images/products/acabamentos/veludoverde.jpg';
 
 const lista = [{
     "id": 1,
@@ -78,9 +81,9 @@ const lista = [{
     ],
 }, {
     "id": 19,
-    "nome": "Tecido Capri Branco",
+    "nome": "Linho Capri Branco",
     "tipo": "Tecido",
-    "descricao": "Tecido capri.",
+    "descricao": "Tecido liso.",
     "imagens": [
         {
             "url": Image19
@@ -94,6 +97,26 @@ const lista = [{
     "imagens": [
         {
             "url": Image20
+        }
+    ],
+}, {
+    "id": 20,
+    "nome": "Veludo Ultraconfort Verde",
+    "tipo": "Tecido",
+    "descricao": "Tecido aveludado na cor verde.",
+    "imagens": [
+        {
+            "url": Image25
+        }
+    ],
+}, {
+    "id": 22,
+    "nome": "Linho Capri Bege",
+    "tipo": "Tecido",
+    "descricao": "Tecido liso.",
+    "imagens": [
+        {
+            "url": Image24
         }
     ],
 }, {
@@ -153,7 +176,7 @@ const lista = [{
     "descricao": "Pintura especial liquida na cor Aço Corten.",
     "imagens": [
         {
-            "url": Image5
+            "url": Image23
         }
     ],
 }, {
