@@ -166,9 +166,9 @@ function Inicio() {
                                 <div className="section-comment-text">
                                     <h3>Desistência da compra</h3>
                                     <p>
-                                        Solicitar o cancelamento em até 07(sete) dias corridos da aprovação. 
+                                        Solicitar o cancelamento do pedido em até 48 horas corridos da data solicitada. 
                                         Será restituído o valor do produto no prazo de até 10(dez) dias úteis.
-                                        <br /><br /><i>Importante: <small>Uma vez que a compra for efetuada, nos fica claro que você cliente Aceita/Concorda com a nossa forma de trabalho, nos reservando todos os direitos.</small></i>
+                                        <br />Importante: <i><small>Uma vez que a compra for efetuada, nos fica claro que você cliente Aceita/Concorda com a nossa forma de trabalho, nos reservando todos os direitos.</small></i>
                                     </p>
                                 </div>
                             </div>
