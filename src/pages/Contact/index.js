@@ -20,13 +20,11 @@ function Contact() {
         e.preventDefault();
         const link = `https://api.whatsapp.com/send?phone=+5554997024574&text=Meu nome é ${name}, moro em ${city}, ${message}. Meus contatos de WhatsApp: ${whatsapp} e e-mail: ${email}`;
         window.open(link, "_blank");
-        /*console.log({
-            name,
-            email,
-            whatsapp,
-            message,
-            city
-        })*/
+        setName('');
+        setCity('');
+        setMessage('');
+        setWhatsapp('');
+        setEmail('');
     };
 
     const [scroll, setScroll] = useState('hidden');

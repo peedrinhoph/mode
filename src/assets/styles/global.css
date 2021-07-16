@@ -19,7 +19,8 @@
     --color-box-footer: #F8F8FC;
     --color-gold: #bd926d;
     --color-menu: #ededed;
-  
+    --color-whatsapp: #095e54;
+
     font-size: 56.2%;
   }
 
@@ -59,12 +60,12 @@
      bottom: 10px;
      right: 10px;
      position: fixed;
-     background-color: var(--color-primary-darker);
+     background-color: transparent;
      color: var(--color-title-in-primary);
      padding: 1rem;
      border-radius: 10px;
      width: 250px;
-     clip-path: circle(10% at 90% 85%);
+     clip-path: circle(13% at 88% 80%);
      transition: all .3s ease-in-out;
      opacity: .8;
      cursor: pointer;
@@ -74,17 +75,25 @@
     color: var(--color-title-in-primary);
     text-decoration: none;
  }
+
  .tooltip:hover { 
+    background-color: var(--color-primary-dark);
      clip-path: circle(100%);
      opacity: 1;
  }
 
  .tooltip-span{
     float: right;
-    margin-right: 6%;
-    margin-bottom: 3%;
+    margin-right: 0;
+    margin-bottom: 0;
     opacity: 1;
     transition: all .3s ease-in-out;
+ }
+
+ .tooltip-span img{
+    width: 40px;
+    max-width: 40px;
+    height: auto;
  }
 
  .tooltip:hover span{

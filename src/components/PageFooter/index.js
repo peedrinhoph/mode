@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import instagram from '../../assets/images/icons/insta.svg';
 import facebook from '../../assets/images/icons/facebook.svg';
 import whatsApp from '../../assets/images/icons/whatsappp.svg';
+import whats from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
 
@@ -64,9 +65,10 @@ const PageHeader = (props) => {
                 <p>&copy; Copyright 2020 - {(new Date().getFullYear())} todos os direitos reservados. Desenvolvido por <a href="https://www.linkedin.com/in/pedro-pereira-62056883/" target="_blank" rel="noopener noreferrer">Pedro Henrique Pereira - Linkedin</a></p>
             </div>
             <div className="tooltip">
-                <h2>Olá!</h2><br />
-                <p><Link to="/contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>
-                <span className="tooltip-span">i</span>
+                <h3>Como posso ajudar?</h3><br />
+                {/*<p><Link to="/contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>*/}
+                <p><a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Olá! Quero comprar na Mode Móveis" target="_blank" className="tooltip-link">Clique aqui e compre pelo <b>WhatsApp</b> sem sair de casa!</a></p>
+                <span className="tooltip-span"><img src={whats} className="whatsapp" alt="whatsapp" /></span>
             </div>
         </footer>
     );

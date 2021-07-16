@@ -58,7 +58,6 @@ function Inicio() {
                                 </div>*/}
                         </div>
                     </div>
-
                     <div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-title-text">Lançamentos</h2>
@@ -95,7 +94,7 @@ function Inicio() {
                                     <h3>Orçamento</h3>
                                     <p>
                                         Faça seu orçamento sem compromisso algum, basta preencher o formulário indicado na página CONTATO e iniciar uma conversa com nosso comercial através do WhatsApp,
-                                        ou se preferir, envie um e-mail para comercial@modemoveis.com.br com o código e quantidade dos produtos, em até 24 horas lhe retornaremos.
+                                        ou se preferir, envie-nos um e-mail para comercial@modemoveis.com.br com o código e quantidade dos produtos que deseja, em até 24 horas lhe retornaremos.
                                     </p>
                                 </div>
                             </div>
@@ -158,7 +157,7 @@ function Inicio() {
                                     <h3>Devoluções ou Trocas</h3>
                                     <p>
                                         Trabalhamos bastante para que você Ame seu produto Mode. Mas, se ainda assim você não ficou satisfeito, a gente resolve.
-                                        Entre em contato com nosso Comercial através do e-mail comercial@modemoveis.com.br ou se preferir via WhatsApp +5554 9 97024574 descrevendo o motivo da solicitação.
+                                        Entre em contato com nosso Comercial através do e-mail comercial@modemoveis.com.br ou se preferir via WhatsApp +55 (54) 9 97024574 descrevendo o motivo da solicitação.
                                     </p>
                                 </div>
                             </div>
@@ -168,14 +167,12 @@ function Inicio() {
                                     <p>
                                         Solicitar o cancelamento do pedido em até 48 horas corridos da data solicitada. 
                                         Será restituído o valor do produto no prazo de até 10(dez) dias úteis.
-                                        <br />Importante: <i><small>Uma vez que a compra for efetuada, nos fica claro que você cliente Aceita/Concorda com a nossa forma de trabalho, nos reservando todos os direitos.</small></i>
+                                        <br /><i><small>Importante: Uma vez que a compra for efetuada, nos fica claro que você cliente Aceita/Concorda com a nossa forma de trabalho, nos reservando todos os direitos.</small></i>
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                     {/*<div className="section-90-vw">
                         <div className="section-title">
                             <h2 className="section-title-text">Porque nos escolher</h2>
@@ -236,7 +233,7 @@ function Inicio() {
                                     <img src={Quimicos} alt="asdas" />
                                     <h3>Químicos</h3>
                                 </div>
-                                <p>Evitar útilizar alcool ou produtos químicos, pois muitos produtos de limpeza são abrasivos e podem manchar ou até arranhar o móvel.</p>
+                                <p>Evitar útilizar álcool ou produtos químicos, pois muitos produtos de limpeza são abrasivos e podem manchar ou até arranhar o móvel.</p>
                             </div>
 
                             <div className="section-project">
@@ -244,7 +241,7 @@ function Inicio() {
                                     <img src={Flanela} alt="asdas" />
                                     <h3>Limpeza</h3>
                                 </div>
-                                <p>Para limpeza sempre utilize uma flanela - aquelas laranjas - seca ou levemente umedecida em agua com sabão neutro, é o mais indicado, contanto que você seque muito bem depois.</p>
+                                <p>Para limpeza sempre utilize uma flanela "aquelas laranjas" seca ou levemente umedecida em água com sabão neutro, é o mais indicado, contanto que você seque muito bem depois.</p>
                             </div>
                         </div>
                     </div>
