@@ -51,7 +51,7 @@ function Portfolio() {
                                         ela é extremamente confortável e você também vai chegar a essa conclusão.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/rib-armchair`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/rib-armchair`}>Produtos</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -84,7 +84,7 @@ function Portfolio() {
                                         centro a mesa de canto não atrapalha a circulação pelo ambiente.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/corner-tables`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/corner-tables`}>Produtos</Link>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@ function Portfolio() {
                                         é natural que chame a atenção e diga muito sobre o estilo de decoração e até mesmo a personalidade dos donos da casa.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/center-tables`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/center-tables`}>Produtos</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -125,7 +125,7 @@ function Portfolio() {
                                         na decoração e otimização de diversos cômodos.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/puffs`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/puffs`}>Produtos</Link>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@ function Portfolio() {
                                         ou externo de uma casa, seja qual for o nível de formalidade e a tendência decorativa predominante.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/stools`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/stools`}>Produtos</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -171,7 +171,7 @@ function Portfolio() {
                                         velas, porta-retratos, quadrinhos ou esculturas.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/sideboards`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/sideboards`}>Produtos</Link>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@ function Portfolio() {
                                         falamos de cadeiras estofadas coloridas.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/chair`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/chair`}>Produtos</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -208,7 +208,7 @@ function Portfolio() {
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Mesa bistrot</h2>
+                                    <h2 className="product-title">Mesas bistrot</h2>
                                     <p className="product-text-right product-text">
                                         As mesas bistrot, como o próprio nome sugere, são frequentemente
                                         usadas em estabelecimentos gastronômicos, aquelas utilizadas em modernos
@@ -219,7 +219,7 @@ function Portfolio() {
                                         a comida não é rebuscada e o clima é informal.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/tables`}>Ver mais</Link>
+                                        <Link to={`${url}/show-more/tables`}>Produtos</Link>
                                     </div>
                                 </div>
                             </div>

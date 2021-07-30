@@ -67,7 +67,7 @@ const PageHeader = (props) => {
             <div className="tooltip">
                 <h3>Como posso ajudar?</h3><br />
                 {/*<p><Link to="/contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>*/}
-                <p><a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Olá! Quero comprar na Mode Móveis" target="_blank" className="tooltip-link">Clique aqui e compre pelo <b>WhatsApp</b> sem sair de casa!</a></p>
+                <p><a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Olá! Quero comprar na Mode Móveis" target="_blank" rel="noopener noreferrer" className="tooltip-link">Clique aqui e compre pelo <b>WhatsApp</b> sem sair de casa!</a></p>
                 <span className="tooltip-span"><img src={whats} className="whatsapp" alt="whatsapp" /></span>
             </div>
         </footer>

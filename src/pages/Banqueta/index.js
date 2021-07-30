@@ -15,7 +15,7 @@ const lista = [{
     "nome": "Banqueta Bistrô",
     "modelo": "Puff e banqueta",
     "referencia": "MDBQ1000",
-    "descricao": "Banqueta de ferro com acento em courvin texturizado assento com 37cm de diâmetro.",
+    "descricao": "Banqueta de ferro com assento em courvin texturizado assento com 37cm de diâmetro.",
     "tampo": "",
     "pintura": "Grafite",
     "dimensao": [

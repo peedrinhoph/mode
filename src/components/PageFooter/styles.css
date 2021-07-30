@@ -1,7 +1,6 @@
 .page-footer {
     display: flex;
     flex-direction: column;
-   
     background: var(--color-box-footer);
 }
 
@@ -24,6 +23,7 @@
     margin: 0 auto;
     align-items: flex-start;
     padding: 1.6rem 0;
+    
 }
 
 .page-footer-copyright p{
@@ -50,6 +50,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
+}
+
+.page-footer-group + .page-footer-group{
+    padding-left: .5rem;
 }
 
 .page-footer-group h2{ 
