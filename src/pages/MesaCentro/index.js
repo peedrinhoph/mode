@@ -21,9 +21,34 @@ import Image14 from '../../assets/images/products/mesa_centro_pisa1.jpg';
 import Image15 from '../../assets/images/products/mesa_centro_pisa2.jpg';
 import Image16 from '../../assets/images/products/mesa_centro_pisa3.jpg';
 import Image17 from '../../assets/images/products/mesa_centro_pisa4.jpg';
-
+import Image18 from '../../assets/images/products/mesa_centro_electra2.jpg';
+import Image19 from '../../assets/images/products/acabamento_marmore_imperial.jpg';
 
 const lista = [{
+        "id": 6,
+        "nome": "Mesa Electra",
+        "modelo": "Mesa de centro",
+        "referencia": "MDCTR1007",
+        "descricao": "Mesa de centro Electra, base tubular com formato geométrico, tampo de vidro 6mm com textura em mármore Imperial deixando a peça com uma impressão marcante e única.",
+        "tampo": "Vidro padrão mármore",
+        "pintura": "Dourado",
+        "dimensao": [
+            {
+                "comprimento": "80cm",
+                "profundidade": "80cm",
+                "altura": "37cm"
+            }
+        ],
+        "imagens": [
+            {
+                "url": Image18
+            },
+            {
+                "url": Image19
+            },
+        ], 
+        "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
+    }, {
     "id": 1,
     "nome": "Mesa Xenia",
     "modelo": "Mesa de centro",

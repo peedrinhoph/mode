@@ -19,7 +19,7 @@ import Image13 from '../../assets/images/products/acabamentos/photo11.jpg';
 import Image14 from '../../assets/images/products/acabamentos/photo12.jpg';
 import Image15 from '../../assets/images/products/acabamentos/photo13.jpg';
 import Image16 from '../../assets/images/products/acabamentos/joli_rose.jpg';
-import Image17 from '../../assets/images/products/acabamentos/nogueira_mel.jpg';
+import Image17 from '../../assets/images/products/acabamentos/mel.jpg';
 import Image18 from '../../assets/images/products/acabamentos/imbuia_escura.jpg';
 import Image19 from '../../assets/images/products/acabamentos/capri_branco.jpg';
 import Image20 from '../../assets/images/products/acabamentos/tecidobanqueta.jpg';
@@ -28,6 +28,7 @@ import Image22 from '../../assets/images/products/acabamentos/bronze_especial.jp
 import Image23 from '../../assets/images/products/acabamentos/acocortenespecial.jpg';
 import Image24 from '../../assets/images/products/acabamentos/linhocapribege.jpg';
 import Image25 from '../../assets/images/products/acabamentos/veludoverde.jpg';
+import Image26 from '../../assets/images/products/acabamentos/acabamento_marmore_imperial.jpg';
 
 const lista = [{
     "id": 1,
@@ -40,7 +41,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 19,
+    "id": 2,
     "nome": "MDF Imbuia Pintura Escura ",
     "tipo": "Lamina",
     "descricao": "Lamina de Imbuia tingida na cor escura.",
@@ -50,7 +51,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 2,
+    "id": 3,
     "nome": "MDF Nogueira Natural",
     "tipo": "Lamina",
     "descricao": "Lamina de Nogueira natural.",
@@ -60,7 +61,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 18,
+    "id": 4,
     "nome": "MDF Nogueira Pintura Mel",
     "tipo": "Lamina",
     "descricao": "Lamina de Nogueira tingida na cor Mel.",
@@ -69,8 +70,18 @@ const lista = [{
             "url": Image17
         }
     ],
+},{
+    "id": 5,
+    "nome": "Mármore Imperial",
+    "tipo": "Vidro",
+    "descricao": "Vidro padrão mármore.",
+    "imagens": [
+        {
+            "url": Image26
+        }
+    ],
 }, {
-    "id": 18,
+    "id": 6,
     "nome": "Veludo Jolie Rose",
     "tipo": "Tecido aveludado para estofados.",
     "descricao": "Tecido rose",
@@ -80,7 +91,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 19,
+    "id": 7,
     "nome": "Linho Capri Branco",
     "tipo": "Tecido",
     "descricao": "Tecido liso.",
@@ -90,7 +101,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 20,
+    "id": 8,
     "nome": "Courvin Preto",
     "tipo": "Courvin",
     "descricao": "Courvin texturizado para assento de banqueta.",
@@ -100,7 +111,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 20,
+    "id": 9,
     "nome": "Veludo Ultraconfort Verde",
     "tipo": "Tecido",
     "descricao": "Tecido aveludado na cor verde.",
@@ -110,7 +121,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 22,
+    "id": 10,
     "nome": "Linho Capri Bege",
     "tipo": "Tecido",
     "descricao": "Tecido liso.",
@@ -120,7 +131,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 3,
+    "id": 11,
     "nome": "Cobre",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Cobre.",
@@ -130,7 +141,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 4,
+    "id": 12,
     "nome": "Dourado",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Dourado.",
@@ -140,7 +151,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 5,
+    "id": 13,
     "nome": "Dourado Especial",
     "tipo": "Liquida",
     "descricao": "Pintura especial perolizada na cor Dourado.",
@@ -150,7 +161,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 8,
+    "id": 14,
     "nome": "Marrom TX",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Marrom TX.",
@@ -160,7 +171,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 6,
+    "id": 15,
     "nome": "Aço Corten",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Aço Corten.",
@@ -170,7 +181,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 7,
+    "id": 16,
     "nome": "Aço Corten Especial",
     "tipo": "Liquida",
     "descricao": "Pintura especial liquida na cor Aço Corten.",
@@ -180,7 +191,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 9,
+    "id": 17,
     "nome": "Cinza Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Cinza Fosco.",
@@ -190,7 +201,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 10,
+    "id": 18,
     "nome": "Cinza Metálico",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Cinza Metálico.",
@@ -200,7 +211,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 11,
+    "id": 19,
     "nome": "Niquel",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Níquel.",
@@ -210,7 +221,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 12,
+    "id": 20,
     "nome": "Rose Gold",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Rose Gold.",
@@ -220,7 +231,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 13,
+    "id": 21,
     "nome": "Bronze",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Bronze.",
@@ -230,7 +241,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 21,
+    "id": 22,
     "nome": "Bronze Especial",
     "tipo": "Liquida",
     "descricao": "Pintura especial na cor Bronze.",
@@ -240,7 +251,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 14,
+    "id": 23,
     "nome": "Preto Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Preto Fosco.",
@@ -250,7 +261,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 15,
+    "id": 24,
     "nome": "Preto Semi Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Preto Semi Fosco.",
@@ -260,7 +271,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 16,
+    "id": 25,
     "nome": "Grafite Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Grafite Fosco.",
@@ -270,7 +281,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 17,
+    "id": 26,
     "nome": "Vermelho",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Vermelha.",

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image1 from '../../assets/images/products/costelagiratoria.png';
+import Image1 from '../../assets/images/products/mesa_centro_electra2.jpg';
 import Image2 from '../../assets/images/products/aparadorvintage.jpg';
-import Image3 from '../../assets/images/products/mesa_centro_retangular_embuia1.jpg';
+import Image3 from '../../assets/images/products/costelagiratoria.png';
 import Image4 from '../../assets/images/products/banqueta_concha2.jpg';
 import Image5 from '../../assets/images/products/mesa_canto_dupla1.jpg';
 import Image6 from '../../assets/images/products/MDPUFF1003.jpg';
