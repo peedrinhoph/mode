@@ -123,7 +123,7 @@ function Contact() {
                                 />
                             </fieldset>
                             <footer>
-                                <button type="submit">Iniciar Conversa no WhatsApp</button>
+                                <button type="submit">iniciar conversa no whatsapp</button>
                             </footer>
                         </form>
                     </div>

@@ -21,25 +21,25 @@ function ShowMore() {
     function local(path) {
         switch (path) {
             case 'rib-armchair':
-                return 'Poltrona Costela';
+                return 'poltrona costela';
             case 'corner-tables':
-                return 'Mesas de Canto';
+                return 'mesas de canto';
             case 'center-tables':
-                return 'Mesas de Centro';
+                return 'mesas de centro';
             case 'puffs':
-                return 'Puffs';
+                return 'puffs';
             case 'stools':
-                return 'Banquetas';
+                return 'banquetas';
             case 'sideboards':
-                return 'Aparadores';
+                return 'aparadores';
             case 'chair':
-                return 'Cadeiras';
+                return 'cadeiras';
             case 'tables':
-                return 'Mesas bistro';
+                return 'mesas bistro';
             case 'finishing':
-                return 'Acabamento e Texturas';
+                return 'acabamento e texturas';
             case 'others':
-                return 'Outros';
+                return 'outros';
             default:
                 return null;
         }

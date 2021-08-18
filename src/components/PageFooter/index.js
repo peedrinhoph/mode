@@ -24,27 +24,27 @@ const PageHeader = (props) => {
 
             <div className="page-footer-all">
                 <div className="page-footer-group">
-                    <h2>Galeria do cliente <span>EM BREVE</span></h2>
+                    <h2>galeria do cliente <span>EM BREVE</span></h2>
                     <p>Poste uma foto do seu produto Mode</p>
                     <p>nas redes sociais marcando <b>@moveismode</b> e</p>
                     <p>as fotos selecionadas irão aparecer em nosso site :D</p>
                 </div>
                 <div className="page-footer-group">
-                    <h2>Atendimento</h2>
+                    <h2>atendimento</h2>
                     <p>Segunda á Sexta 8:00h – 18:00h</p>
                     <p>Sábado 8:00h – 12:00h</p>
                 </div>
                 <div className="page-footer-group">
-                    <h2>Menu</h2>
+                    <h2>menu</h2>
                     <Link to="/">Inicio</Link>
-                    <Link to="/portfolio">Portfólio</Link>
+                    <Link to="/portfolio">Produtos</Link>
                     <Link to="/portfolio/show-more/finishing">Acabamentos</Link>
-                    <Link to="/about-us">Quem somos</Link>
+                    <Link to="/about-us">Empresa</Link>
                     <Link to="/contact">Contato</Link>
                 </div>
 
                 <div className="page-footer-group">
-                    <h2>Contatos</h2>
+                    <h2>contatos</h2>
                     <p>+55 (54) 9 9702-4574</p>
                     <p><a href="mailto:comercial@modemoveis.com.br" >comercial@modemoveis.com.br</a></p>
                     <p>Poste uma foto e marque a <b>@moveismode</b></p>

@@ -60,7 +60,7 @@ function Inicio() {
                     </div>
                     <div className="section-90-vw">
                         <div className="section-title">
-                            <h2 className="section-title-text">Lançamentos</h2>
+                            <h2 className="section-title-text">lançamentos</h2>
                         </div>
                         <div className="section-product">
                             <figure>
@@ -83,11 +83,11 @@ function Inicio() {
                             </figure>
                         </div>
                         <div className="section-ver-mais">
-                            <Link to="portfolio">Ver mais</Link>
+                            <Link to="portfolio">produtos</Link>
                         </div>
                     </div>
                     <div className="section-background-image">
-                        <h1 className="section-background-image-title">Dúvidas Frequentes</h1>
+                        <h1 className="section-background-image-title">dúvidas frequentes</h1>
                         <div className="section-comment">
                             <div className="section-comment-block">
                                 <div className="section-comment-text">
@@ -216,7 +216,7 @@ function Inicio() {
                     </div>*/}
                     <div className="section-90-vw">
                         <div className="section-title">
-                            <h2 className="section-title-text">Cuidados para uma boa conservação do móvel</h2>
+                            <h2 className="section-title-text">cuidados para uma boa conservação do móvel</h2>
                         </div>
                         <div className="section-product">
                             <div className="section-project">
@@ -295,7 +295,7 @@ function Inicio() {
                         </div>
                     </div>*/}
                     <div className="section-why">
-                        <h1 className="section-why-title">Móveis de aço</h1>
+                        <h1 className="section-why-title">móveis de aço</h1>
                         <div className="section-why-grid">
                             <div className="section-why-text">
                                 <p>
@@ -314,7 +314,7 @@ function Inicio() {
                             </div>
                         </div>
                         <div className="section-contact-link">
-                            <Link to="about-us">Quem somos</Link>
+                            <Link to="about-us">quem somos</Link>
                         </div>
                     </div>
                 </div>

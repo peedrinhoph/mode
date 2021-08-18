@@ -14,6 +14,7 @@ const lista = [{"id": 1,
     "referencia": "MDCA1002",
     "descricao": "Cadeira concha MDF estofada em tecido Veludo Jolie rose, base tubular na cor Aço Corten, altura do assento 48cm, profundidade do assento 48cm.",
     "tampo": "",
+    "revestimento": "Tecidos linho e Veludo",
     "pintura": "Aço Corten",
     "dimensao": [
         {
@@ -50,7 +51,8 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br /><br />Acabamento: {item.pintura}
+                                    <br /><br />Estrutura: {item.pintura}
+                                    <br />Revestimento: {item.revestimento}
                                     <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
                                     <br /><small>* <i>{item.observacao}</i></small>
                                 </p>

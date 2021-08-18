@@ -17,6 +17,7 @@ const lista = [{
     "referencia": "MDBQ1000",
     "descricao": "Banqueta de ferro com assento em courvin texturizado assento com 37cm de diâmetro.",
     "tampo": "",
+    "revestimento": "Courissímos",
     "pintura": "Grafite",
     "dimensao": [
         {
@@ -41,6 +42,7 @@ const lista = [{
     "referencia": "MDBQ1001",
     "descricao": "Banqueta tubular alçada com estofado tecido Capri Branco, altura do assento 79cm.",
     "tampo": "",
+    "revestimento": "Tecidos Linho e Veludo",
     "pintura": "Bronze",
     "dimensao": [
         {
@@ -62,6 +64,7 @@ const lista = [{
     "referencia": "MDBQ1003",
     "descricao": "Banqueta concha MDF estofada em tecido Veludo Jolie rose, base tubular na cor aço corten, altura do assento 70cm, profundidade do assento 46cm.",
     "tampo": "",
+    "revestimento": "Tecidos Linho e Veludo",
     "pintura": "Aço Corten",
     "dimensao": [
         {
@@ -92,7 +95,8 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br /><br />Acabamento: {item.pintura}
+                                    <br /><br />Estrutura: {item.pintura}
+                                    <br />Revestimento: {item.revestimento}
                                     <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
                                     <br /><small>* <i>{item.observacao}</i></small>
                                 </p>

@@ -32,7 +32,7 @@ import Image26 from '../../assets/images/products/acabamentos/acabamento_marmore
 
 const lista = [{
     "id": 1,
-    "nome": "MDF Imbuia Natural",
+    "nome": "Imbuia Natural",
     "tipo": "Lamina",
     "descricao": "Lamina de Imbuia Escura natural.",
     "imagens": [
@@ -42,7 +42,7 @@ const lista = [{
     ],
 }, {
     "id": 2,
-    "nome": "MDF Imbuia Pintura Escura ",
+    "nome": "Imbuia Escura ",
     "tipo": "Lamina",
     "descricao": "Lamina de Imbuia tingida na cor escura.",
     "imagens": [
@@ -52,7 +52,7 @@ const lista = [{
     ],
 }, {
     "id": 3,
-    "nome": "MDF Nogueira Natural",
+    "nome": "Nogueira Natural",
     "tipo": "Lamina",
     "descricao": "Lamina de Nogueira natural.",
     "imagens": [
@@ -62,7 +62,7 @@ const lista = [{
     ],
 }, {
     "id": 4,
-    "nome": "MDF Nogueira Pintura Mel",
+    "nome": "Nogueira Mel",
     "tipo": "Lamina",
     "descricao": "Lamina de Nogueira tingida na cor Mel.",
     "imagens": [
@@ -112,7 +112,7 @@ const lista = [{
     ],
 }, {
     "id": 9,
-    "nome": "Veludo Ultraconfort Verde",
+    "nome": "Veludo Verde",
     "tipo": "Tecido",
     "descricao": "Tecido aveludado na cor verde.",
     "imagens": [

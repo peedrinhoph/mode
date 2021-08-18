@@ -29,7 +29,7 @@ function AboutUs() {
                 <div id="page-about-content">
                     <div className="section-about">
                         <div className="section-about-title">
-                            <h2>Um pouco sobre a mode móveis</h2>
+                            <h2>um pouco sobre a mode móveis</h2>
                             <p>Localizado em Bento Gonçalves, na Serra gaúcha, um dos polos brasileiros mais expressivos do setor moveleiro, 
                                 a Mode trabalha com a fabricação de móveis e peças de decoração em aço carbono. Uma empresa que prima pela qualidade 
                                 e inovação dos produtos que atendem as mais diversificadas tendências comerciais e residenciais, 
@@ -49,7 +49,7 @@ function AboutUs() {
                             <div className="section-m">
                                 <h1>O que</h1>
                                 <h3>Fazemos?</h3>
-                                <p>Criamos, produzimos e vendemos móveis complementares de bom design, qualidade e sofisticação na produção e acabamento dos produtos que é feito 100% manual</p>
+                                <p>Criamos, produzimos e vendemos móveis complementares de bom design</p>
                             </div>
                             <div className="section-m">
                                 <h1>Como</h1>
@@ -72,7 +72,7 @@ function AboutUs() {
                             </div>
                         </div>
                         <div className="section-about-link">
-                            <Link to="contact">Contate-nos</Link>
+                            <Link to="contact">contate-nos</Link>
                         </div>
                     </div>
                 </div>

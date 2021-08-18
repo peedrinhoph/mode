@@ -20,6 +20,7 @@ const lista = [{
     "referencia": "MDPUFF0001",
     "descricao": "Puff tubular dourado brilho, estofado tecido Pelúcia Preto e Linho Capri Branco, diâmetro do assento 35cm.",
     "tampo": "",
+    "revestimento": "Tecidos Linho e Veludo",
     "pintura": "Dourado Especial",
     "dimensao": [
         {
@@ -43,6 +44,7 @@ const lista = [{
     "referencia": "MDPUFF1002",
     "descricao": "Puff tubular cobre, estofado com 15cm de tecido Linho Capri Branco embutido na estrutura, diâmetro do assento 35cm.",
     "tampo": "",
+    "revestimento": "Tecidos Linho e Veludo",
     "pintura": "Cobre",
     "dimensao": [
         {
@@ -63,6 +65,7 @@ const lista = [{
     "referencia": "MDPUFF1003",
     "descricao": "Puff tubular rose, estofado de tecido Linho Capri Bege, diâmetro do assento 35cm.",
     "tampo": "",
+    "revestimento": "Tecidos Linho e Veludo",
     "pintura": "Rose Gold",
     "dimensao": [
         {
@@ -85,6 +88,7 @@ const lista = [{
     "referencia": "MDPUFF1004",
     "descricao": "Puff tubular, estofado de tecido Veludo Verde e Linho Capri Bege, diâmetro do assento 35cm.",
     "tampo": "",
+    "revestimento": "Tecidos Linho e Veludo",
     "pintura": "Bronze",
     "dimensao": [
         {
@@ -116,7 +120,8 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br /><br />Acabamento: {item.pintura}
+                                    <br /><br />Estrutura: {item.pintura}
+                                    <br />Revestimento: {item.revestimento}
                                     <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
                                     <br /><small>* <i>{item.observacao}</i></small>
                                 </p>

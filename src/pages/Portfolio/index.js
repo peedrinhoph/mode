@@ -43,7 +43,7 @@ function Portfolio() {
                         <div className="section-portfolio">
                             <div className="section-portfolio-product">
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Poltrona Costela</h2>
+                                    <h2 className="product-title">poltrona costela</h2>
                                     <p className="product-text-left product-text">
                                         A poltrona costela foi originalmente criada em 1956 pelo designer austríaco Martin Eisler.
                                         De lá pra cá, a poltrona se tornou um símbolo de elegância, estilo e modernidade. Tudo isso sem abrir mão do conforto.
@@ -51,7 +51,7 @@ function Portfolio() {
                                         ela é extremamente confortável e você também vai chegar a essa conclusão.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/rib-armchair`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/rib-armchair`}>ver tudo</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -75,7 +75,7 @@ function Portfolio() {
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Mesas de canto</h2>
+                                    <h2 className="product-title">mesas de canto</h2>
                                     <p className="product-text-right product-text">
                                         A mesa de canto, também conhecida como mesa lateral ou mesa de apoio,
                                         é aquele móvel super funcional para decoração de sala de estar, sala de
@@ -84,20 +84,20 @@ function Portfolio() {
                                         centro a mesa de canto não atrapalha a circulação pelo ambiente.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/corner-tables`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/corner-tables`}>ver tudo</Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="section-portfolio-product">
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Mesas de centro</h2>
+                                    <h2 className="product-title">mesas de centro</h2>
                                     <p className="product-text-left product-text">
                                         A mesa de centro é um dos móveis mais estratégicos para a decoração de um ambiente.
                                         Aliás, o seu próprio nome já dá pistas da sua relevância no espaço: ficando no centro de tudo,
                                         é natural que chame a atenção e diga muito sobre o estilo de decoração e até mesmo a personalidade dos donos da casa.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/center-tables`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/center-tables`}>ver tudo</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -118,20 +118,20 @@ function Portfolio() {
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Puffs</h2>
+                                    <h2 className="product-title">puffs</h2>
                                     <p className="product-text-right product-text">
                                         Os puffs são móveis versáteis e funcionais que se adequam a qualquer
                                         espaço e ambiente de uma decoração para casa, por isso são muito utilizados
                                         na decoração e otimização de diversos cômodos.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/puffs`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/puffs`}>ver tudo</Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="section-portfolio-product">
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Banquetas</h2>
+                                    <h2 className="product-title">banquetas</h2>
                                     <p className="product-text-left product-text">
                                         Usar banquetas na decoração é uma saída prática e cheia de possibilidades
                                         para levar mais conforto e funcionalidade aos ambientes residenciais.
@@ -139,7 +139,7 @@ function Portfolio() {
                                         ou externo de uma casa, seja qual for o nível de formalidade e a tendência decorativa predominante.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/stools`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/stools`}>ver tudo</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -163,7 +163,7 @@ function Portfolio() {
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Aparadores</h2>
+                                    <h2 className="product-title">aparadores</h2>
                                     <p className="product-text-right product-text">
                                         Seja clássico, moderno ou contemporâneo, o aparador ganha ainda mais beleza quando
                                         combinado com pequenos objetos e acessórios. Os modelos mais delicados e com ausência
@@ -171,20 +171,20 @@ function Portfolio() {
                                         velas, porta-retratos, quadrinhos ou esculturas.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/sideboards`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/sideboards`}>ver tudo</Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="section-portfolio-product">
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Cadeiras estofadas</h2>
+                                    <h2 className="product-title">cadeiras estofadas</h2>
                                     <p className="product-text-left product-text">
                                         As cadeiras estofadas além de super confortáveis também são um daqueles
                                         móveis que chega para protagonizar a decoração principalmente quando
                                         falamos de cadeiras estofadas coloridas.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/chair`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/chair`}>ver tudo</Link>
                                     </div>
                                 </div>
                                 <div className="product-image">
@@ -208,7 +208,7 @@ function Portfolio() {
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">Mesas bistrot</h2>
+                                    <h2 className="product-title">mesas bistrot</h2>
                                     <p className="product-text-right product-text">
                                         As mesas bistrot, como o próprio nome sugere, são frequentemente
                                         usadas em estabelecimentos gastronômicos, aquelas utilizadas em modernos
@@ -219,7 +219,7 @@ function Portfolio() {
                                         a comida não é rebuscada e o clima é informal.
                                     </p>
                                     <div className="product-buttom">
-                                        <Link to={`${url}/show-more/tables`}>Produtos</Link>
+                                        <Link to={`${url}/show-more/tables`}>ver tudo</Link>
                                     </div>
                                 </div>
                             </div>

@@ -228,7 +228,7 @@ const ProductList1 = () => {
                                 <DisplayDimenssion dimenssion={item.dimensao} />
                                 <p className="product-text-show">
                                     {item.descricao}
-                                    <br /><br />Acabamento: {item.pintura}
+                                    <br /><br />Estrutura: {item.pintura}
                                     <br />Tampo: {item.tampo}
                                     <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
                                     <br /><small>* <i>{item.observacao}</i></small>
