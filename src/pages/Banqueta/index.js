@@ -42,7 +42,7 @@ const lista = [{
     "referencia": "MDBQ1001",
     "descricao": "Banqueta tubular alçada com estofado tecido Capri Branco, altura do assento 79cm.",
     "tampo": "",
-    "revestimento": "Tecidos Linho e Veludo",
+    "revestimento": "Tecidos Capri e Joli Aveludado",
     "pintura": "Bronze",
     "dimensao": [
         {
@@ -62,9 +62,9 @@ const lista = [{
     "nome": "Banqueta Agatha",
     "modelo": "Puff e banqueta",
     "referencia": "MDBQ1003",
-    "descricao": "Banqueta concha MDF estofada em tecido Veludo Jolie rose, base tubular na cor aço corten, altura do assento 70cm, profundidade do assento 46cm.",
+    "descricao": "Banqueta concha MDF estofada em tecido Veludo Joli Rose, base tubular na cor aço corten, altura do assento 70cm, profundidade do assento 46cm.",
     "tampo": "",
-    "revestimento": "Tecidos Linho e Veludo",
+    "revestimento": "Tecidos Capri e Joli Aveludado",
     "pintura": "Aço Corten",
     "dimensao": [
         {

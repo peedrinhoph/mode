@@ -18,9 +18,9 @@ const lista = [{
     "nome": "Puff Juliana ",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF0001",
-    "descricao": "Puff tubular dourado brilho, estofado tecido Pelúcia Preto e Linho Capri Branco, diâmetro do assento 35cm.",
+    "descricao": "Puff tubular dourado brilho, estofado tecido Pelúcia Preto e Capri Branco, diâmetro do assento 35cm.",
     "tampo": "",
-    "revestimento": "Tecidos Linho e Veludo",
+    "revestimento": "Tecidos Capri e Joli Aveludado",
     "pintura": "Dourado Especial",
     "dimensao": [
         {
@@ -42,9 +42,9 @@ const lista = [{
     "nome": "Puff Helena",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1002",
-    "descricao": "Puff tubular cobre, estofado com 15cm de tecido Linho Capri Branco embutido na estrutura, diâmetro do assento 35cm.",
+    "descricao": "Puff tubular cobre, estofado com 15cm de tecido Capri Branco embutido na estrutura, diâmetro do assento 35cm.",
     "tampo": "",
-    "revestimento": "Tecidos Linho e Veludo",
+    "revestimento": "Tecidos Capri e Joli Aveludado",
     "pintura": "Cobre",
     "dimensao": [
         {
@@ -63,9 +63,9 @@ const lista = [{
     "nome": "Puff Antonella",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1003",
-    "descricao": "Puff tubular rose, estofado de tecido Linho Capri Bege, diâmetro do assento 35cm.",
+    "descricao": "Puff tubular rose, estofado de tecido Capri Bege, diâmetro do assento 35cm.",
     "tampo": "",
-    "revestimento": "Tecidos Linho e Veludo",
+    "revestimento": "Tecidos Capri e Joli Aveludado",
     "pintura": "Rose Gold",
     "dimensao": [
         {
@@ -86,9 +86,9 @@ const lista = [{
     "nome": "Puff Sophia",
     "modelo": "Puff e banqueta",
     "referencia": "MDPUFF1004",
-    "descricao": "Puff tubular, estofado de tecido Veludo Verde e Linho Capri Bege, diâmetro do assento 35cm.",
+    "descricao": "Puff tubular, estofado de tecido Veludo Verde e Capri Bege, diâmetro do assento 35cm.",
     "tampo": "",
-    "revestimento": "Tecidos Linho e Veludo",
+    "revestimento": "Tecidos Capri e Joli Aveludado",
     "pintura": "Bronze",
     "dimensao": [
         {

@@ -29,6 +29,16 @@ import Image23 from '../../assets/images/products/acabamentos/acocortenespecial.
 import Image24 from '../../assets/images/products/acabamentos/linhocapribege.jpg';
 import Image25 from '../../assets/images/products/acabamentos/veludoverde.jpg';
 import Image26 from '../../assets/images/products/acabamentos/acabamento_marmore_imperial.jpg';
+import Image27 from '../../assets/images/products/acabamentos/denver_05_bege.jpg';
+import Image28 from '../../assets/images/products/acabamentos/denver_preto_06.jpg';
+import Image29 from '../../assets/images/products/acabamentos/joli_01.jpg';
+import Image30 from '../../assets/images/products/acabamentos/joli_04a.jpg';
+import Image31 from '../../assets/images/products/acabamentos/joli_azul06.jpg';
+import Image32 from '../../assets/images/products/acabamentos/joli_cinza03.jpg';
+import Image33 from '../../assets/images/products/acabamentos/joli_preto12.jpg';
+import Image34 from '../../assets/images/products/acabamentos/joli_rosa18.jpg';
+import Image35 from '../../assets/images/products/acabamentos/joli_verde15r.jpg';
+import Image36 from '../../assets/images/products/acabamentos/joli_vermelho11r.jpg';
 
 const lista = [{
     "id": 1,
@@ -82,9 +92,9 @@ const lista = [{
     ],
 }, {
     "id": 6,
-    "nome": "Veludo Jolie Rose",
-    "tipo": "Tecido aveludado para estofados.",
-    "descricao": "Tecido rose",
+    "nome": "Joli 13",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 13 100% poliéster.",
     "imagens": [
         {
             "url": Image16
@@ -92,9 +102,9 @@ const lista = [{
     ],
 }, {
     "id": 7,
-    "nome": "Linho Capri Branco",
+    "nome": "Capri 01",
     "tipo": "Tecido",
-    "descricao": "Tecido liso.",
+    "descricao": "Artigo Capri 01 100% poliéster.",
     "imagens": [
         {
             "url": Image19
@@ -122,7 +132,7 @@ const lista = [{
     ],
 }, {
     "id": 10,
-    "nome": "Linho Capri Bege",
+    "nome": "Linho Bege",
     "tipo": "Tecido",
     "descricao": "Tecido liso.",
     "imagens": [
@@ -132,6 +142,106 @@ const lista = [{
     ],
 }, {
     "id": 11,
+    "nome": "Denver 02",
+    "tipo": "Tecido",
+    "descricao": "Artigo Denver 02 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image27
+        }
+    ],
+}, {
+    "id": 12,
+    "nome": "Denver 06",
+    "tipo": "Tecido",
+    "descricao": "Artigo Denver 06 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image28
+        }
+    ],
+}, {
+    "id": 13,
+    "nome": "Joli 01",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 01 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image29
+        }
+    ],
+}, {
+    "id": 14,
+    "nome": "Joli 04 A",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 04 A 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image30
+        }
+    ],
+}, {
+    "id": 15,
+    "nome": "Joli 06",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 06 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image31
+        }
+    ],
+}, {
+    "id": 16,
+    "nome": "Joli 03",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 03 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image32
+        }
+    ],
+}, {
+    "id": 17,
+    "nome": "Joli 12",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 12 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image33
+        }
+    ],
+}, {
+    "id": 18,
+    "nome": "Joli 18",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 18 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image34
+        }
+    ],
+}, {
+    "id": 19,
+    "nome": "Joli 15 R",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 15 R 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image35
+        }
+    ],
+}, {
+    "id": 20,
+    "nome": "Joli 11 R",
+    "tipo": "Tecido",
+    "descricao": "Artigo Joli 11 R 100% poliéster.",
+    "imagens": [
+        {
+            "url": Image36
+        }
+    ],
+}, {
+    "id": 21,
     "nome": "Cobre",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Cobre.",
@@ -141,7 +251,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 12,
+    "id": 22,
     "nome": "Dourado",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Dourado.",
@@ -151,7 +261,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 13,
+    "id": 23,
     "nome": "Dourado Especial",
     "tipo": "Liquida",
     "descricao": "Pintura especial perolizada na cor Dourado.",
@@ -161,7 +271,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 14,
+    "id": 24,
     "nome": "Marrom TX",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Marrom TX.",
@@ -171,7 +281,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 15,
+    "id": 25,
     "nome": "Aço Corten",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Aço Corten.",
@@ -181,7 +291,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 16,
+    "id": 26,
     "nome": "Aço Corten Especial",
     "tipo": "Liquida",
     "descricao": "Pintura especial liquida na cor Aço Corten.",
@@ -191,7 +301,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 17,
+    "id": 27,
     "nome": "Cinza Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Cinza Fosco.",
@@ -201,7 +311,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 18,
+    "id": 28,
     "nome": "Cinza Metálico",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Cinza Metálico.",
@@ -211,7 +321,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 19,
+    "id": 29,
     "nome": "Niquel",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Níquel.",
@@ -221,7 +331,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 20,
+    "id": 30,
     "nome": "Rose Gold",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Rose Gold.",
@@ -231,7 +341,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 21,
+    "id": 31,
     "nome": "Bronze",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Bronze.",
@@ -241,7 +351,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 22,
+    "id": 32,
     "nome": "Bronze Especial",
     "tipo": "Liquida",
     "descricao": "Pintura especial na cor Bronze.",
@@ -251,7 +361,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 23,
+    "id": 33,
     "nome": "Preto Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Preto Fosco.",
@@ -261,7 +371,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 24,
+    "id": 34,
     "nome": "Preto Semi Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Preto Semi Fosco.",
@@ -271,7 +381,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 25,
+    "id": 35,
     "nome": "Grafite Fosco",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Grafite Fosco.",
@@ -281,7 +391,7 @@ const lista = [{
         }
     ],
 }, {
-    "id": 26,
+    "id": 36,
     "nome": "Vermelho",
     "tipo": "Epóxi",
     "descricao": "Pintura epóxi na cor Vermelha.",
@@ -301,10 +411,10 @@ const ProductList1 = () => {
                         <div key={index} className="section-product-show">
                             <div className="section-description-show">
                                 <h2 className="product-title-show">{item.nome}</h2>
-                                <Display imagens={item.imagens} alt={item.descricao} />
-                                <p className="product-text-show">
+                                <Display imagens={item.imagens} alt={item.descricao} notSelect/>
+                                {/*<p className="product-text-show">
                                     {item.descricao}
-                                </p>
+                                </p>*/}
                             </div>
                         </div>
                     )
