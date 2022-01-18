@@ -20,7 +20,7 @@
 }
 
 #page-contact-data p{
-    font: 400 1.9rem Poppins;
+    font: 400 1.8rem Poppins;
     color: var(--color-text-complement);
     line-height: 2.4rem;
 }
@@ -60,7 +60,7 @@
 }
 
 #page-contact-form fieldset legend {
-    font: 1.9rem Poppins;
+    font: 1.8rem Poppins;
     color: var(--color-text-complement);
     margin-bottom: 2.4rem;
     display: flex;
@@ -115,7 +115,7 @@
     }
 
     #page-contact main {
-        margin-top: 15rem;
+        margin-top: 16rem;
     }
 
     #page-contact-content {

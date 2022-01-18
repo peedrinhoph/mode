@@ -52,7 +52,7 @@ const PageHeader = (props) => {
                         <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">
                             <img src={instagram} className="instagram" alt="instagram" />
                         </a>
-                        <a href="https://www.instagram.com/moveismode/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/moveismode/" target="_blank" rel="noopener noreferrer">
                             <img src={facebook} className="facebook" alt="facebook" />
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site," target="_blank" rel="noopener noreferrer">

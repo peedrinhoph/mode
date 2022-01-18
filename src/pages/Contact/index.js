@@ -49,9 +49,9 @@ function Contact() {
             <main>
                 <div id="page-contact-content" className="page-contact-content">
                     <div id="page-contact-data" className="contact-data">
-                        <p>Já conhece e segue nossas redes sociais?
+                        <p>Já segue nossas redes sociais?
                             <br /><br />
-                            Seja no Instagram ou no Facebook você confere nossos produtos e lançamentos de maneira mais informativa e dinâmica.
+                            Nelas você recebe em primeira mão nossos produtos e lançamentos.
                         </p>
                         <br />
                         <div className="contact-social-group">
@@ -82,8 +82,10 @@ function Contact() {
                     <div id="page-contact-form" className="page-contact-form">
                         <form onSubmit={handleSendMessage}>
                             <fieldset>
-                                {/*<legend>Preencha o formulário abaixo e clique em "enviar", que em até 48 horas úteis, um de nossos consultores entrará em contato com você.</legend>*/}
-                                <legend>Preencha seus dados abaixo para e inicie uma conversa via WhatsApp conosco, responderemos seu contato em até 24 horas!</legend>
+                                <legend>Inicie uma conversa via WhatsApp com nossa equipe, responderemos
+                                    seu contato em até 24 horas!
+                                </legend>
+
                                 <Input
                                     required
                                     name="name"
@@ -123,7 +125,7 @@ function Contact() {
                                 />
                             </fieldset>
                             <footer>
-                                <button type="submit">iniciar conversa no whatsapp</button>
+                                <button type="submit">enviar meus dados e iniciar uma conversa</button>
                             </footer>
                         </form>
                     </div>

@@ -15,6 +15,7 @@
 .page-header .logo-and-menu {
     width: 90%;
     margin: 0 auto;
+    margin-top: 3.5rem;
     display: flex;
     justify-content: space-between;
     
@@ -53,6 +54,37 @@
     color: var(--color-title-in-primary);
 }
 
+.page-header .sub-header {
+    width: 100%;
+    z-index: 999;
+    height: 3.5rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--color-background);
+   
+}
+.page-header .sub-header .sub-header-contato ul,
+.page-header .sub-header .sub-header-redes ul{
+    display: flex;
+    padding: .5rem 1rem;
+    list-style: none;
+}
+
+.page-header .sub-header .sub-header-redes ul > li{
+   margin-right: .5rem;
+}
+
+.page-header .sub-header .sub-header-contato ul > li{
+   margin-right: 1rem;
+   text-decoration: none;
+}
+
+.page-header .sub-header .sub-header-contato ul > li > p > a {
+    text-decoration: none;
+    color: var(--color-primary-dark);
+}
 
 #menuToggle input{
     display: block;
@@ -180,6 +212,15 @@
         background-color: rgba(35,31,32,0);
     }
 
+    .page-header .sub-header {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .page-header .sub-header .sub-header-contato ul > li > p > a {
+        color: var(--color-title-in-primary);
+    }
+
     .page-header-black {
         box-shadow: 0 6px 6px 0 rgba(68,68,68,.1);
         background-color: rgba(35,31,32,1);
@@ -192,6 +233,7 @@
 
     .page-header .logo-and-menu {
         max-width: 1200px;
+        margin: 0 auto;
     }
 
     #navmenu{
