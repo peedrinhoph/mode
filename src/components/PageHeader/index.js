@@ -52,7 +52,7 @@ const PageHeader = (props) => {
                         <ul id="navmenu" className="navmenu">
                             <li className="line-hover"><Link to="/">Início</Link></li>
                             <li className="line-hover"><Link to="/portfolio">Produtos</Link></li>
-                            <li className="line-hover"><Link to="/portfolio/show-more/finishing">Acabamentos</Link></li>
+                            <li className="line-hover"><Link to="/acabamento">Acabamentos</Link></li>
                             <li className="line-hover"><Link to="/about-us">Empresa</Link></li>
                             <li className="line-hover"><Link to="/contact">Contato</Link></li>
                         </ul>

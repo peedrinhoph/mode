@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Inicio from './pages/Inicio';
 import Portfolio from './pages/Portfolio';
+import PortfolioAcabamento from './pages/PortfolioAcabamento';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import ShowMore from './pages/ShowMore';
+import ShowMoreFinish from './pages/ShowMoreFinish';
 
 const Error404 = () => {
     return (
@@ -30,7 +32,15 @@ export default function Routes() {
                     path="/portfolio/show-more/:params"
                     component={ShowMore}
                     exact />
-
+                <Route
+                    path="/acabamento"
+                    component={PortfolioAcabamento}
+                    exact
+                />
+                <Route
+                    path="/acabamento/show-more/:params"
+                    component={ShowMoreFinish}
+                    exact />
                 <Route
                     path="/about-us"
                     component={AboutUs}

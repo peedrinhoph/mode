@@ -26,6 +26,7 @@ import Image19 from '../../assets/images/products/acabamento_marmore_imperial.jp
 
 const lista = [{
         "id": 6,
+        "status": 1,
         "nome": "Mesa Electra",
         "modelo": "Mesa de centro",
         "referencia": "MDCTR1007",
@@ -50,6 +51,7 @@ const lista = [{
         "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
     }, {
     "id": 1,
+    "status": 1,
     "nome": "Mesa Xenia",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1005 + MDCTR1006",
@@ -82,6 +84,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 2,
+    "status": 1,
     "nome": "Mesa Aliança",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1004",
@@ -106,6 +109,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 3,
+    "status": 0,
     "nome": "Mesa Cruzada",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1000",
@@ -130,6 +134,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 4,
+    "status": 0,
     "nome": "Mesa Retângulo",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1001",
@@ -160,6 +165,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 5,
+    "status": 0,
     "nome": "Mesa Alçada",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1002",
@@ -184,6 +190,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 6,
+    "status": 1,
     "nome": "Mesa Pisa",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1003",
@@ -219,23 +226,26 @@ const ProductList1 = () => {
         <>
             {
                 lista.map((item, index) => {
-                    return (
-                        <div key={index} className="section-product-show">
-                            <div className="section-description-show">
-                                <h2 className="product-title-show">{item.nome}</h2>
-                                <Display imagens={item.imagens} alt={item.descricao} />
-                                <h2 className="product-title-show">REF. {item.referencia}</h2>
-                                <DisplayDimenssion dimenssion={item.dimensao} />
-                                <p className="product-text-show">
-                                    {item.descricao}
-                                    <br /><br />Estrutura: {item.pintura}
-                                    <br />Tampo: {item.tampo}
-                                    <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
-                                    <br /><small>* <i>{item.observacao}</i></small>
-                                </p>
+                    if (item.status === 1) {
+                        return (
+                            <div key={index} className="section-product-show">
+                                <div className="section-description-show">
+                                    <h2 className="product-title-show">{item.nome}</h2>
+                                    <Display imagens={item.imagens} alt={item.descricao} />
+                                    <h2 className="product-title-show">REF. {item.referencia}</h2>
+                                    <DisplayDimenssion dimenssion={item.dimensao} />
+                                    <p className="product-text-show">
+                                        {item.descricao}
+                                        <br /><br />Estrutura: {item.pintura}
+                                        <br />Tampo: {item.tampo}
+                                        <br /><br /><small>* <i>Produto feito sob encomenda.</i></small>
+                                        <br /><small>* <i>{item.observacao}</i></small>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    )
+                        )
+                      }
+                      return null;
                 })
             }
         </>

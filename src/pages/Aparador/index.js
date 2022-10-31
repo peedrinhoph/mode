@@ -5,52 +5,30 @@ import Display from '../../components/ImageDisplay';
 import DisplayDimenssion from '../../components/DimenssionDisplay';
 
 import Image1 from '../../assets/images/products/aparador_vintage.jpg';
-import Image2 from '../../assets/images/products/aparador_arco_mel.jpg';
-import Image3 from '../../assets/images/products/aparador_arco_embuia.jpg';
 
 
 const lista = [{"id": 1,
-    "nome": "Aparador Vintage",
+    "nome": "Aparador Due",
     "modelo": "Mesa e aparador",
-    "referencia": "MDAPR1001",
-    "descricao": "Aparador de ferro com tampo em madeira natural.",
+    "referencia": "MDAPR1002",
+    "descricao": "Conjunto aparador em duas peças composto com estofado.",
     "tampo": "Natural",
-    "pintura": "Preto",
+    "pintura": "Dourado",
     "dimensao": [
         {
-            "comprimento": "110cm",
-            "profundidade": "40cm",
+            "comprimento": "81cm",
+            "profundidade": "36cm",
             "altura": "80cm"
-        },
+        },{
+            "comprimento": "97cm",
+            "profundidade": "30.5cm",
+            "altura": "40cm"
+        }
     ],
     "imagens": [
         {
             "url": Image1
         }
-    ], 
-    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
-}, {
-    "id": 2,
-    "nome": "Aparador Arco",
-    "modelo": "Mesa e aparador",
-    "referencia": "MDAPR1000",
-    "descricao": "Aparador em ferro chato, tampo em MDF com lamina de Imbuia Escura ou Nogueira Mel.",
-    "tampo": "Mel, Imbuia Escura",
-    "pintura": "Preto Fosco",
-    "dimensao": [
-        {
-            "comprimento": "119cm",
-            "profundidade": "31.5cm",
-            "altura": "81cm"
-        },
-    ],
-    "imagens": [
-        {
-            "url": Image2
-        },
-        {
-            "url": Image3
-        },
     ], 
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }];
