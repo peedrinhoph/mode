@@ -4,11 +4,11 @@ import { Link, useRouteMatch } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image1 from '../../assets/images/products/costelagiratoria.png';
+import Image1 from '../../assets/images/products/costelaferro.jpg';
 import Image2 from '../../assets/images/products/mesacanto1.jpg';
 import Image3 from '../../assets/images/products/puff.jpg';
-import Image4 from '../../assets/images/products/mesacentroaro.jpg';
-import Image5 from '../../assets/images/products/aparadorvintage.jpg';
+import Image4 from '../../assets/images/products/mesa_centro_electra2.jpg';
+import Image5 from '../../assets/images/products/thumbnail_IMG_03271.jpg';
 import Image6 from '../../assets/images/products/banqueta.jpg';
 import Image7 from '../../assets/images/products/cadeira_concha1.jpg';
 import Image8 from '../../assets/images/products/mesabistro.jpg';
@@ -163,7 +163,7 @@ function Portfolio() {
                                     </figure>
                                 </div>
                                 <div className="section-product-description">
-                                    <h2 className="product-title">aparadores</h2>
+                                    <h2 className="product-title">aparadores & carrinho bar</h2>
                                     <p className="product-text-right product-text">
                                         Seja clássico, moderno ou contemporâneo, o aparador ganha ainda mais beleza quando
                                         combinado com pequenos objetos e acessórios. Os modelos mais delicados e com ausência

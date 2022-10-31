@@ -8,8 +8,8 @@ import Image1 from '../../assets/images/products/costelagiratoria.png';
 import Image2 from '../../assets/images/products/costelagiratoria1.png';
 import Image3 from '../../assets/images/products/costelafixa.jpeg';
 import Image4 from '../../assets/images/products/costelafixa1.png';
-import Image5 from '../../assets/images/products/costelaferro.png';
-import Image6 from '../../assets/images/products/costelaferro1.png';
+import Image5 from '../../assets/images/products/costelaferro.jpg';
+import Image6 from '../../assets/images/products/costelaferro1.jpg';
 
 const lista = [{
     "id": 1,

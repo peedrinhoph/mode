@@ -4,9 +4,9 @@ import { Link, useRouteMatch } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image1 from '../../assets/images/products/acabamentos/bronze_especial.jpg';
-import Image2 from '../../assets/images/products/acabamentos/LINHOBEGE.jpg';
-import Image3 from '../../assets/images/products/acabamentos/nogueira.jpg';
+import Image1 from '../../assets/images/products/acabamentos/pintura/bronze_especial.jpg';
+import Image2 from '../../assets/images/products/acabamentos/tecido/LINHOBEGE.jpg';
+import Image3 from '../../assets/images/products/acabamentos/madeira/nogueira.jpg';
 import Image4 from '../../assets/images/products/acabamentos/vidro/acabamento_marmore_imperial.jpg';
 
 import './styles.css';

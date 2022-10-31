@@ -13,7 +13,7 @@ const PageHeader = (props) => {
         <header className={props.colorTransparent ? "page-header" : "page-header page-header-black"}>
             <div className='sub-header'>
                 <div className='sub-header-redes'>
-                    <ul className='sub-header-redes-nav'>
+                    {/* <ul className='sub-header-redes-nav'>
                         <li>
                             <a href="https://www.facebook.com/moveismode/" target="_blank" rel="noopener noreferrer">
                                 <img src={facebook} className="facebook" alt="facebook" />
@@ -29,13 +29,13 @@ const PageHeader = (props) => {
                                 <img src={whatsApp} className="whatsapp" alt="whatsapp" />
                             </a>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className='sub-header-contato'>
                     <ul className='sub-header-contato-nav'>
                         <li>
                             <p>
-                                <a href="mailto:comercial@modemoveis.com.br" >comercial@modemoveis.com.br</a>
+                                <a href="mailto:comercial@modemoveis.com.br" >Contate-nos: comercial@modemoveis.com.br</a>
                             </p>
                         </li>
                     </ul>

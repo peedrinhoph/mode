@@ -214,7 +214,7 @@
 
     .page-header .sub-header {
         position: relative;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 255, 255, 0);
     }
 
     .page-header .sub-header .sub-header-contato ul > li > p > a {

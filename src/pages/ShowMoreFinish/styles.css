@@ -1,9 +1,9 @@
-#page-portfolio-show {
+#page-portfolio-show-finish {
   width: 100vw;
   height: 100vh;
 }
 
-#page-portfolio-show main {
+#page-portfolio-show-finish main {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -11,12 +11,12 @@
 }
 
 
-.section-list {
+.section-list-finish {
     padding-right: 5vw;
     padding-left: 5vw;
 }
 
-.section-back {
+.section-back-finish {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@
     padding: 10px 0 10px 0;
 }
 
-.section-back button {
+.section-back-finish button {
     height: 3.2rem;
     transition: opacity 0.2s;
     cursor: pointer;
@@ -35,17 +35,17 @@
     background-color: transparent;
 }
 
-.section-back button:hover {
+.section-back-finish button:hover {
     opacity: 0.6;
 }
 
-.section-back span{
+.section-back-finish span{
     font: 2.1rem Poppins;
     font-variant: small-caps;
     color: var(--color-text-complement);
 }
 
-.section-list-grid {
+.section-list-grid-finish {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -57,28 +57,40 @@
  }*/
 
 @media (min-width: 700px) {
-    #page-portfolio-show {
+    #page-portfolio-show-finish {
         max-width: 100%;
     }
   
-    #page-portfolio-show main {
+    #page-portfolio-show-finish main {
         margin-top: 16rem;
     }
 
-    .section-list-grid {
+    .section-list-grid-finish {
         grid-template-columns: repeat(2, 1fr);
     }
   
   }
 
   @media (min-width: 900px) {
-    .section-list {
+    .section-list-finish {
         padding-right: 13vw;
         padding-left: 13vw;
     }
 
-    .section-list-grid {
+    .section-list-grid-finish {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .section-list-finish {
+        padding-right: 13vw;
+        padding-left: 13vw;
+    }
+
+    .section-list-grid-finish {
+        grid-template-columns: repeat(4, 1fr);
     }
 
 }

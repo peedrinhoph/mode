@@ -65,16 +65,16 @@ function ShowMore() {
     }, []);
 
     return (
-        <div id="page-portfolio-show" className="container ">
+        <div id="page-portfolio-show-finish" className="container ">
             <PageHeader logoAnimation={scroll}></PageHeader>
             <main>
                 <div id="page-start-content">
-                    <div className="section-list">
-                        <div className="section-back">
+                    <div className="section-list-finish">
+                        <div className="section-back-finish">
                             <Link to="/acabamento"><img src={backIcon} alt="Voltar" /></Link>
                             <span>{local(params)}</span>
                         </div>
-                        <div className="section-list-grid">
+                        <div className="section-list-grid-finish">
                             {page(params)}
                         </div>
                     </div>

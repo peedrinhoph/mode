@@ -3,10 +3,10 @@ import './styles.css';
 
 import Display from '../../components/ImageDisplay';
 
-import Image1 from '../../assets/images/products/acabamentos/imbuia_natural.jpg';
-import Image2 from '../../assets/images/products/acabamentos/nogueira.jpg';
-import Image3 from '../../assets/images/products/acabamentos/mel.jpg';
-import Image4 from '../../assets/images/products/acabamentos/imbuia_escura.jpg';
+import Image1 from '../../assets/images/products/acabamentos/madeira/imbuia_natural.jpg';
+import Image2 from '../../assets/images/products/acabamentos/madeira/nogueira.jpg';
+import Image3 from '../../assets/images/products/acabamentos/madeira/mel.jpg';
+import Image4 from '../../assets/images/products/acabamentos/madeira/imbuia_escura.jpg';
 
 const lista = [{
     "id": 1,

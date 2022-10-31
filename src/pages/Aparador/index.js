@@ -4,10 +4,14 @@ import './styles.css';
 import Display from '../../components/ImageDisplay';
 import DisplayDimenssion from '../../components/DimenssionDisplay';
 
-import Image1 from '../../assets/images/products/aparador_vintage.jpg';
+import Image1 from '../../assets/images/products/aparador_due_1.jpeg';
+import Image2 from '../../assets/images/products/aparador_due_2.jpeg';
+import Image3 from '../../assets/images/products/thumbnail_IMG_0327.jpg';
+import Image4 from '../../assets/images/products/thumbnail_IMG_03271.jpg';
+import Image5 from '../../assets/images/products/IMG_0320.jpg';
 
-
-const lista = [{"id": 1,
+const lista = [{
+    "id": 1,
     "nome": "Aparador Due",
     "modelo": "Mesa e aparador",
     "referencia": "MDAPR1002",
@@ -19,7 +23,7 @@ const lista = [{"id": 1,
             "comprimento": "81cm",
             "profundidade": "36cm",
             "altura": "80cm"
-        },{
+        }, {
             "comprimento": "97cm",
             "profundidade": "30.5cm",
             "altura": "40cm"
@@ -28,8 +32,38 @@ const lista = [{"id": 1,
     "imagens": [
         {
             "url": Image1
+        },
+        {
+            "url": Image2
+        },
+    ],
+    "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
+}, {
+    "id": 2,
+    "nome": "Carrinho bar Ideale",
+    "modelo": "Carrinho Bar",
+    "referencia": "MDCAR1000",
+    "descricao": "Carrinho bar Ideale é uma peça dedicada em seu ambiente ao armazenamento e exibição de bebidas, copos, taças e outros acessórios.",
+    "tampo": "Natural",
+    "pintura": "Dourado",
+    "dimensao": [
+        {
+            "comprimento": "85cm",
+            "profundidade": "55cm",
+            "altura": "93cm"
         }
-    ], 
+    ],
+    "imagens": [
+        {
+            "url": Image3
+        },
+        {
+            "url": Image4
+        },
+        {
+            "url": Image5
+        },
+    ],
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }];
 

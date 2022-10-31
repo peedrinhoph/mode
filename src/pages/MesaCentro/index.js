@@ -4,8 +4,8 @@ import './styles.css';
 import Display from '../../components/ImageDisplay';
 import DisplayDimenssion from '../../components/DimenssionDisplay';
 
-import Image1 from '../../assets/images/products/mesa_centro_dupla1.jpg';
-import Image2 from '../../assets/images/products/mesa_centro_dupla2.jpg';
+import Image1 from '../../assets/images/products/centro_xenia.jpeg';
+import Image2 from '../../assets/images/products/mesacentroxenia.jpg';
 import Image3 from '../../assets/images/products/mesa_centro_dupla3.jpg';
 import Image4 from '../../assets/images/products/mesa_centro_alianca1.jpg';
 import Image5 from '../../assets/images/products/mesa_centro_alianca2.jpg';
@@ -76,9 +76,6 @@ const lista = [{
         },
         {
             "url": Image2
-        },
-        {
-            "url": Image3
         },
     ], 
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
@@ -190,7 +187,7 @@ const lista = [{
     "observacao": "Cores podem variar de acordo com a configuração do seu monitor."
 }, {
     "id": 6,
-    "status": 1,
+    "status": 0,
     "nome": "Mesa Pisa",
     "modelo": "Mesa de centro",
     "referencia": "MDCTR1003",

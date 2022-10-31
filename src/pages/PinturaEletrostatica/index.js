@@ -3,21 +3,21 @@ import './styles.css';
 
 import Display from '../../components/ImageDisplay';
 
-import Image3 from '../../assets/images/products/acabamentos/cobre.jpg';
-import Image4 from '../../assets/images/products/acabamentos/DOURADO.jpg';
-import Image5 from '../../assets/images/products/acabamentos/aço corten.jpg';
-import Image6 from '../../assets/images/products/acabamentos/MARROM TX.jpg';
-import Image7 from '../../assets/images/products/acabamentos/CINZA FOSCO.jpg';
-import Image8 from '../../assets/images/products/acabamentos/CINZA METALICO.jpg';
-import Image9 from '../../assets/images/products/acabamentos/NIQUEL.jpg';
-import Image10 from '../../assets/images/products/acabamentos/ROSE GOLD.jpg';
-import Image11 from '../../assets/images/products/acabamentos/BRONZE.jpg';
-import Image12 from '../../assets/images/products/acabamentos/PRETO FOSCO.jpg';
-import Image13 from '../../assets/images/products/acabamentos/PRETO BRILHO.jpg';
-import Image14 from '../../assets/images/products/acabamentos/GRAFITE FOSCO.jpg';
-import Image21 from '../../assets/images/products/acabamentos/dourado_especial.jpg';
-import Image22 from '../../assets/images/products/acabamentos/bronze_especial.jpg';
-import Image23 from '../../assets/images/products/acabamentos/acocortenespecial.jpg';
+import Image3 from '../../assets/images/products/acabamentos/pintura/cobre.jpg';
+import Image4 from '../../assets/images/products/acabamentos/pintura/DOURADO.jpg';
+import Image5 from '../../assets/images/products/acabamentos/pintura/aço corten.jpg';
+import Image6 from '../../assets/images/products/acabamentos/pintura/MARROM TX.jpg';
+import Image7 from '../../assets/images/products/acabamentos/pintura/CINZA FOSCO.jpg';
+import Image8 from '../../assets/images/products/acabamentos/pintura/CINZA METALICO.jpg';
+import Image9 from '../../assets/images/products/acabamentos/pintura/NIQUEL.jpg';
+import Image10 from '../../assets/images/products/acabamentos/pintura/ROSE GOLD.jpg';
+import Image11 from '../../assets/images/products/acabamentos/pintura/BRONZE.jpg';
+import Image12 from '../../assets/images/products/acabamentos/pintura/PRETO FOSCO.jpg';
+import Image13 from '../../assets/images/products/acabamentos/pintura/PRETO BRILHO.jpg';
+import Image14 from '../../assets/images/products/acabamentos/pintura/GRAFITE FOSCO.jpg';
+import Image21 from '../../assets/images/products/acabamentos/pintura/dourado_especial.jpg';
+import Image22 from '../../assets/images/products/acabamentos/pintura/bronze_especial.jpg';
+import Image23 from '../../assets/images/products/acabamentos/pintura/acocortenespecial.jpg';
 
 const lista = [{
     "id": 23,
