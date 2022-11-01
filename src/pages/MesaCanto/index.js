@@ -99,9 +99,9 @@ const lista = [
         "pintura": "Dourado",
         "dimensao": [
             {
-                "comprimento": "0cm",
-                "profundidade": "0cm",
-                "altura": "0cm",
+                "comprimento": "30cm",
+                "profundidade": "36cm",
+                "altura": "70cm",
             },
         ],
         "imagens": [
@@ -117,14 +117,19 @@ const lista = [
         "nome": "Mesa de Canto Utile",
         "modelo": "Mesas de apoio",
         "referencia": "MDCTO1005",
-        "descricao": "Mesa lateral para aquele cantinho que precisa de um charme sem ocupar muito espaço..",
+        "descricao": "Mesa lateral para aquele cantinho que precisa de um charme sem ocupar muito espaço.",
         "tampo": "Preto",
         "pintura": "Dourado",
         "dimensao": [
             {
-                "comprimento": "0cm",
-                "profundidade": "0cm",
-                "altura": "0cm",
+                "comprimento": "36cm",
+                "profundidade": "36cm",
+                "altura": "51cm",
+            },
+            {
+                "comprimento": "31cm",
+                "profundidade": "31cm",
+                "altura": "47cm",
             },
         ],
         "imagens": [

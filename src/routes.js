@@ -7,6 +7,7 @@ import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import ShowMore from './pages/ShowMore';
 import ShowMoreFinish from './pages/ShowMoreFinish';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 const Error404 = () => {
     return (
@@ -49,6 +50,11 @@ export default function Routes() {
                 <Route
                     path="/contact"
                     component={Contact}
+                    exact
+                />
+                <Route
+                    path="/privacy-policy"
+                    component={PrivacyPolicy}
                     exact
                 />
                 <Route

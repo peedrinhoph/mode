@@ -271,7 +271,7 @@
 }
 
 .section-comment-block h3 {
-    color: var(--color-gold);
+    color: var(--color-title-in-primary);
 }
 
 .section-why-text,

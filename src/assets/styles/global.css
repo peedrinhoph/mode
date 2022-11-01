@@ -103,18 +103,17 @@
 /*POLITICA DE COOKIE*/
 .cookieConsentContainer {
     z-index: 999;
-    width: 350px;
+    width: 99%;
     min-height: 20px;
     box-sizing: border-box;
     padding: 30px 30px 30px 30px;
-    background: var(--color-primary);
+    background-color: var(--color-primary);
     overflow: hidden;
     position: fixed;
-    bottom: 30px;
-    left: 30px;
+    bottom: 10px;
+    left: 10px; 
     display: none;
     border-radius: 10px;
-
   }
 
   .cookieConsentContainer .cookieTitle a {
@@ -122,7 +121,7 @@
     color: var(--color-title-in-primary);
     font-size: 22px;
     line-height: 20px;
-    display: block
+    display: block;
   }
 
   .cookieConsentContainer .cookieDesc p {
@@ -133,13 +132,13 @@
     font-size: 1.3rem;
     line-height: 20px;
     display: block;
-    margin-top: 10px
+    margin-top: 10px;
   }
 
   .cookieConsentContainer .cookieDesc a {
     font-family: Poppins, arial, sans-serif;
     color: var(--color-title-in-primary);
-    text-decoration: underline
+    text-decoration: underline;
   }
 
   .cookieConsentContainer .cookieButton a {
@@ -155,7 +154,7 @@
     padding: 15px 24px;
     text-align: center;
     transition: background .3s;
-    border-radius: 10px
+    border-radius: 10px;
   }
 
   .cookieConsentContainer .cookieButton a:hover {
@@ -167,7 +166,7 @@
     .cookieConsentContainer {
       bottom: 0 !important;
       left: 0 !important;
-      width: 100% !important
+      width: 100% !important;
     }
 
     .cookieConsentContainer {

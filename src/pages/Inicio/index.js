@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
 
-import Image1 from '../../assets/images/products/mesa_centro_electra2.jpg';
-import Image2 from '../../assets/images/products/aparadorvintage.jpg';
-import Image3 from '../../assets/images/products/costelagiratoria.png';
-import Image4 from '../../assets/images/products/banqueta_concha2.jpg';
-import Image5 from '../../assets/images/products/mesa_canto_dupla1.jpg';
-import Image6 from '../../assets/images/products/MDPUFF1003.jpg';
+import Image1 from '../../assets/images/products/mesacentroxenia.jpg';
+import Image2 from '../../assets/images/products/IMG_0320.jpg';
+import Image3 from '../../assets/images/products/costelaferro2.jpg';
+import Image4 from '../../assets/images/products/acabamentos/vidro/MARMORIZADO-BAMBU-CLARO.jpg';
+import Image5 from '../../assets/images/products/acabamentos/vidro/MARMORIZADO-OLIVEIRA-CLARA.jpg';
+import Image6 from '../../assets/images/products/acabamentos/vidro/nero.jpg';
 //import Aspas from '../../assets/images/icons/aspas.svg';
 //import Project from '../../assets/images/icons/project.svg';
 //import Pencil from '../../assets/images/icons/pencil.svg';
@@ -60,7 +60,7 @@ function Inicio() {
                     </div>
                     <div className="section-90-vw">
                         <div className="section-title">
-                            <h2 className="section-title-text">lançamentos</h2>
+                            <h2 className="section-title-text">novos produtos</h2>
                         </div>
                         <div className="section-product">
                             <figure>
@@ -72,6 +72,16 @@ function Inicio() {
                             <figure>
                                 <img src={Image3} alt="product" className="zoom" />
                             </figure>
+                        </div>
+                        <div className="section-ver-mais">
+                            <Link to="portfolio">produtos</Link>
+                        </div>
+                    </div>
+                    <div className="section-90-vw">
+                        <div className="section-title">
+                            <h2 className="section-title-text">novos acabamentos</h2>
+                        </div>
+                        <div className="section-product">
                             <figure>
                                 <img src={Image4} alt="product" className="zoom" />
                             </figure>
@@ -83,7 +93,7 @@ function Inicio() {
                             </figure>
                         </div>
                         <div className="section-ver-mais">
-                            <Link to="portfolio">produtos</Link>
+                            <Link to="acabamento/show-more/glass">vidros marmorizados</Link>
                         </div>
                     </div>
                     <div className="section-background-image">
@@ -116,7 +126,7 @@ function Inicio() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="section-comment-block">
+                            {/* <div className="section-comment-block">
                                 <div className="section-comment-text">
                                     <h3>Aprovação do pedido</h3>
                                     <p>
@@ -126,7 +136,7 @@ function Inicio() {
                                         <br />- PIX em até 2 horas.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="section-comment-block">
                                 <div className="section-comment-text">
                                     <h3>Entrega</h3>
@@ -147,12 +157,13 @@ function Inicio() {
                                 <div className="section-comment-text">
                                     <h3>Entrega por transportadora</h3>
                                     <p>
-                                        Será realizada somente entre segunda a sexta-feira, das 08h às 18:00h sem a possibilidade
-                                        de agendamento, com exceção de feriados. O pedido poderá ser recebido por um responsável, mediante a assinatura do comprovante de entrega.
+                                        O frete sempre será orçado antes da aprovação do pedido. 
+                                        A entrega será realizada somente entre segunda a sexta-feira, das 08h às 18:00h sem a possibilidade de agendamento, com exceção de feriados. 
+                                        O pedido poderá ser recebido por um responsável, mediante a assinatura do comprovante de entrega.
                                     </p>
                                 </div>
                             </div>
-                            <div className="section-comment-block">
+                            {/* <div className="section-comment-block">
                                 <div className="section-comment-text">
                                     <h3>Devoluções ou Trocas</h3>
                                     <p>
@@ -160,8 +171,8 @@ function Inicio() {
                                         Entre em contato com nosso Comercial através do e-mail comercial@modemoveis.com.br ou se preferir via WhatsApp +55 (54) 9 97024574 descrevendo o motivo da solicitação.
                                     </p>
                                 </div>
-                            </div>
-                            <div className="section-comment-block">
+                            </div> */}
+                            {/* <div className="section-comment-block">
                                 <div className="section-comment-text">
                                     <h3>Desistência da compra</h3>
                                     <p>
@@ -170,7 +181,7 @@ function Inicio() {
                                         <br /><i><small>Importante: Uma vez que a compra for efetuada, nos fica claro que você cliente Aceita/Concorda com a nossa forma de trabalho, nos reservando todos os direitos.</small></i>
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/*<div className="section-90-vw">
