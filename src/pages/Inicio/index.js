@@ -139,26 +139,25 @@ function Inicio() {
                             </div> */}
                             <div className="section-comment-block">
                                 <div className="section-comment-text">
-                                    <h3>Entrega</h3>
+                                    <h3>Custo e Entrega</h3>
                                     <p>
-                                        O prazo de entrega varia conforme a região, CEP e meio de transporte optado para o envio.
+                                        O custo do frete sempre será orçado antes da aprovação do pedido de acordo com a quantidade e peso dos produtos, o prazo de entrega varia conforme a região, CEP e meio de transporte optado para o envio.
                                     </p>
                                 </div>
                             </div>
-                            <div className="section-comment-block">
+                            {/* <div className="section-comment-block">
                                 <div className="section-comment-text">
                                     <h3>Entrega por correios</h3>
                                     <p>
                                         Quando optado pelo sistema dos Correios, você será informado do código para rastrear sua encomenda através do WhatsApp, assim que ela for postada.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="section-comment-block">
                                 <div className="section-comment-text">
                                     <h3>Entrega por transportadora</h3>
                                     <p>
-                                        O frete sempre será orçado antes da aprovação do pedido. 
-                                        A entrega será realizada somente entre segunda a sexta-feira, das 08h às 18:00h sem a possibilidade de agendamento, com exceção de feriados. 
+                                        A entrega será realizada somente entre segunda a sexta-feira, das 08h às 18:00h sem a possibilidade de agendamento, com exceção de feriados.
                                         O pedido poderá ser recebido por um responsável, mediante a assinatura do comprovante de entrega.
                                     </p>
                                 </div>

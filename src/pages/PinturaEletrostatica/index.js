@@ -5,7 +5,7 @@ import Display from '../../components/ImageDisplay';
 
 import Image3 from '../../assets/images/products/acabamentos/pintura/cobre.jpg';
 import Image4 from '../../assets/images/products/acabamentos/pintura/DOURADO.jpg';
-import Image5 from '../../assets/images/products/acabamentos/pintura/aço corten.jpg';
+import Image5 from '../../assets/images/products/acabamentos/pintura/aco_corten.jpg';
 import Image6 from '../../assets/images/products/acabamentos/pintura/MARROM TX.jpg';
 import Image7 from '../../assets/images/products/acabamentos/pintura/CINZA FOSCO.jpg';
 import Image8 from '../../assets/images/products/acabamentos/pintura/CINZA METALICO.jpg';
