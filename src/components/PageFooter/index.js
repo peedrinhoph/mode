@@ -45,7 +45,7 @@ const PageHeader = (props) => {
 
                 <div className="page-footer-group">
                     <h2>contatos</h2>
-                    <p>+55 (54) 9 9702-4574</p>
+                    <p>+55 (54) 9 9644-8912</p>
                     <p><a href="mailto:comercial@modemoveis.com.br" >comercial@modemoveis.com.br</a></p>
                     <p>Poste uma foto e marque a <b>@moveismode</b></p>
                     <div className="page-footer-social">
@@ -67,7 +67,7 @@ const PageHeader = (props) => {
             <div className="tooltip">
                 <h3>Como posso ajudar?</h3><br />
                 {/*<p><Link to="/contact" className="tooltip-link">Agradeçemos a visita em nosso site, caso tenha qualquer dúvida contate-nos clicando aqui.</Link></p>*/}
-                <p><a href="https://api.whatsapp.com/send?phone=+5554997024574&text=Olá! Quero comprar na Mode Móveis" target="_blank" rel="noopener noreferrer" className="tooltip-link">Clique aqui e compre pelo <b>WhatsApp</b> sem sair de casa!</a></p>
+                <p><a href="https://api.whatsapp.com/send?phone=+5554996448912&text=Olá! Quero comprar na Mode Móveis" target="_blank" rel="noopener noreferrer" className="tooltip-link">Clique aqui e compre pelo <b>WhatsApp</b> sem sair de casa!</a></p>
                 <span className="tooltip-span"><img src={whats} className="whatsapp" alt="whatsapp" /></span>
             </div>
         </footer>
